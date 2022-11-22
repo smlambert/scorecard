@@ -7,49 +7,44 @@ if [ -z $VERSION ]; then
 fi 
 RELEASE_INFO=data/releases${VERSION}.json
 TAG_INFO=tag${VERSION}.txt
+mkdir -p data
 
 echo "Processing: $VERSION $RELEASE_TAG"
-
 echo "In JDK, caching tags and release information"
 curl -s -X 'GET' \
   "https://api.adoptium.net/v3/assets/feature_releases/$VERSION/ga?heap_size=normal&image_type=jdk&jvm_impl=hotspot&page=0&page_size=10&project=jdk&sort_method=DEFAULT&sort_order=DESC&vendor=eclipse" \
   -H 'accept: application/json' > $RELEASE_INFO
 
-echo "Fetching / Updating Git Repos" 
+echo "Fetching / Updating Git Repos"
 cd data
 
 function getrepo () { 
     REPONAME=$1
     REPO=$2
+    PREFIX=$3
     DIR=$(pwd) 
     echo "Repo is  $REPO"  
-    if [ -d "$DIR/$REPONAME" ] 
-    then
-        echo "Directory $DIR/$REPONAME exists. Running update"
-        (cd $REPONAME; git pull)
-    else  
-        echo "Directory $DIR/$REPONAME missing. Running clone"
-        git clone "$REPO"
-        if [ $VERSION == 8 ]
-        then
-            git clone https://github.com/adoptium/aarch32-jdk8u.git 
-        fi 
-    fi 
+    rm -rf $REPONAME
+    git init $REPONAME
+    cd  $REPONAME
+    echo "Getting Tags for $REPONAME"
+    git config extensions.partialClone true
+    git remote add origin https://github.com/adoptium/$REPONAME
+    git fetch --filter=blob:none --tags --depth=1 origin   2>&1 | cat > /dev/null  
+    git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../${PREFIX}$TAG_INFO
+    cd .. 
+    git config extensions.partialClone false
+    rm -rf $REPONAME 
 }
 
 if [ $VERSION == 8 ]
 then
     REPONAME=aarch32-jdk8u
-    getrepo $REPONAME https://github.com/adoptium/$REPONAME  
+    getrepo $REPONAME https://github.com/adoptium/$REPONAME  "aarch32-jdk8u-"
 fi
 REPONAME=jdk${VERSION}u  
 getrepo $REPONAME https://github.com/adoptium/$REPONAME 
 
-(cd $REPONAME; git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../$TAG_INFO)
-if [ $VERSION == 8 ]
-then
-    (cd aarch32-jdk8u; git log --tags --simplify-by-decoration --pretty="format:%ci %d" >  ../aarch32-jdk8u-$TAG_INFO)
-fi 
  
 echo 
 echo "Release data is in $RELEASE_INFO"

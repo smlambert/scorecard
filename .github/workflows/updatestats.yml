@@ -1,0 +1,31 @@
+# This workflow updates release stats 
+name: Update-Release-Stats
+env:   
+  DEFAULT_UPDATE_VIA_PUSH: "true" 
+on: [repository_dispatch, workflow_dispatch] 
+jobs:
+  update-stats:
+    name: Update-Release-Stats 
+    runs-on: ubuntu-20.04
+    environment: production 
+    steps: 
+    - name: Check out repository
+      uses: actions/checkout@v3     
+    - name: Compute stats
+      run: |
+        ./run-all.sh | tee release-stats.txt
+    - name: Pull Request Update
+      if: env.DEFAULT_UPDATE_VIA_PUSH == 'false'
+      uses: peter-evans/create-pull-request@v3
+      with:
+        title: 'New release.stats generated'
+        commit-message: 'New release.stats generated'  
+    - name: Direct Push Update
+      if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
+      run: | 
+          echo "Direct Push:"
+          git config --global user.name "Auto-Push[bot]"
+          git config --global user.email "auto-push@users.noreply.github.com" 
+          git add -A
+          git commit -m "Updated stats"
+          git push
