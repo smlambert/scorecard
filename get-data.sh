@@ -27,11 +27,14 @@ function getrepo () {
     rm -rf $REPONAME
     git init $REPONAME
     cd  $REPONAME
+    echo "Getting Tags for $REPONAME"
     git config extensions.partialClone true
     git remote add origin https://github.com/adoptium/$REPONAME
-    git fetch --filter=blob:none --tags --depth=1 origin
+    git fetch --filter=blob:none --tags --depth=1 origin   2>&1 | cat > /dev/null  
     git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../${PREFIX}$TAG_INFO
     cd .. 
+    git config extensions.partialClone false
+    rm -rf $REPONAME 
 }
 
 if [ $VERSION == 8 ]
