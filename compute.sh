@@ -10,6 +10,10 @@ if [ -z $SHOW_ONLY ]; then
     exit 
 fi  
 
+
+
+
+
 INDEX=0
 while true 
 do 
@@ -30,12 +34,13 @@ do
             else
                 TAGDATE=$(date -d "$TAGLINE")
             fi 
-            printf "\nRelease tag: $RTAG on $TAGDATE\n"
+            printf "\n\n<details><summary>Release tag: %s on %s </summary>\n\n" "$RTAG" "$TAGDATE" 
             PINDEX=0
             PASS=0
             FAIL=0
-            FORMAT="%10s %12s %11s %17s %10s %25s\n"
+            FORMAT="| %10s| %12s | %11s | %17s | %10s | %25s|\n"
             printf "$FORMAT" "Platform" "OS"  "Released" "Target/Actual(days)" "On-time" "RTAG"
+            printf "$FORMAT" "---" "---" "---" "---" "---" "---" 
             while true 
             do   
                 PLATFORM=$(echo $RELEASE | jq -r ".[$PINDEX].architecture") 
@@ -81,7 +86,9 @@ do
             TOTAL=$(echo "$PASS+$FAIL" | bc ) 
             PERCENT_FAIL=$(echo "scale=0; $FAIL*100/$TOTAL" | bc) 
             PERCENT_PASS=$(echo "scale=0; $PASS*100/$TOTAL" | bc) 
-            printf "On-Time %s(%s%%)  Late: %s(%s%%)\n" "$PASS" "$PERCENT_PASS" "$FAIL" "$PERCENT_FAIL"
+            printf "\nOn-Time %s(%s%%)  Late: %s(%s%%)\n" "$PASS" "$PERCENT_PASS" "$FAIL" "$PERCENT_FAIL"
+            
+            printf "\n\n</details>\n\n" 
         fi
     fi
     let INDEX++
