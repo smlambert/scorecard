@@ -15,7 +15,8 @@ curl -s -X 'GET' \
   "https://api.adoptium.net/v3/assets/feature_releases/$VERSION/ga?heap_size=normal&image_type=jdk&jvm_impl=hotspot&page=0&page_size=10&project=jdk&sort_method=DEFAULT&sort_order=DESC&vendor=eclipse" \
   -H 'accept: application/json' > $RELEASE_INFO
 
-echo "Fetching / Updating Git Repos" 
+echo "Fetching / Updating Git Repos"
+mkdir -p data
 cd data
 
 function getrepo () { 
