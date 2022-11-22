@@ -29,11 +29,7 @@ function getrepo () {
         (cd $REPONAME; git pull)
     else  
         echo "Directory $DIR/$REPONAME missing. Running clone"
-        git clone "$REPO"
-        if [ $VERSION == 8 ]
-        then
-            git clone https://github.com/adoptium/aarch32-jdk8u.git 
-        fi 
+        git clone "$REPO" 
     fi 
 }
 
