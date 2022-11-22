@@ -3,9 +3,7 @@
 name: Update-Release-Stats
 env:   
   DEFAULT_UPDATE_VIA_PUSH: "true" 
-on: 
-  repository_dispatch: 
-    branches: [ "main" ] 
+on: [repository_dispatch, workflow_dispatch] 
 jobs:
   update-stats:
     name: Update-Release-Stats 
