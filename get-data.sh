@@ -7,16 +7,15 @@ if [ -z $VERSION ]; then
 fi 
 RELEASE_INFO=data/releases${VERSION}.json
 TAG_INFO=tag${VERSION}.txt
+mkdir -p data
 
 echo "Processing: $VERSION $RELEASE_TAG"
-
 echo "In JDK, caching tags and release information"
 curl -s -X 'GET' \
   "https://api.adoptium.net/v3/assets/feature_releases/$VERSION/ga?heap_size=normal&image_type=jdk&jvm_impl=hotspot&page=0&page_size=10&project=jdk&sort_method=DEFAULT&sort_order=DESC&vendor=eclipse" \
   -H 'accept: application/json' > $RELEASE_INFO
 
 echo "Fetching / Updating Git Repos"
-mkdir -p data
 cd data
 
 function getrepo () { 
