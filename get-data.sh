@@ -21,31 +21,27 @@ cd data
 function getrepo () { 
     REPONAME=$1
     REPO=$2
+    PREFIX=$3
     DIR=$(pwd) 
     echo "Repo is  $REPO"  
-    if [ -d "$DIR/$REPONAME" ] 
-    then
-        echo "Directory $DIR/$REPONAME exists. Running update"
-        (cd $REPONAME; git pull)
-    else  
-        echo "Directory $DIR/$REPONAME missing. Running clone"
-        git clone "$REPO" 
-    fi 
+    rm -rf $REPONAME
+    git init $REPONAME
+    cd  $REPONAME
+    git config extensions.partialClone true
+    git remote add origin https://github.com/adoptium/$REPONAME
+    git fetch --filter=blob:none --tags --depth=1 origin
+    git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../${PREFIX}$TAG_INFO
+    cd .. 
 }
 
 if [ $VERSION == 8 ]
 then
     REPONAME=aarch32-jdk8u
-    getrepo $REPONAME https://github.com/adoptium/$REPONAME  
+    getrepo $REPONAME https://github.com/adoptium/$REPONAME  "aarch32-jdk8u-"
 fi
 REPONAME=jdk${VERSION}u  
 getrepo $REPONAME https://github.com/adoptium/$REPONAME 
 
-(cd $REPONAME; git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../$TAG_INFO)
-if [ $VERSION == 8 ]
-then
-    (cd aarch32-jdk8u; git log --tags --simplify-by-decoration --pretty="format:%ci %d" >  ../aarch32-jdk8u-$TAG_INFO)
-fi 
  
 echo 
 echo "Release data is in $RELEASE_INFO"
