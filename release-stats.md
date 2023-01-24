@@ -2,10 +2,10 @@ Processing: 8
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
 Repo is  https://github.com/adoptium/aarch32-jdk8u
-Initialized empty Git repository in /home/john/dev/scorecard/data/aarch32-jdk8u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/aarch32-jdk8u/.git/
 Getting Tags for aarch32-jdk8u
 Repo is  https://github.com/adoptium/jdk8u
-Initialized empty Git repository in /home/john/dev/scorecard/data/jdk8u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk8u/.git/
 Getting Tags for jdk8u
 
 Release data is in data/releases8.json
@@ -13,7 +13,25 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
-<details><summary>Release tag: jdk8u352-b08_adopt on Thu Oct 20 04:39:59 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u362-b09_adopt on Tue Jan 17 23:14:13 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  01-20-2023 |               2/2 |        Yes |        jdk8u362-b09_adopt|
+|        x64|          mac |  01-20-2023 |               2/2 |        Yes |        jdk8u362-b09_adopt|
+|        x64|      windows |  01-23-2023 |               2/5 |         No |        jdk8u362-b09_adopt|
+|        x32|      windows |  01-23-2023 |               7/5 |        Yes |        jdk8u362-b09_adopt|
+|    aarch64|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
+|    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
+
+On-Time 5(83%)  Late: 1(16%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk8u352-b08_adopt on Thu Oct 20 08:39:59 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -36,7 +54,7 @@ On-Time 1(9%)  Late: 10(90%)
 
 
 
-<details><summary>Release tag: jdk8u345-b01_adopt on Mon Aug  1 12:14:14 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u345-b01_adopt on Mon Aug  1 16:14:14 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -59,7 +77,7 @@ On-Time 4(36%)  Late: 7(63%)
 
 
 
-<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 12:14:13 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 16:14:13 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -72,7 +90,7 @@ On-Time 0(0%)  Late: 1(100%)
 
 
 
-<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 12:14:13 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 16:14:13 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -92,7 +110,7 @@ On-Time 4(50%)  Late: 4(50%)
 
 
 
-<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 12:14:13 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 16:14:13 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -105,7 +123,7 @@ On-Time 0(0%)  Late: 1(100%)
 
 
 
-<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 12:14:13 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u342-b07_adopt on Wed Jul 20 16:14:13 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -125,7 +143,7 @@ On-Time 4(50%)  Late: 4(50%)
 
 
 
-<details><summary>Release tag: jdk8u332-b09_adopt on Wed Apr 20 10:14:25 EDT 2022 </summary>
+<details><summary>Release tag: jdk8u332-b09_adopt on Wed Apr 20 14:14:25 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -148,7 +166,7 @@ On-Time 0(0%)  Late: 11(100%)
 
 
 
-<details><summary>Release tag: jdk8u322-b06_adopt on Wed Jan 19 00:14:34 EST 2022 </summary>
+<details><summary>Release tag: jdk8u322-b06_adopt on Wed Jan 19 05:14:34 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -171,7 +189,7 @@ On-Time 0(0%)  Late: 11(100%)
 
 
 
-<details><summary>Release tag: jdk8u312-b07 on Thu Nov 18 16:12:41 EST 2021 </summary>
+<details><summary>Release tag: jdk8u312-b07 on Thu Nov 18 21:12:41 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -193,7 +211,7 @@ On-Time 10(100%)  Late: 0(0%)
 
 
 
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 14:44:29 EDT 2021 </summary>
+<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -206,7 +224,7 @@ On-Time 1(100%)  Late: 0(0%)
 
 
 
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 14:44:29 EDT 2021 </summary>
+<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -228,7 +246,7 @@ On-Time 8(80%)  Late: 2(20%)
 
 
 
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 14:44:29 EDT 2021 </summary>
+<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -241,7 +259,7 @@ On-Time 1(100%)  Late: 0(0%)
 
 
 
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 14:44:29 EDT 2021 </summary>
+<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -265,14 +283,35 @@ Processing: 11
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
 Repo is  https://github.com/adoptium/jdk11u
-Initialized empty Git repository in /home/john/dev/scorecard/data/jdk11u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk11u/.git/
 Getting Tags for jdk11u
 
 Release data is in data/releases11.json
 tag data is in tag11.txt
 
 
-<details><summary>Release tag: jdk-11.0.17+8_adopt on Tue Oct 18 17:07:11 EDT 2022 </summary>
+<details><summary>Release tag: jdk-11.0.18+10_adopt on Wed Jan 18 10:07:15 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|          mac |  01-19-2023 |               2/1 |        Yes |      jdk-11.0.18+10_adopt|
+|        x64|        linux |  01-20-2023 |               2/1 |        Yes |      jdk-11.0.18+10_adopt|
+|        arm|        linux |  01-20-2023 |               7/1 |        Yes |      jdk-11.0.18+10_adopt|
+|        x64|      windows |  01-20-2023 |               2/2 |        Yes |      jdk-11.0.18+10_adopt|
+|        x32|      windows |  01-21-2023 |               7/2 |        Yes |      jdk-11.0.18+10_adopt|
+|        x64| alpine-linux |  01-23-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
+|    aarch64|        linux |  01-23-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
+|      s390x|        linux |  01-24-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
+|    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |      jdk-11.0.18+10_adopt|
+
+On-Time 9(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk-11.0.17+8_adopt on Tue Oct 18 21:07:11 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -295,7 +334,7 @@ On-Time 3(27%)  Late: 8(72%)
 
 
 
-<details><summary>Release tag: jdk-11.0.16.1+1_adopt on Mon Aug 15 10:02:21 EDT 2022 </summary>
+<details><summary>Release tag: jdk-11.0.16.1+1_adopt on Mon Aug 15 14:02:21 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -318,7 +357,7 @@ On-Time 6(54%)  Late: 5(45%)
 
 
 
-<details><summary>Release tag: jdk-11.0.16+8_adopt on Tue Jul 19 15:08:15 EDT 2022 </summary>
+<details><summary>Release tag: jdk-11.0.16+8_adopt on Tue Jul 19 19:08:15 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -341,7 +380,7 @@ On-Time 8(72%)  Late: 3(27%)
 
 
 
-<details><summary>Release tag: jdk-11.0.15+10_adopt on Tue Apr 19 15:58:30 EDT 2022 </summary>
+<details><summary>Release tag: jdk-11.0.15+10_adopt on Tue Apr 19 19:58:30 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -364,7 +403,7 @@ On-Time 6(54%)  Late: 5(45%)
 
 
 
-<details><summary>Release tag: jdk-11.0.14.1+1_adopt on Mon Feb  7 12:07:41 EST 2022 </summary>
+<details><summary>Release tag: jdk-11.0.14.1+1_adopt on Mon Feb  7 17:07:41 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -386,7 +425,7 @@ On-Time 9(90%)  Late: 1(10%)
 
 
 
-<details><summary>Release tag: jdk-11.0.14+9_adopt on Tue Jan 18 16:51:52 EST 2022 </summary>
+<details><summary>Release tag: jdk-11.0.14+9_adopt on Tue Jan 18 21:51:52 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -408,7 +447,7 @@ On-Time 4(40%)  Late: 6(60%)
 
 
 
-<details><summary>Release tag: jdk-11.0.13+8_adopt on Tue Oct 19 16:57:51 EDT 2021 </summary>
+<details><summary>Release tag: jdk-11.0.13+8_adopt on Tue Oct 19 20:57:51 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -430,7 +469,7 @@ On-Time 6(60%)  Late: 4(40%)
 
 
 
-<details><summary>Release tag: jdk-11.0.12+7_adopt on Wed Jul 21 04:04:12 EDT 2021 </summary>
+<details><summary>Release tag: jdk-11.0.12+7_adopt on Wed Jul 21 08:04:12 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -453,14 +492,37 @@ Processing: 17
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
 Repo is  https://github.com/adoptium/jdk17u
-Initialized empty Git repository in /home/john/dev/scorecard/data/jdk17u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk17u/.git/
 Getting Tags for jdk17u
 
 Release data is in data/releases17.json
 tag data is in tag17.txt
 
 
-<details><summary>Release tag: jdk-17.0.5+8_adopt on Tue Oct 18 16:42:12 EDT 2022 </summary>
+<details><summary>Release tag: jdk-17.0.6+10_adopt on Wed Jan 18 09:42:14 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  01-19-2023 |               2/1 |        Yes |       jdk-17.0.6+10_adopt|
+|        arm|        linux |  01-20-2023 |               7/2 |        Yes |       jdk-17.0.6+10_adopt|
+|        x64|      windows |  01-20-2023 |               2/2 |        Yes |       jdk-17.0.6+10_adopt|
+|    aarch64|        linux |  01-20-2023 |               7/2 |        Yes |       jdk-17.0.6+10_adopt|
+|        x64|          mac |  01-21-2023 |               2/3 |         No |       jdk-17.0.6+10_adopt|
+|    ppc64le|        linux |  01-23-2023 |               7/5 |        Yes |       jdk-17.0.6+10_adopt|
+|      ppc64|          aix |  01-23-2023 |               7/5 |        Yes |       jdk-17.0.6+10_adopt|
+|        x64| alpine-linux |  01-23-2023 |               7/5 |        Yes |       jdk-17.0.6+10_adopt|
+|    aarch64|          mac |  01-23-2023 |               7/5 |        Yes |       jdk-17.0.6+10_adopt|
+|      s390x|        linux |  01-24-2023 |               7/5 |        Yes |       jdk-17.0.6+10_adopt|
+|        x32|      windows |  01-24-2023 |               7/6 |        Yes |       jdk-17.0.6+10_adopt|
+
+On-Time 10(90%)  Late: 1(9%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk-17.0.5+8_adopt on Tue Oct 18 20:42:12 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -482,7 +544,7 @@ On-Time 2(20%)  Late: 8(80%)
 
 
 
-<details><summary>Release tag: jdk-17.0.4.1+1_adopt on Wed Aug 17 07:17:42 EDT 2022 </summary>
+<details><summary>Release tag: jdk-17.0.4.1+1_adopt on Wed Aug 17 11:17:42 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -504,7 +566,7 @@ On-Time 7(70%)  Late: 3(30%)
 
 
 
-<details><summary>Release tag: jdk-17.0.4+8_adopt on Tue Jul 19 14:42:31 EDT 2022 </summary>
+<details><summary>Release tag: jdk-17.0.4+8_adopt on Tue Jul 19 18:42:31 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -526,7 +588,7 @@ On-Time 8(80%)  Late: 2(20%)
 
 
 
-<details><summary>Release tag: jdk-17.0.3+7_adopt on Tue Apr 19 16:42:28 EDT 2022 </summary>
+<details><summary>Release tag: jdk-17.0.3+7_adopt on Tue Apr 19 20:42:28 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -548,7 +610,7 @@ On-Time 7(70%)  Late: 3(30%)
 
 
 
-<details><summary>Release tag: jdk-17.0.2+8_adopt on Thu Jan 20 05:35:44 EST 2022 </summary>
+<details><summary>Release tag: jdk-17.0.2+8_adopt on Thu Jan 20 10:35:44 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -570,7 +632,7 @@ On-Time 1(10%)  Late: 9(90%)
 
 
 
-<details><summary>Release tag: jdk-17.0.1+12_adopt on Wed Oct 20 08:25:28 EDT 2021 </summary>
+<details><summary>Release tag: jdk-17.0.1+12_adopt on Wed Oct 20 12:25:28 UTC 2021 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -594,14 +656,14 @@ Processing: 18
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
 Repo is  https://github.com/adoptium/jdk18u
-Initialized empty Git repository in /home/john/dev/scorecard/data/jdk18u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk18u/.git/
 Getting Tags for jdk18u
 
 Release data is in data/releases18.json
 tag data is in tag18.txt
 
 
-<details><summary>Release tag: jdk-18.0.2.1+1_adopt on Mon Aug 22 15:11:14 EDT 2022 </summary>
+<details><summary>Release tag: jdk-18.0.2.1+1_adopt on Mon Aug 22 19:11:14 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -623,7 +685,7 @@ On-Time 7(70%)  Late: 3(30%)
 
 
 
-<details><summary>Release tag: jdk-18.0.2+9_adopt on Wed Jul 20 09:07:27 EDT 2022 </summary>
+<details><summary>Release tag: jdk-18.0.2+9_adopt on Wed Jul 20 13:07:27 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -645,7 +707,7 @@ On-Time 4(40%)  Late: 6(60%)
 
 
 
-<details><summary>Release tag: jdk-18.0.1+10_adopt on Wed Apr 20 04:18:03 EDT 2022 </summary>
+<details><summary>Release tag: jdk-18.0.1+10_adopt on Wed Apr 20 08:18:03 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -657,7 +719,7 @@ On-Time 4(40%)  Late: 6(60%)
 |        x64| alpine-linux |  05-03-2022 |              7/13 |         No |       jdk-18.0.1+10_adopt|
 |      s390x|        linux |  05-03-2022 |              7/13 |         No |       jdk-18.0.1+10_adopt|
 |        arm|        linux |  05-04-2022 |              7/14 |         No |       jdk-18.0.1+10_adopt|
-|        x32|      windows |  05-04-2022 |              7/14 |         No |       jdk-18.0.1+10_adopt|
+|        x32|      windows |  05-05-2022 |              7/14 |         No |       jdk-18.0.1+10_adopt|
 |    aarch64|          mac |  05-13-2022 |              7/23 |         No |       jdk-18.0.1+10_adopt|
 
 On-Time 1(10%)  Late: 9(90%)
@@ -667,7 +729,7 @@ On-Time 1(10%)  Late: 9(90%)
 
 
 
-<details><summary>Release tag: jdk-18+36_adopt on Tue Mar 22 13:35:24 EDT 2022 </summary>
+<details><summary>Release tag: jdk-18+36_adopt on Tue Mar 22 17:35:24 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -691,14 +753,30 @@ Processing: 19
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
 Repo is  https://github.com/adoptium/jdk19u
-Initialized empty Git repository in /home/john/dev/scorecard/data/jdk19u/.git/
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk19u/.git/
 Getting Tags for jdk19u
 
 Release data is in data/releases19.json
 tag data is in tag19.txt
 
 
-<details><summary>Release tag: jdk-19.0.1+10_adopt on Wed Oct 19 05:52:19 EDT 2022 </summary>
+<details><summary>Release tag: jdk-19.0.2+7_adopt on Wed Jan 18 00:41:15 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|      windows |  01-20-2023 |               2/2 |        Yes |        jdk-19.0.2+7_adopt|
+|        x64|        linux |  01-21-2023 |               2/3 |         No |        jdk-19.0.2+7_adopt|
+|        x64|          mac |  01-23-2023 |               2/5 |         No |        jdk-19.0.2+7_adopt|
+|        arm|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
+
+On-Time 2(50%)  Late: 2(50%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk-19.0.1+10_adopt on Wed Oct 19 09:52:19 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
@@ -720,7 +798,7 @@ On-Time 0(0%)  Late: 10(100%)
 
 
 
-<details><summary>Release tag: jdk-19+36_adopt on Tue Aug 16 16:40:13 EDT 2022 </summary>
+<details><summary>Release tag: jdk-19+36_adopt on Tue Aug 16 20:40:13 UTC 2022 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
