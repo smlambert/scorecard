@@ -23,8 +23,10 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x32|      windows |  01-23-2023 |               7/5 |        Yes |        jdk8u362-b09_adopt|
 |    aarch64|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
 |    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
+|        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk8u362-b09_adopt|
+|        arm|        linux |  01-25-2023 |               7/7 |        Yes | jdk8u362-b09-aarch32-20230119_adopt|
 
-On-Time 5(83%)  Late: 1(16%)
+On-Time 7(87%)  Late: 1(12%)
 
 
 </details>
@@ -303,8 +305,9 @@ tag data is in tag11.txt
 |    aarch64|        linux |  01-23-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
 |      s390x|        linux |  01-24-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
 |    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |      jdk-11.0.18+10_adopt|
+|    aarch64|          mac |  01-25-2023 |               7/7 |        Yes |      jdk-11.0.18+10_adopt|
 
-On-Time 9(100%)  Late: 0(0%)
+On-Time 10(100%)  Late: 0(0%)
 
 
 </details>
@@ -768,8 +771,13 @@ tag data is in tag19.txt
 |        x64|        linux |  01-21-2023 |               2/3 |         No |        jdk-19.0.2+7_adopt|
 |        x64|          mac |  01-23-2023 |               2/5 |         No |        jdk-19.0.2+7_adopt|
 |        arm|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
+|      s390x|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
+|    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
+|        x32|      windows |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
+|    aarch64|        linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
+|        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
 
-On-Time 2(50%)  Late: 2(50%)
+On-Time 7(77%)  Late: 2(22%)
 
 
 </details>
