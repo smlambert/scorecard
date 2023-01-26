@@ -25,8 +25,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
 |        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk8u362-b09_adopt|
 |        arm|        linux |  01-25-2023 |               7/7 |        Yes | jdk8u362-b09-aarch32-20230119_adopt|
+|        x64|      solaris |  01-26-2023 |               7/8 |         No |        jdk8u362-b09_adopt|
 
-On-Time 7(87%)  Late: 1(12%)
+On-Time 7(77%)  Late: 2(22%)
 
 
 </details>
@@ -306,8 +307,9 @@ tag data is in tag11.txt
 |      s390x|        linux |  01-24-2023 |               7/5 |        Yes |      jdk-11.0.18+10_adopt|
 |    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |      jdk-11.0.18+10_adopt|
 |    aarch64|          mac |  01-25-2023 |               7/7 |        Yes |      jdk-11.0.18+10_adopt|
+|      ppc64|          aix |  01-26-2023 |               7/8 |         No |      jdk-11.0.18+10_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 10(90%)  Late: 1(9%)
 
 
 </details>
@@ -776,8 +778,9 @@ tag data is in tag19.txt
 |        x32|      windows |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
 |    aarch64|        linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
 |        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
+|    aarch64|          mac |  01-26-2023 |               7/8 |         No |        jdk-19.0.2+7_adopt|
 
-On-Time 7(77%)  Late: 2(22%)
+On-Time 7(70%)  Late: 3(30%)
 
 
 </details>
