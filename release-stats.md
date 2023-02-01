@@ -27,8 +27,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        arm|        linux |  01-25-2023 |               7/7 |        Yes | jdk8u362-b09-aarch32-20230119_adopt|
 |        x64|      solaris |  01-26-2023 |               7/8 |         No |        jdk8u362-b09_adopt|
 |      ppc64|          aix |  01-27-2023 |               7/9 |         No |        jdk8u362-b09_adopt|
+|    sparcv9|      solaris |  02-01-2023 |              7/14 |         No |        jdk8u362-b09_adopt|
 
-On-Time 7(70%)  Late: 3(30%)
+On-Time 7(63%)  Late: 4(36%)
 
 
 </details>
