@@ -659,174 +659,30 @@ On-Time 1(10%)  Late: 9(90%)
 
 </details>
 
-Processing: 18 
+Processing: 20 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk18u
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk18u/.git/
-Getting Tags for jdk18u
+Repo is  https://github.com/adoptium/jdk20
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk20/.git/
+Getting Tags for jdk20
 
-Release data is in data/releases18.json
-tag data is in tag18.txt
-
-
-<details><summary>Release tag: jdk-18.0.2.1+1_adopt on Mon Aug 22 19:11:14 UTC 2022 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  08-26-2022 |               2/3 |         No |      jdk-18.0.2.1+1_adopt|
-|        x32|      windows |  08-26-2022 |               7/3 |        Yes |      jdk-18.0.2.1+1_adopt|
-|    aarch64|          mac |  08-26-2022 |               7/3 |        Yes |      jdk-18.0.2.1+1_adopt|
-|        x64|          mac |  08-26-2022 |               2/3 |         No |      jdk-18.0.2.1+1_adopt|
-|    aarch64|        linux |  08-26-2022 |               7/3 |        Yes |      jdk-18.0.2.1+1_adopt|
-|      s390x|        linux |  08-26-2022 |               7/3 |        Yes |      jdk-18.0.2.1+1_adopt|
-|        x64|        linux |  08-26-2022 |               2/4 |         No |      jdk-18.0.2.1+1_adopt|
-|        arm|        linux |  08-26-2022 |               7/4 |        Yes |      jdk-18.0.2.1+1_adopt|
-|    ppc64le|        linux |  08-27-2022 |               7/4 |        Yes |      jdk-18.0.2.1+1_adopt|
-|        x64| alpine-linux |  08-27-2022 |               7/4 |        Yes |      jdk-18.0.2.1+1_adopt|
-
-On-Time 7(70%)  Late: 3(30%)
+Release data is in data/releases20.json
+tag data is in tag20.txt
 
 
-</details>
-
-
-
-<details><summary>Release tag: jdk-18.0.2+9_adopt on Wed Jul 20 13:07:27 UTC 2022 </summary>
+<details><summary>Release tag: jdk-20+36_adopt on Mon Feb 13 12:11:11 UTC 2023 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-22-2022 |               2/2 |        Yes |        jdk-18.0.2+9_adopt|
-|    ppc64le|        linux |  07-23-2022 |               7/3 |        Yes |        jdk-18.0.2+9_adopt|
-|        x64|      windows |  07-25-2022 |               2/4 |         No |        jdk-18.0.2+9_adopt|
-|        x64| alpine-linux |  07-25-2022 |               7/5 |        Yes |        jdk-18.0.2+9_adopt|
-|    aarch64|        linux |  07-25-2022 |               7/5 |        Yes |        jdk-18.0.2+9_adopt|
-|        arm|        linux |  07-28-2022 |               7/8 |         No |        jdk-18.0.2+9_adopt|
-|        x32|      windows |  07-28-2022 |               7/8 |         No |        jdk-18.0.2+9_adopt|
-|      s390x|        linux |  08-01-2022 |              7/12 |         No |        jdk-18.0.2+9_adopt|
-|    aarch64|          mac |  08-02-2022 |              7/13 |         No |        jdk-18.0.2+9_adopt|
-|        x64|          mac |  08-14-2022 |              2/24 |         No |        jdk-18.0.2+9_adopt|
+|    aarch64|        linux |  03-23-2023 |              7/37 |         No |           jdk-20+36_adopt|
+|        x64|          mac |  03-23-2023 |              2/38 |         No |           jdk-20+36_adopt|
+|        x64|        linux |  03-23-2023 |              2/38 |         No |           jdk-20+36_adopt|
+|        x64|      windows |  03-23-2023 |              2/38 |         No |           jdk-20+36_adopt|
+|    ppc64le|        linux |  03-23-2023 |              7/38 |         No |           jdk-20+36_adopt|
+|    aarch64|          mac |  03-23-2023 |              7/38 |         No |           jdk-20+36_adopt|
+|        x64| alpine-linux |  03-23-2023 |              7/38 |         No |           jdk-20+36_adopt|
 
-On-Time 4(40%)  Late: 6(60%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-18.0.1+10_adopt on Wed Apr 20 08:18:03 UTC 2022 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  04-22-2022 |               2/2 |        Yes |       jdk-18.0.1+10_adopt|
-|        x64|      windows |  04-27-2022 |               2/7 |         No |       jdk-18.0.1+10_adopt|
-|        x64|          mac |  04-28-2022 |               2/8 |         No |       jdk-18.0.1+10_adopt|
-|    aarch64|        linux |  05-02-2022 |              7/12 |         No |       jdk-18.0.1+10_adopt|
-|    ppc64le|        linux |  05-02-2022 |              7/12 |         No |       jdk-18.0.1+10_adopt|
-|        x64| alpine-linux |  05-03-2022 |              7/13 |         No |       jdk-18.0.1+10_adopt|
-|      s390x|        linux |  05-03-2022 |              7/13 |         No |       jdk-18.0.1+10_adopt|
-|        arm|        linux |  05-04-2022 |              7/14 |         No |       jdk-18.0.1+10_adopt|
-|        x32|      windows |  05-05-2022 |              7/14 |         No |       jdk-18.0.1+10_adopt|
-|    aarch64|          mac |  05-13-2022 |              7/23 |         No |       jdk-18.0.1+10_adopt|
-
-On-Time 1(10%)  Late: 9(90%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-18+36_adopt on Tue Mar 22 17:35:24 UTC 2022 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  03-24-2022 |               2/1 |        Yes |           jdk-18+36_adopt|
-|    ppc64le|        linux |  03-28-2022 |               7/5 |        Yes |           jdk-18+36_adopt|
-|    aarch64|        linux |  03-28-2022 |               7/5 |        Yes |           jdk-18+36_adopt|
-|        x64|          mac |  03-29-2022 |               2/6 |         No |           jdk-18+36_adopt|
-|        x64|      windows |  03-29-2022 |               2/6 |         No |           jdk-18+36_adopt|
-|        x32|      windows |  03-29-2022 |               7/6 |        Yes |           jdk-18+36_adopt|
-|        arm|        linux |  03-29-2022 |               7/6 |        Yes |           jdk-18+36_adopt|
-|        x64| alpine-linux |  03-30-2022 |               7/7 |        Yes |           jdk-18+36_adopt|
-|      s390x|        linux |  03-30-2022 |               7/7 |        Yes |           jdk-18+36_adopt|
-|    aarch64|          mac |  04-05-2022 |              7/14 |         No |           jdk-18+36_adopt|
-
-On-Time 7(70%)  Late: 3(30%)
-
-
-</details>
-
-Processing: 19 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk19u
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk19u/.git/
-Getting Tags for jdk19u
-
-Release data is in data/releases19.json
-tag data is in tag19.txt
-
-
-<details><summary>Release tag: jdk-19.0.2+7_adopt on Wed Jan 18 00:41:15 UTC 2023 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  01-20-2023 |               2/2 |        Yes |        jdk-19.0.2+7_adopt|
-|        x64|        linux |  01-21-2023 |               2/3 |         No |        jdk-19.0.2+7_adopt|
-|        x64|          mac |  01-23-2023 |               2/5 |         No |        jdk-19.0.2+7_adopt|
-|        arm|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
-|      s390x|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
-|    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk-19.0.2+7_adopt|
-|        x32|      windows |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
-|    aarch64|        linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
-|        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk-19.0.2+7_adopt|
-|    aarch64|          mac |  01-26-2023 |               7/8 |         No |        jdk-19.0.2+7_adopt|
-
-On-Time 7(70%)  Late: 3(30%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-19.0.1+10_adopt on Wed Oct 19 09:52:19 UTC 2022 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  10-26-2022 |               2/6 |         No |       jdk-19.0.1+10_adopt|
-|        x64| alpine-linux |  10-27-2022 |               7/8 |         No |       jdk-19.0.1+10_adopt|
-|    aarch64|          mac |  10-28-2022 |               7/9 |         No |       jdk-19.0.1+10_adopt|
-|    aarch64|        linux |  10-28-2022 |               7/9 |         No |       jdk-19.0.1+10_adopt|
-|        x64|          mac |  10-31-2022 |              2/12 |         No |       jdk-19.0.1+10_adopt|
-|        x64|      windows |  10-31-2022 |              2/12 |         No |       jdk-19.0.1+10_adopt|
-|        x32|      windows |  11-02-2022 |              7/13 |         No |       jdk-19.0.1+10_adopt|
-|    ppc64le|        linux |  11-03-2022 |              7/15 |         No |       jdk-19.0.1+10_adopt|
-|        arm|        linux |  11-03-2022 |              7/15 |         No |       jdk-19.0.1+10_adopt|
-|      s390x|        linux |  11-04-2022 |              7/16 |         No |       jdk-19.0.1+10_adopt|
-
-On-Time 0(0%)  Late: 10(100%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-19+36_adopt on Tue Aug 16 20:40:13 UTC 2022 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  09-26-2022 |              2/40 |         No |           jdk-19+36_adopt|
-|        x64|      windows |  09-26-2022 |              2/40 |         No |           jdk-19+36_adopt|
-|    aarch64|        linux |  09-26-2022 |              7/40 |         No |           jdk-19+36_adopt|
-|        arm|        linux |  09-26-2022 |              7/40 |         No |           jdk-19+36_adopt|
-|        x64|          mac |  09-26-2022 |              2/40 |         No |           jdk-19+36_adopt|
-|    aarch64|          mac |  09-26-2022 |              7/40 |         No |           jdk-19+36_adopt|
-|        x64| alpine-linux |  09-26-2022 |              7/40 |         No |           jdk-19+36_adopt|
-|    ppc64le|        linux |  09-28-2022 |              7/42 |         No |           jdk-19+36_adopt|
-|      s390x|        linux |  10-03-2022 |              7/47 |         No |           jdk-19+36_adopt|
-|        x32|      windows |  10-05-2022 |              7/49 |         No |           jdk-19+36_adopt|
-
-On-Time 0(0%)  Late: 10(100%)
+On-Time 0(0%)  Late: 7(100%)
 
 
 </details>
