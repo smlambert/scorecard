@@ -13,6 +13,22 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u372-b07_adopt on Tue Apr 18 23:14:10 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
+|        x64|      windows |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
+|    aarch64|        linux |  04-20-2023 |               7/1 |        Yes |        jdk8u372-b07_adopt|
+|        x64|          mac |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
+
+On-Time 4(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u362-b09_adopt on Tue Jan 17 23:14:13 UTC 2023 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
@@ -227,63 +243,6 @@ On-Time 1(100%)  Late: 0(0%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|        x64|          mac |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|        x64|      windows |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|    aarch64|        linux |  08-09-2021 |             7/-36 |        Yes |              jdk8u302-b08|
-|    ppc64le|        linux |  08-09-2021 |             7/-36 |        Yes |              jdk8u302-b08|
-|      ppc64|          aix |  08-12-2021 |             7/-32 |        Yes |              jdk8u302-b08|
-|        x32|      windows |  08-23-2021 |             7/-22 |        Yes |              jdk8u302-b08|
-|        arm|        linux |  09-15-2021 |               7/0 |        Yes | jdk8u302-b08-aarch32-20210726|
-|    sparcv9|      solaris |  09-24-2021 |               7/9 |         No |              jdk8u302-b08|
-|        x64|      solaris |  09-29-2021 |              7/14 |         No |              jdk8u302-b08|
-
-On-Time 8(80%)  Late: 2(20%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  08-04-2021 |             2/-40 |        Yes |              jdk8u302-b08|
-
-On-Time 1(100%)  Late: 0(0%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u302-b08 on Tue Sep 14 18:44:29 UTC 2021 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|        x64|          mac |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|        x64|      windows |  07-29-2021 |             2/-46 |        Yes |              jdk8u302-b08|
-|    aarch64|        linux |  08-09-2021 |             7/-36 |        Yes |              jdk8u302-b08|
-|    ppc64le|        linux |  08-09-2021 |             7/-36 |        Yes |              jdk8u302-b08|
-|      ppc64|          aix |  08-12-2021 |             7/-32 |        Yes |              jdk8u302-b08|
-|        x32|      windows |  08-23-2021 |             7/-22 |        Yes |              jdk8u302-b08|
-|        arm|        linux |  09-15-2021 |               7/0 |        Yes | jdk8u302-b08-aarch32-20210726|
-|    sparcv9|      solaris |  09-24-2021 |               7/9 |         No |              jdk8u302-b08|
-|        x64|      solaris |  09-29-2021 |              7/14 |         No |              jdk8u302-b08|
-
-On-Time 8(80%)  Late: 2(20%)
-
-
-</details>
-
 Processing: 11 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -293,6 +252,23 @@ Getting Tags for jdk11u
 
 Release data is in data/releases11.json
 tag data is in tag11.txt
+
+
+<details><summary>Release tag: jdk-11.0.19+7_adopt on Tue Apr 18 22:07:10 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  04-19-2023 |               2/0 |        Yes |       jdk-11.0.19+7_adopt|
+|    aarch64|        linux |  04-19-2023 |               7/0 |        Yes |       jdk-11.0.19+7_adopt|
+|        x64|      windows |  04-20-2023 |               2/1 |        Yes |       jdk-11.0.19+7_adopt|
+|    aarch64|          mac |  04-20-2023 |               7/1 |        Yes |       jdk-11.0.19+7_adopt|
+|        x64|          mac |  04-20-2023 |               2/1 |        Yes |       jdk-11.0.19+7_adopt|
+
+On-Time 5(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-11.0.18+10_adopt on Wed Jan 18 10:07:15 UTC 2023 </summary>
@@ -506,6 +482,23 @@ Release data is in data/releases17.json
 tag data is in tag17.txt
 
 
+<details><summary>Release tag: jdk-17.0.7+7_adopt on Tue Apr 18 21:42:14 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  04-19-2023 |               2/0 |        Yes |        jdk-17.0.7+7_adopt|
+|    aarch64|          mac |  04-19-2023 |               7/0 |        Yes |        jdk-17.0.7+7_adopt|
+|    aarch64|        linux |  04-19-2023 |               7/0 |        Yes |        jdk-17.0.7+7_adopt|
+|        x64|      windows |  04-20-2023 |               2/1 |        Yes |        jdk-17.0.7+7_adopt|
+|        x64|          mac |  04-20-2023 |               2/1 |        Yes |        jdk-17.0.7+7_adopt|
+
+On-Time 5(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-17.0.6+10_adopt on Wed Jan 18 09:42:14 UTC 2023 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
@@ -662,12 +655,25 @@ On-Time 1(10%)  Late: 9(90%)
 Processing: 20 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk20
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk20/.git/
-Getting Tags for jdk20
+Repo is  https://github.com/adoptium/jdk20u
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk20u/.git/
+Getting Tags for jdk20u
 
 Release data is in data/releases20.json
 tag data is in tag20.txt
+
+
+<details><summary>Release tag: jdk-20.0.1+9_adopt on Wed Apr 19 12:11:13 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk-20.0.1+9_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-20+36_adopt on Mon Feb 13 12:11:11 UTC 2023 </summary>
