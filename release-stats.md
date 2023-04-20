@@ -668,8 +668,9 @@ tag data is in tag20.txt
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk-20.0.1+9_adopt|
+|    aarch64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk-20.0.1+9_adopt|
 
-On-Time 1(100%)  Late: 0(0%)
+On-Time 2(100%)  Late: 0(0%)
 
 
 </details>
