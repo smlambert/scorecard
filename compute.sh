@@ -52,9 +52,13 @@ do
                     RTAG=$(echo $RELEASE | jq -r ".[$PINDEX].scm_ref")
                     DATE=$(echo $RELEASE | jq -r ".[$PINDEX].updated_at")
                     PDATE=$(date --date="$DATE" "+%m-%d-%Y" )              
-                    if [[ "${OS}" == @(windows|linux|mac) && $PLATFORM == "x64" ] || [ "${OS}" == @(linux|mac) && $PLATFORM == "aarch64" ]]   
-                    then 
+                    if [[ "${OS}" == @(windows|linux|mac) && $PLATFORM == @(x64|aarch64) ]]   
+                    then
                         TARGET=2
+                        if [[ "${OS}" == @(windows) && $PLATFORM == "aarch64" ]]
+                        then
+                            TARGET=7 
+                        fi
                     else
                         TARGET=7
                     fi
