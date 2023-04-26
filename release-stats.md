@@ -506,8 +506,9 @@ tag data is in tag17.txt
 |      ppc64|          aix |  04-24-2023 |               7/5 |        Yes |        jdk-17.0.7+7_adopt|
 |        x64| alpine-linux |  04-25-2023 |               7/6 |        Yes |        jdk-17.0.7+7_adopt|
 |      s390x|        linux |  04-25-2023 |               7/6 |        Yes |        jdk-17.0.7+7_adopt|
+|        x32|      windows |  04-26-2023 |               7/7 |        Yes |        jdk-17.0.7+7_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
