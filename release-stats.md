@@ -24,8 +24,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |    ppc64le|        linux |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
 |        x64|      solaris |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
 |        x32|      windows |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
+|        x64| alpine-linux |  04-26-2023 |               7/7 |        Yes |        jdk8u372-b07_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
