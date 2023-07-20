@@ -261,6 +261,20 @@ Release data is in data/releases11.json
 tag data is in tag11.txt
 
 
+<details><summary>Release tag: jdk-11.0.20+8_adopt on Tue Jul 18 21:07:16 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|        linux |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
+|        x64|        linux |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
+
+On-Time 2(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-11.0.19+7_adopt on Tue Apr 18 22:07:10 UTC 2023 </summary>
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
@@ -463,27 +477,6 @@ On-Time 6(60%)  Late: 4(40%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk-11.0.12+7_adopt on Wed Jul 21 08:04:12 UTC 2021 </summary>
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  08-01-2021 |              2/11 |         No |       jdk-11.0.12+7_adopt|
-|        x64|          mac |  08-01-2021 |              2/11 |         No |       jdk-11.0.12+7_adopt|
-|        x64|      windows |  08-01-2021 |              2/11 |         No |       jdk-11.0.12+7_adopt|
-|    aarch64|        linux |  08-09-2021 |              2/19 |         No |       jdk-11.0.12+7_adopt|
-|    ppc64le|        linux |  08-09-2021 |              7/19 |         No |       jdk-11.0.12+7_adopt|
-|      ppc64|          aix |  08-12-2021 |              7/22 |         No |       jdk-11.0.12+7_adopt|
-|      s390x|        linux |  08-12-2021 |              7/22 |         No |       jdk-11.0.12+7_adopt|
-|        x32|      windows |  08-27-2021 |              7/37 |         No |       jdk-11.0.12+7_adopt|
-|        arm|        linux |  09-15-2021 |              7/56 |         No |       jdk-11.0.12+7_adopt|
-
-On-Time 0(0%)  Late: 9(100%)
-
-
-</details>
-
 Processing: 17 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -493,6 +486,21 @@ Getting Tags for jdk17u
 
 Release data is in data/releases17.json
 tag data is in tag17.txt
+
+
+<details><summary>Release tag: jdk-17.0.8+7_adopt on Tue Jul 18 20:42:21 UTC 2023 </summary>
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|      windows |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
+|        x64|          mac |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
+|        x64|        linux |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
+
+On-Time 3(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-17.0.7+7_adopt on Tue Apr 18 21:42:14 UTC 2023 </summary>
