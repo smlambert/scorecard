@@ -267,11 +267,12 @@ tag data is in tag11.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64|        linux |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
 |        x64|        linux |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
-|        x64|      windows |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
 |    ppc64le|        linux |  07-20-2023 |               7/1 |        Yes |       jdk-11.0.20+8_adopt|
 |        x64|          mac |  07-20-2023 |               2/1 |        Yes |       jdk-11.0.20+8_adopt|
+|        x64|      windows |  07-21-2023 |               2/2 |        Yes |       jdk-11.0.20+8_adopt|
+|    aarch64|          mac |  07-21-2023 |               2/2 |        Yes |       jdk-11.0.20+8_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
@@ -501,8 +502,9 @@ tag data is in tag17.txt
 |    aarch64|          mac |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
 |    ppc64le|        linux |  07-20-2023 |               7/1 |        Yes |        jdk-17.0.8+7_adopt|
 |    aarch64|        linux |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
+|        arm|        linux |  07-21-2023 |               7/2 |        Yes |        jdk-17.0.8+7_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
