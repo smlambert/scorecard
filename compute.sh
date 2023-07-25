@@ -23,7 +23,7 @@ do
     then 
         break
     else
-        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref")  
+        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref" | cut -d "-" -f 1 )  
         if [ "$RTAG" == "$SHOW_ONLY" ]; then  
             TAG_INFO=data/tag${VERSION}.txt 
             TAGLINE=$(grep "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
