@@ -14,7 +14,8 @@ do
     then
         break
     else 
-        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref")
+        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref" | cut -d "-" -f 1)
+        RTAG="$RTAG-ga"
         ./compute.sh "$VERSION"  $RTAG 
     fi 
     let INDEX++
