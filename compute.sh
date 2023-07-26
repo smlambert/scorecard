@@ -12,8 +12,11 @@ fi
 
 
 
-
-
+if [[ $VERSION == 8 ]]; then
+    SPLIT_AT="-"
+else 
+    SPLIT_AT="+"
+ fi 
 INDEX=0
 while true 
 do 
@@ -22,20 +25,26 @@ do
     if [ "$RELEASE" == null ] 
     then 
         break
-    else
-        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref" | cut -d "-" -f 1 )   
-        RTAG="$RTAG-ga" 
-        if [ "$RTAG" == "$SHOW_ONLY" ]; then  
+    else  
+        RTAG=$(echo $RELEASE | jq -r ".[0].scm_ref")
+        GA_TAG=$(echo $RTAG | cut -d "$SPLIT_AT" -f 1 )   
+        GA_TAG="$GA_TAG-ga" 
+ 
+        if [ "$GA_TAG" == "$SHOW_ONLY" ]; then  
             TAG_INFO=data/tag${VERSION}.txt 
-            TAGLINE=$(grep "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
+            R_TAGLINE=$(grep "$GA_TAG" $TAG_INFO | cut -d '(' -f 1) 
+
+            TAG_DATES=$TAG_INFO-ga-tag-dates 
+            TAGLINE=$(grep "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
             if [ -z "$TAGLINE" ]
             then
                 TAGDATE="(no matching tag found in repo )"
                 break
             else
                 TAGDATE=$(date -d "$TAGLINE")
+                RTAGDATE=$(date -d "$R_TAGLINE")
             fi 
-            printf "\n\n<details><summary>Release tag: %s on %s </summary>\n\n" "$RTAG" "$TAGDATE" 
+            printf "\n\n<details><summary>Release tag: %s on %s (commit date %s) </summary>\n\n" "$GA_TAG" "$TAGDATE" "$RTAGDATE"
             PINDEX=0
             PASS=0
             FAIL=0
@@ -51,6 +60,8 @@ do
                 else
                     OS=$(echo $RELEASE | jq -r ".[$PINDEX].os")
                     RTAG=$(echo $RELEASE | jq -r ".[$PINDEX].scm_ref")
+                    GA_TAG=$(echo $RTAG | cut -d "$SPLIT_AT" -f 1 )   
+                    GA_TAG="$GA_TAG-ga" 
                     DATE=$(echo $RELEASE | jq -r ".[$PINDEX].updated_at")
                     PDATE=$(date --date="$DATE" "+%m-%d-%Y" )              
                     if [[ "${OS}" == @(windows|linux|mac) && $PLATFORM == @(x64|aarch64) ]]   
@@ -67,6 +78,9 @@ do
                     then
                         TAG_INFO=data/aarch32-jdk8u-tag${VERSION}.txt 
                         TAGLINE=$(grep "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
+
+                        TAG_DATES=$TAG_INFO-ga-tag-dates 
+                        TAGLINE=$(grep "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
                         if [ -z "$TAGLINE" ]
                         then
                             TAGDATE="(no matching tag found in repo )" 
