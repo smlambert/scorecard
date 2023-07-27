@@ -11,7 +11,6 @@ if [ -z $SHOW_ONLY ]; then
 fi  
 
 
-
 if [[ $VERSION == 8 ]]; then
     SPLIT_AT="-"
 else 
@@ -32,25 +31,37 @@ do
  
         if [ "$GA_TAG" == "$SHOW_ONLY" ]; then  
             TAG_INFO=data/tag${VERSION}.txt 
-            R_TAGLINE=$(grep "$GA_TAG" $TAG_INFO | cut -d '(' -f 1) 
-
             TAG_DATES=$TAG_INFO-ga-tag-dates 
-            TAGLINE=$(grep "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
-            if [ -z "$TAGLINE" ]
-            then
-                TAGDATE="(no matching tag found in repo )"
-                break
-            else
-                TAGDATE=$(date -d "$TAGLINE")
-                RTAGDATE=$(date -d "$R_TAGLINE")
-            fi 
-            printf "\n\n<details><summary>Release tag: %s on %s (commit date %s) </summary>\n\n" "$GA_TAG" "$TAGDATE" "$RTAGDATE"
+
+            printf "\n\n<details><summary>Release tag: %s</summary>\n\n" "$GA_TAG" 
+            REL_TAGS_INFO="| %25s| %25s | %17s | %17s |\n"
+            printf "$REL_TAGS_INFO" "Tag" "Tagged Date"  "Commit Date" "Days"  
+            printf "$REL_TAGS_INFO" "---" "---" "---" "---"  
+
+            R_TAGLINE=$(grep -w "$GA_TAG" $TAG_INFO | cut -d '(' -f 1)  
+            TAGLINE=$(grep -w "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
+            TAGDATE=$(date -d "$TAGLINE")
+            RTAGDATE=$(date -d "$R_TAGLINE")   
+            DELTA=$(( ($(date --date="$RTAGDATE" +%s) - $(date --date="$TAGDATE" +%s) )/(60*60*24) ))
+            printf "$REL_TAGS_INFO" "$GA_TAG" "$RTAGDATE" "$TAGDATE" "$DELTA"
+
+            R_TAGLINE=$(grep -w "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
+            TAGLINE=$(grep -w "$RTAG" $TAG_DATES | cut -d ',' -f 1)  
+            TAGDATE=$(date -d "$TAGLINE")
+            RTAGDATE=$(date -d "$R_TAGLINE")   
+            DELTA=$(( ($(date --date="$RTAGDATE" +%s) - $(date --date="$TAGDATE" +%s) )/(60*60*24) ))
+            printf "$REL_TAGS_INFO" "$RTAG" "$RTAGDATE" "$TAGDATE" "$DELTA"
+
+            printf "\n\n" 
+
+
             PINDEX=0
             PASS=0
             FAIL=0
             FORMAT="| %10s| %12s | %11s | %17s | %10s | %25s|\n"
             printf "$FORMAT" "Platform" "OS"  "Released" "Target/Actual(days)" "On-time" "RTAG"
             printf "$FORMAT" "---" "---" "---" "---" "---" "---" 
+             
             while true 
             do   
                 PLATFORM=$(echo $RELEASE | jq -r ".[$PINDEX].architecture") 
@@ -77,10 +88,10 @@ do
                     if [[ $VERSION == 8 && $OS == "arm" ]]
                     then
                         TAG_INFO=data/aarch32-jdk8u-tag${VERSION}.txt 
-                        TAGLINE=$(grep "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
+                        TAGLINE=$(grep -w "$RTAG" $TAG_INFO | cut -d '(' -f 1)  
 
                         TAG_DATES=$TAG_INFO-ga-tag-dates 
-                        TAGLINE=$(grep "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
+                        TAGLINE=$(grep -w "$GA_TAG" $TAG_DATES | cut -d ',' -f 1)  
                         if [ -z "$TAGLINE" ]
                         then
                             TAGDATE="(no matching tag found in repo )" 
