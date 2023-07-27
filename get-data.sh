@@ -33,9 +33,9 @@ function getrepo () {
     git fetch --filter=blob:none --tags --depth=1 origin   2>&1 | cat > /dev/null  
     git log --tags --simplify-by-decoration --pretty="format:%ci %d" > ../${PREFIX}$TAG_INFO
     TAG_DATES=../${PREFIX}$TAG_INFO-ga-tag-dates 
-    rm -rf $TAG_DATES 
-    grep "\-ga" ../${PREFIX}$TAG_INFO | \
-     cut -d "(" -f 2 | cut -d "," -f 2 | cut -d ":" -f 2 | sed "s/)//" | grep -v "ga_adopt" |  xargs -n1 $DIR/../get-tag-date.sh >> $TAG_DATES
+    rm -rf $TAG_DATES  
+    cat ../${PREFIX}$TAG_INFO | \
+     sed "s/tag:/\ntag:/g" | sed "s/\,/\n/g" | sed "s/)//g" |  grep "tag:" | cut -d ":" -f 2   |  xargs -n1 $DIR/../get-tag-date.sh >> $TAG_DATES
     cd .. 
     git config extensions.partialClone false
     #rm -rf $REPONAME 
