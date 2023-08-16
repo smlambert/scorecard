@@ -31,8 +31,11 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x32|      windows |  07-25-2023 |               7/5 |        Yes |        jdk8u382-b05_adopt|
 |        x64| alpine-linux |  07-25-2023 |               7/5 |        Yes |        jdk8u382-b05_adopt|
 |        x64|      solaris |  07-26-2023 |               7/6 |        Yes |        jdk8u382-b05_adopt|
+|    sparcv9|      solaris |  07-31-2023 |              7/11 |         No |        jdk8u382-b05_adopt|
+|        arm|        linux |  08-01-2023 |              7/12 |         No | jdk8u382-b05-aarch32-20230719_adopt|
+|      ppc64|          aix |  08-03-2023 |              7/14 |         No |        jdk8u382-b05_adopt|
 
-On-Time 7(87%)  Late: 1(12%)
+On-Time 7(63%)  Late: 4(36%)
 
 
 </details>
@@ -894,21 +897,21 @@ On-Time 0(0%)  Late: 10(100%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-17-ga| Thu Aug  5 22:12:27 UTC 2021 | Tue Sep 14 19:02:22 UTC 2021 |               -39 |
-|           jdk-17+35_adopt| Thu Jul 27 00:00:00 UTC 2023 | Thu Jul 27 00:00:00 UTC 2023 |                 0 |
+|           jdk-17+35_adopt| Wed Aug 16 00:00:00 UTC 2023 | Wed Aug 16 00:00:00 UTC 2023 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  09-22-2021 |            2/-672 |        Yes |           jdk-17+35_adopt|
-|        x64|          mac |  09-22-2021 |            2/-672 |        Yes |           jdk-17+35_adopt|
-|        x64|      windows |  09-22-2021 |            2/-672 |        Yes |           jdk-17+35_adopt|
-|    aarch64|        linux |  09-22-2021 |            2/-672 |        Yes |           jdk-17+35_adopt|
-|      s390x|        linux |  09-23-2021 |            7/-671 |        Yes |           jdk-17+35_adopt|
-|    aarch64|          mac |  09-23-2021 |            2/-671 |        Yes |           jdk-17+35_adopt|
-|    ppc64le|        linux |  09-23-2021 |            7/-671 |        Yes |           jdk-17+35_adopt|
-|        arm|        linux |  09-24-2021 |            7/-670 |        Yes |           jdk-17+35_adopt|
-|        x32|      windows |  09-24-2021 |            7/-670 |        Yes |           jdk-17+35_adopt|
-|        x64| alpine-linux |  09-24-2021 |            7/-670 |        Yes |           jdk-17+35_adopt|
+|        x64|        linux |  09-22-2021 |            2/-692 |        Yes |           jdk-17+35_adopt|
+|        x64|          mac |  09-22-2021 |            2/-692 |        Yes |           jdk-17+35_adopt|
+|        x64|      windows |  09-22-2021 |            2/-692 |        Yes |           jdk-17+35_adopt|
+|    aarch64|        linux |  09-22-2021 |            2/-692 |        Yes |           jdk-17+35_adopt|
+|      s390x|        linux |  09-23-2021 |            7/-691 |        Yes |           jdk-17+35_adopt|
+|    aarch64|          mac |  09-23-2021 |            2/-691 |        Yes |           jdk-17+35_adopt|
+|    ppc64le|        linux |  09-23-2021 |            7/-691 |        Yes |           jdk-17+35_adopt|
+|        arm|        linux |  09-24-2021 |            7/-690 |        Yes |           jdk-17+35_adopt|
+|        x32|      windows |  09-24-2021 |            7/-690 |        Yes |           jdk-17+35_adopt|
+|        x64| alpine-linux |  09-24-2021 |            7/-690 |        Yes |           jdk-17+35_adopt|
 
 On-Time 10(100%)  Late: 0(0%)
 
