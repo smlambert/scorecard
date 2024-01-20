@@ -13,6 +13,28 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u402-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u402-ga| Thu Jan 11 01:53:23 UTC 2024 | Wed Jan 17 01:35:04 UTC 2024 |                -5 |
+|        jdk8u402-b06_adopt| Wed Jan 17 01:14:12 UTC 2024 | Wed Jan 17 01:14:12 UTC 2024 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  01-19-2024 |               2/2 |        Yes |        jdk8u402-b06_adopt|
+|    ppc64le|        linux |  01-19-2024 |               7/2 |        Yes |        jdk8u402-b06_adopt|
+|        x64|      windows |  01-19-2024 |               2/2 |        Yes |        jdk8u402-b06_adopt|
+|        x64|          mac |  01-19-2024 |               2/2 |        Yes |        jdk8u402-b06_adopt|
+
+On-Time 4(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u392-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -304,35 +326,6 @@ On-Time 0(0%)  Late: 11(100%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u322-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u322-ga| Tue Sep 28 13:30:27 UTC 2021 | Fri Jan 28 02:05:31 UTC 2022 |              -121 |
-|        jdk8u322-b06_adopt| Wed Jan 19 05:14:34 UTC 2022 | Wed Jan 19 05:14:35 UTC 2022 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|          mac |  01-25-2022 |               2/6 |         No |        jdk8u322-b06_adopt|
-|        x64|      windows |  01-25-2022 |               2/6 |         No |        jdk8u322-b06_adopt|
-|        x64|        linux |  01-25-2022 |               2/6 |         No |        jdk8u322-b06_adopt|
-|    aarch64|        linux |  01-27-2022 |               2/8 |         No |        jdk8u322-b06_adopt|
-|      ppc64|          aix |  01-27-2022 |               7/8 |         No |        jdk8u322-b06_adopt|
-|    ppc64le|        linux |  01-27-2022 |               7/8 |         No |        jdk8u322-b06_adopt|
-|    sparcv9|      solaris |  02-03-2022 |              7/15 |         No |        jdk8u322-b06_adopt|
-|        x64|      solaris |  02-03-2022 |              7/15 |         No |        jdk8u322-b06_adopt|
-|        x32|      windows |  02-07-2022 |              7/19 |         No |        jdk8u322-b06_adopt|
-|        arm|        linux |  02-10-2022 |              7/22 |         No | jdk8u322-b06-aarch32-20220124_adopt|
-|        x64| alpine-linux |  03-08-2022 |              7/48 |         No |        jdk8u322-b06_adopt|
-
-On-Time 0(0%)  Late: 11(100%)
-
-
-</details>
-
 Processing: 11 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -357,8 +350,11 @@ tag data is in tag11.txt
 |        x64|        linux |  01-18-2024 |               2/1 |        Yes |       jdk-11.0.22+7_adopt|
 |    aarch64|          mac |  01-18-2024 |               2/1 |        Yes |       jdk-11.0.22+7_adopt|
 |        x64|      windows |  01-18-2024 |               2/1 |        Yes |       jdk-11.0.22+7_adopt|
+|    aarch64|        linux |  01-19-2024 |               2/2 |        Yes |       jdk-11.0.22+7_adopt|
+|        x64| alpine-linux |  01-19-2024 |               7/2 |        Yes |       jdk-11.0.22+7_adopt|
+|        x32|      windows |  01-19-2024 |               7/2 |        Yes |       jdk-11.0.22+7_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
@@ -647,8 +643,10 @@ tag data is in tag17.txt
 |        x64|      windows |  01-18-2024 |               2/1 |        Yes |       jdk-17.0.10+7_adopt|
 |        x64|        linux |  01-18-2024 |               2/1 |        Yes |       jdk-17.0.10+7_adopt|
 |    aarch64|        linux |  01-18-2024 |               2/1 |        Yes |       jdk-17.0.10+7_adopt|
+|        x64| alpine-linux |  01-19-2024 |               7/2 |        Yes |       jdk-17.0.10+7_adopt|
+|    ppc64le|        linux |  01-19-2024 |               7/2 |        Yes |       jdk-17.0.10+7_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
