@@ -29,8 +29,13 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|          mac |  01-19-2024 |               2/2 |        Yes |        jdk8u402-b06_adopt|
 |    aarch64|        linux |  01-23-2024 |               2/5 |         No |        jdk8u402-b06_adopt|
 |        x64|      solaris |  01-23-2024 |               7/5 |        Yes |        jdk8u402-b06_adopt|
+|        x32|      windows |  01-23-2024 |               7/6 |        Yes |        jdk8u402-b06_adopt|
+|    sparcv9|      solaris |  01-23-2024 |               7/6 |        Yes |        jdk8u402-b06_adopt|
+|        x64| alpine-linux |  01-24-2024 |               7/7 |        Yes |        jdk8u402-b06_adopt|
+|        arm|        linux |  01-24-2024 |               7/7 |        Yes | jdk8u402-b06-aarch32-20240118_adopt|
+|      ppc64|          aix |  01-24-2024 |               7/7 |        Yes |        jdk8u402-b06_adopt|
 
-On-Time 5(83%)  Late: 1(16%)
+On-Time 10(90%)  Late: 1(9%)
 
 
 </details>
@@ -376,8 +381,10 @@ On-Time 0(0%)  Late: 1(100%)
 |        x32|      windows |  01-19-2024 |               7/2 |        Yes |       jdk-11.0.22+7_adopt|
 |    ppc64le|        linux |  01-22-2024 |               7/5 |        Yes |       jdk-11.0.22+7_adopt|
 |        arm|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-11.0.22+7_adopt|
+|        x64|          mac |  01-23-2024 |               2/6 |         No |       jdk-11.0.22+7_adopt|
+|      s390x|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-11.0.22+7_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 9(90%)  Late: 1(10%)
 
 
 </details>
@@ -421,8 +428,10 @@ On-Time 0(0%)  Late: 1(100%)
 |        x32|      windows |  01-19-2024 |               7/2 |        Yes |       jdk-11.0.22+7_adopt|
 |    ppc64le|        linux |  01-22-2024 |               7/5 |        Yes |       jdk-11.0.22+7_adopt|
 |        arm|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-11.0.22+7_adopt|
+|        x64|          mac |  01-23-2024 |               2/6 |         No |       jdk-11.0.22+7_adopt|
+|      s390x|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-11.0.22+7_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 9(90%)  Late: 1(10%)
 
 
 </details>
@@ -686,8 +695,9 @@ tag data is in tag17.txt
 |    ppc64le|        linux |  01-19-2024 |               7/2 |        Yes |       jdk-17.0.10+7_adopt|
 |        x32|      windows |  01-22-2024 |               7/5 |        Yes |       jdk-17.0.10+7_adopt|
 |      s390x|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-17.0.10+7_adopt|
+|        arm|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-17.0.10+7_adopt|
 
-On-Time 9(100%)  Late: 0(0%)
+On-Time 10(100%)  Late: 0(0%)
 
 
 </details>
@@ -1014,8 +1024,10 @@ tag data is in tag21.txt
 |      s390x|        linux |  01-22-2024 |               7/5 |        Yes |       jdk-21.0.2+13_adopt|
 |      ppc64|          aix |  01-22-2024 |               7/5 |        Yes |       jdk-21.0.2+13_adopt|
 |    aarch64|        linux |  01-23-2024 |               2/6 |         No |       jdk-21.0.2+13_adopt|
+|    aarch64| alpine-linux |  01-24-2024 |               7/7 |        Yes |       jdk-21.0.2+13_adopt|
+|        x64| alpine-linux |  01-24-2024 |               7/7 |        Yes |       jdk-21.0.2+13_adopt|
 
-On-Time 6(75%)  Late: 2(25%)
+On-Time 8(80%)  Late: 2(20%)
 
 
 </details>
