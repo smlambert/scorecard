@@ -46,6 +46,11 @@ then
     REPONAME=aarch32-jdk8u
     getrepo $REPONAME https://github.com/adoptium/$REPONAME  "aarch32-jdk8u-"
 fi
+if [ $VERSION == 22 ]
+then
+    REPONAME=jdk${VERSION}
+    getrepo $REPONAME https://github.com/adoptium/$REPONAME
+fi
 REPONAME=jdk${VERSION}u  
 getrepo $REPONAME https://github.com/adoptium/$REPONAME 
 
