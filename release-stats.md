@@ -1164,21 +1164,23 @@ tag data is in tag22.txt
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|                 jdk-22-ga| Thu Mar 21 00:00:00 UTC 2024 | Thu Mar 21 00:00:00 UTC 2024 |                 0 |
-|           jdk-22+36_adopt| Thu Mar 21 00:00:00 UTC 2024 | Thu Mar 21 00:00:00 UTC 2024 |                 0 |
+|                 jdk-22-ga| Thu Apr  4 00:00:00 UTC 2024 | Thu Apr  4 00:00:00 UTC 2024 |                 0 |
+|           jdk-22+36_adopt| Thu Apr  4 00:00:00 UTC 2024 | Thu Apr  4 00:00:00 UTC 2024 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  03-20-2024 |               2/0 |        Yes |           jdk-22+36_adopt|
-|    aarch64|        linux |  03-20-2024 |               2/0 |        Yes |           jdk-22+36_adopt|
-|        x64| alpine-linux |  03-20-2024 |               7/0 |        Yes |           jdk-22+36_adopt|
-|    aarch64| alpine-linux |  03-20-2024 |               7/0 |        Yes |           jdk-22+36_adopt|
-|        x64|      windows |  03-20-2024 |               2/0 |        Yes |           jdk-22+36_adopt|
-|        x64|          mac |  03-20-2024 |               2/0 |        Yes |           jdk-22+36_adopt|
-|    aarch64|          mac |  03-20-2024 |               2/0 |        Yes |           jdk-22+36_adopt|
+|        x64|        linux |  03-20-2024 |             2/-14 |        Yes |           jdk-22+36_adopt|
+|    aarch64|        linux |  03-20-2024 |             2/-14 |        Yes |           jdk-22+36_adopt|
+|        x64| alpine-linux |  03-20-2024 |             7/-14 |        Yes |           jdk-22+36_adopt|
+|    aarch64| alpine-linux |  03-20-2024 |             7/-14 |        Yes |           jdk-22+36_adopt|
+|        x64|      windows |  03-20-2024 |             2/-14 |        Yes |           jdk-22+36_adopt|
+|        x64|          mac |  03-20-2024 |             2/-14 |        Yes |           jdk-22+36_adopt|
+|    aarch64|          mac |  03-20-2024 |             2/-14 |        Yes |           jdk-22+36_adopt|
+|    ppc64le|        linux |  03-21-2024 |             7/-13 |        Yes |           jdk-22+36_adopt|
+|    riscv64|        linux |  03-28-2024 |              7/-6 |        Yes |           jdk-22+36_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 9(100%)  Late: 0(0%)
 
 
 </details>
