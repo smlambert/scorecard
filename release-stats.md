@@ -26,8 +26,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
 |        x64|      windows |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
 |    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
+|        x64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk8u412-b08_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
@@ -350,8 +351,9 @@ tag data is in tag11.txt
 |    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |       jdk-11.0.23+9_adopt|
 |    aarch64|          mac |  04-18-2024 |               2/1 |        Yes |       jdk-11.0.23+9_adopt|
 |        x64|      windows |  04-18-2024 |               2/1 |        Yes |       jdk-11.0.23+9_adopt|
+|    ppc64le|        linux |  04-19-2024 |               7/2 |        Yes |       jdk-11.0.23+9_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 </details>
@@ -676,8 +678,10 @@ tag data is in tag17.txt
 |        x64|          mac |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
 |        x64|        linux |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
 |        x64|      windows |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
+|    ppc64le|        linux |  04-19-2024 |               7/2 |        Yes |       jdk-17.0.11+9_adopt|
+|        x64| alpine-linux |  04-19-2024 |               7/2 |        Yes |       jdk-17.0.11+9_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -1000,8 +1004,9 @@ tag data is in tag21.txt
 |        x64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk-21.0.3+9_adopt|
 |    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk-21.0.3+9_adopt|
 |    aarch64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk-21.0.3+9_adopt|
+|        x64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk-21.0.3+9_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 </details>
@@ -1174,8 +1179,9 @@ tag data is in tag22.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
 |        x64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
+|    aarch64|          mac |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 3(100%)  Late: 0(0%)
 
 
 </details>
