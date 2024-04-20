@@ -1181,8 +1181,9 @@ tag data is in tag22.txt
 |    aarch64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
 |        x64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
 |    aarch64|          mac |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
+|        x64|      windows |  04-20-2024 |               2/2 |        Yes |        jdk-22.0.1+8_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
