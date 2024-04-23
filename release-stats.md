@@ -31,8 +31,10 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|      solaris |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
 |        x64| alpine-linux |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
 |    sparcv9|      solaris |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
+|      ppc64|          aix |  04-23-2024 |               7/6 |        Yes |        jdk8u412-b08_adopt|
+|        arm|        linux |  04-23-2024 |               7/6 |        Yes | jdk8u412-b08-aarch32-20240419_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 10(100%)  Late: 0(0%)
 
 
 </details>
@@ -360,8 +362,10 @@ tag data is in tag11.txt
 |      s390x|        linux |  04-20-2024 |               7/3 |        Yes |       jdk-11.0.23+9_adopt|
 |        x32|      windows |  04-22-2024 |               7/5 |        Yes |       jdk-11.0.23+9_adopt|
 |      ppc64|          aix |  04-22-2024 |               7/5 |        Yes |       jdk-11.0.23+9_adopt|
+|        arm|        linux |  04-23-2024 |               7/6 |        Yes |       jdk-11.0.23+9_adopt|
+|        x64| alpine-linux |  04-23-2024 |               7/6 |        Yes |       jdk-11.0.23+9_adopt|
 
-On-Time 9(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
@@ -1206,6 +1210,25 @@ tag data is in tag22.txt
 |    ppc64le|        linux |  04-23-2024 |               7/5 |        Yes |        jdk-22.0.1+8_adopt|
 
 On-Time 8(88%)  Late: 1(11%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk-22.0.1.1-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|           jdk-22.0.1.1-ga| Tue Apr 23 00:00:00 UTC 2024 | Tue Apr 23 00:00:00 UTC 2024 |                 0 |
+|      jdk-22.0.1.1+1_adopt| Fri Apr 19 08:46:01 UTC 2024 | Fri Apr 19 08:47:43 UTC 2024 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|      s390x|        linux |  04-23-2024 |               7/4 |        Yes |      jdk-22.0.1.1+1_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
 
 
 </details>
