@@ -33,8 +33,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |    sparcv9|      solaris |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
 |      ppc64|          aix |  04-23-2024 |               7/6 |        Yes |        jdk8u412-b08_adopt|
 |        arm|        linux |  04-23-2024 |               7/6 |        Yes | jdk8u412-b08-aarch32-20240419_adopt|
+|        x32|      windows |  04-24-2024 |               7/6 |        Yes |        jdk8u412-b08_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
@@ -1220,7 +1221,7 @@ On-Time 8(88%)  Late: 1(11%)
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|           jdk-22.0.1.1-ga| Tue Apr 23 00:00:00 UTC 2024 | Tue Apr 23 00:00:00 UTC 2024 |                 0 |
+|           jdk-22.0.1.1-ga| Wed Apr 24 00:00:00 UTC 2024 | Wed Apr 24 00:00:00 UTC 2024 |                 0 |
 |      jdk-22.0.1.1+1_adopt| Fri Apr 19 08:46:01 UTC 2024 | Fri Apr 19 08:47:43 UTC 2024 |                 0 |
 
 
@@ -1240,20 +1241,20 @@ On-Time 1(100%)  Late: 0(0%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-22-ga| Thu Feb 15 22:10:56 UTC 2024 | Tue Mar 19 19:58:28 UTC 2024 |               -32 |
-|           jdk-22+36_adopt| Tue Apr 23 00:00:00 UTC 2024 | Tue Apr 23 00:00:00 UTC 2024 |                 0 |
+|           jdk-22+36_adopt| Wed Apr 24 00:00:00 UTC 2024 | Wed Apr 24 00:00:00 UTC 2024 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  03-20-2024 |             2/-33 |        Yes |           jdk-22+36_adopt|
-|    aarch64|        linux |  03-20-2024 |             2/-33 |        Yes |           jdk-22+36_adopt|
-|        x64| alpine-linux |  03-20-2024 |             7/-33 |        Yes |           jdk-22+36_adopt|
-|    aarch64| alpine-linux |  03-20-2024 |             7/-33 |        Yes |           jdk-22+36_adopt|
-|        x64|      windows |  03-20-2024 |             2/-33 |        Yes |           jdk-22+36_adopt|
-|        x64|          mac |  03-20-2024 |             2/-33 |        Yes |           jdk-22+36_adopt|
-|    aarch64|          mac |  03-20-2024 |             2/-33 |        Yes |           jdk-22+36_adopt|
-|    ppc64le|        linux |  03-21-2024 |             7/-32 |        Yes |           jdk-22+36_adopt|
-|    riscv64|        linux |  03-28-2024 |             7/-25 |        Yes |           jdk-22+36_adopt|
+|        x64|        linux |  03-20-2024 |             2/-34 |        Yes |           jdk-22+36_adopt|
+|    aarch64|        linux |  03-20-2024 |             2/-34 |        Yes |           jdk-22+36_adopt|
+|        x64| alpine-linux |  03-20-2024 |             7/-34 |        Yes |           jdk-22+36_adopt|
+|    aarch64| alpine-linux |  03-20-2024 |             7/-34 |        Yes |           jdk-22+36_adopt|
+|        x64|      windows |  03-20-2024 |             2/-34 |        Yes |           jdk-22+36_adopt|
+|        x64|          mac |  03-20-2024 |             2/-34 |        Yes |           jdk-22+36_adopt|
+|    aarch64|          mac |  03-20-2024 |             2/-34 |        Yes |           jdk-22+36_adopt|
+|    ppc64le|        linux |  03-21-2024 |             7/-33 |        Yes |           jdk-22+36_adopt|
+|    riscv64|        linux |  03-28-2024 |             7/-26 |        Yes |           jdk-22+36_adopt|
 
 On-Time 9(100%)  Late: 0(0%)
 
