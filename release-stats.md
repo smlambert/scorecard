@@ -26,8 +26,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk8u422-b05_adopt|
 |    aarch64|        linux |  07-19-2024 |               2/2 |        Yes |        jdk8u422-b05_adopt|
 |        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk8u422-b05_adopt|
+|        x64|      windows |  07-19-2024 |               2/2 |        Yes |        jdk8u422-b05_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
