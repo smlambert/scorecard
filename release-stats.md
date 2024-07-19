@@ -25,8 +25,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk8u422-b05_adopt|
 |    aarch64|        linux |  07-19-2024 |               2/2 |        Yes |        jdk8u422-b05_adopt|
+|        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk8u422-b05_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 3(100%)  Late: 0(0%)
 
 
 </details>
@@ -309,8 +310,9 @@ tag data is in tag11.txt
 |        x64|          mac |  07-18-2024 |               2/1 |        Yes |       jdk-11.0.24+8_adopt|
 |    aarch64|          mac |  07-18-2024 |               2/1 |        Yes |       jdk-11.0.24+8_adopt|
 |        x64| alpine-linux |  07-18-2024 |               7/1 |        Yes |       jdk-11.0.24+8_adopt|
+|    ppc64le|        linux |  07-19-2024 |               7/2 |        Yes |       jdk-11.0.24+8_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -966,8 +968,10 @@ tag data is in tag21.txt
 |        x64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-21.0.4+7_adopt|
 |        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
 |    riscv64|        linux |  07-19-2024 |               7/2 |        Yes |        jdk-21.0.4+7_adopt|
+|        x64|      windows |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
+|    aarch64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
@@ -1172,8 +1176,11 @@ tag data is in tag22.txt
 |        x64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-22.0.2+9_adopt|
 |    aarch64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk-22.0.2+9_adopt|
 |    aarch64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
+|      ppc64|          aix |  07-19-2024 |               7/2 |        Yes |        jdk-22.0.2+9_adopt|
+|        x64|      windows |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
+|        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
