@@ -13,6 +13,25 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u422-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u422-ga| Fri Jul 19 00:00:00 UTC 2024 | Fri Jul 19 00:00:00 UTC 2024 |                 0 |
+|        jdk8u422-b05_adopt| Wed Jul 17 00:14:20 UTC 2024 | Wed Jul 17 00:14:20 UTC 2024 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk8u422-b05_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u412-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -258,77 +277,6 @@ On-Time 3(27%)  Late: 8(72%)
 |        x64|      windows |  08-02-2022 |              2/12 |         No |        jdk8u342-b07_adopt|
 
 On-Time 0(0%)  Late: 1(100%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u342-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u342-ga| Fri Jul 15 16:21:53 UTC 2022 | Sat Jul 23 14:58:57 UTC 2022 |                -7 |
-|        jdk8u342-b07_adopt| Wed Jul 20 16:14:13 UTC 2022 | Wed Jul 20 16:14:14 UTC 2022 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-25-2022 |               2/4 |         No |        jdk8u342-b07_adopt|
-|        x64|      windows |  07-26-2022 |               2/5 |         No |        jdk8u342-b07_adopt|
-|    ppc64le|        linux |  07-26-2022 |               7/6 |        Yes |        jdk8u342-b07_adopt|
-|        x64| alpine-linux |  07-26-2022 |               7/5 |        Yes |        jdk8u342-b07_adopt|
-|    aarch64|        linux |  07-27-2022 |               2/6 |         No |        jdk8u342-b07_adopt|
-|        x32|      windows |  07-28-2022 |               7/7 |        Yes |        jdk8u342-b07_adopt|
-|      ppc64|          aix |  08-01-2022 |              7/11 |         No |        jdk8u342-b07_adopt|
-|        arm|        linux |  08-01-2022 |              7/11 |         No | jdk8u342-b07-aarch32-20220721_adopt|
-
-On-Time 3(37%)  Late: 5(62%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u342-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u342-ga| Fri Jul 15 16:21:53 UTC 2022 | Sat Jul 23 14:58:57 UTC 2022 |                -7 |
-|        jdk8u342-b07_adopt| Wed Jul 20 16:14:13 UTC 2022 | Wed Jul 20 16:14:14 UTC 2022 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  08-02-2022 |              2/12 |         No |        jdk8u342-b07_adopt|
-
-On-Time 0(0%)  Late: 1(100%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u342-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u342-ga| Fri Jul 15 16:21:53 UTC 2022 | Sat Jul 23 14:58:57 UTC 2022 |                -7 |
-|        jdk8u342-b07_adopt| Wed Jul 20 16:14:13 UTC 2022 | Wed Jul 20 16:14:14 UTC 2022 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-25-2022 |               2/4 |         No |        jdk8u342-b07_adopt|
-|        x64|      windows |  07-26-2022 |               2/5 |         No |        jdk8u342-b07_adopt|
-|    ppc64le|        linux |  07-26-2022 |               7/6 |        Yes |        jdk8u342-b07_adopt|
-|        x64| alpine-linux |  07-26-2022 |               7/5 |        Yes |        jdk8u342-b07_adopt|
-|    aarch64|        linux |  07-27-2022 |               2/6 |         No |        jdk8u342-b07_adopt|
-|        x32|      windows |  07-28-2022 |               7/7 |        Yes |        jdk8u342-b07_adopt|
-|      ppc64|          aix |  08-01-2022 |              7/11 |         No |        jdk8u342-b07_adopt|
-|        arm|        linux |  08-01-2022 |              7/11 |         No | jdk8u342-b07-aarch32-20220721_adopt|
-
-On-Time 3(37%)  Late: 5(62%)
 
 
 </details>
@@ -1256,7 +1204,7 @@ On-Time 8(88%)  Late: 1(11%)
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|           jdk-22.0.1.1-ga| Thu Jul 18 00:00:00 UTC 2024 | Thu Jul 18 00:00:00 UTC 2024 |                 0 |
+|           jdk-22.0.1.1-ga| Fri Jul 19 00:00:00 UTC 2024 | Fri Jul 19 00:00:00 UTC 2024 |                 0 |
 |      jdk-22.0.1.1+1_adopt| Fri Apr 19 08:46:01 UTC 2024 | Fri Apr 19 08:47:43 UTC 2024 |                 0 |
 
 
@@ -1276,20 +1224,20 @@ On-Time 1(100%)  Late: 0(0%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-22-ga| Thu Feb 15 22:10:56 UTC 2024 | Tue Mar 19 19:58:28 UTC 2024 |               -32 |
-|           jdk-22+36_adopt| Thu Jul 18 00:00:00 UTC 2024 | Thu Jul 18 00:00:00 UTC 2024 |                 0 |
+|           jdk-22+36_adopt| Fri Jul 19 00:00:00 UTC 2024 | Fri Jul 19 00:00:00 UTC 2024 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  03-20-2024 |            2/-119 |        Yes |           jdk-22+36_adopt|
-|    aarch64|        linux |  03-20-2024 |            2/-119 |        Yes |           jdk-22+36_adopt|
-|        x64| alpine-linux |  03-20-2024 |            7/-119 |        Yes |           jdk-22+36_adopt|
-|    aarch64| alpine-linux |  03-20-2024 |            7/-119 |        Yes |           jdk-22+36_adopt|
-|        x64|      windows |  03-20-2024 |            2/-119 |        Yes |           jdk-22+36_adopt|
-|        x64|          mac |  03-20-2024 |            2/-119 |        Yes |           jdk-22+36_adopt|
-|    aarch64|          mac |  03-20-2024 |            2/-119 |        Yes |           jdk-22+36_adopt|
-|    ppc64le|        linux |  03-21-2024 |            7/-118 |        Yes |           jdk-22+36_adopt|
-|    riscv64|        linux |  03-28-2024 |            7/-111 |        Yes |           jdk-22+36_adopt|
+|        x64|        linux |  03-20-2024 |            2/-120 |        Yes |           jdk-22+36_adopt|
+|    aarch64|        linux |  03-20-2024 |            2/-120 |        Yes |           jdk-22+36_adopt|
+|        x64| alpine-linux |  03-20-2024 |            7/-120 |        Yes |           jdk-22+36_adopt|
+|    aarch64| alpine-linux |  03-20-2024 |            7/-120 |        Yes |           jdk-22+36_adopt|
+|        x64|      windows |  03-20-2024 |            2/-120 |        Yes |           jdk-22+36_adopt|
+|        x64|          mac |  03-20-2024 |            2/-120 |        Yes |           jdk-22+36_adopt|
+|    aarch64|          mac |  03-20-2024 |            2/-120 |        Yes |           jdk-22+36_adopt|
+|    ppc64le|        linux |  03-21-2024 |            7/-119 |        Yes |           jdk-22+36_adopt|
+|    riscv64|        linux |  03-28-2024 |            7/-112 |        Yes |           jdk-22+36_adopt|
 
 On-Time 9(100%)  Late: 0(0%)
 
