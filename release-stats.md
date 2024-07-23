@@ -318,8 +318,9 @@ tag data is in tag11.txt
 |      s390x|        linux |  07-23-2024 |               7/6 |        Yes |       jdk-11.0.24+8_adopt|
 |        x32|      windows |  07-23-2024 |               7/6 |        Yes |       jdk-11.0.24+8_adopt|
 |        arm|        linux |  07-23-2024 |               7/6 |        Yes |       jdk-11.0.24+8_adopt|
+|      ppc64|          aix |  07-23-2024 |               7/6 |        Yes |       jdk-11.0.24+8_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
@@ -1194,8 +1195,9 @@ tag data is in tag22.txt
 |        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
 |    riscv64|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-22.0.2+9_adopt|
 |      s390x|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-22.0.2+9_adopt|
+|    ppc64le|        linux |  07-23-2024 |               7/6 |        Yes |        jdk-22.0.2+9_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
