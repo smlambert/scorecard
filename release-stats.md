@@ -1214,116 +1214,40 @@ On-Time 0(0%)  Late: 7(100%)
 
 </details>
 
-Processing: 22 
+Processing: 23 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk22
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk22/.git/
-Getting Tags for jdk22
-Repo is  https://github.com/adoptium/jdk22u
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk22u/.git/
-Getting Tags for jdk22u
+Repo is  https://github.com/adoptium/jdk23u
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk23u/.git/
+Getting Tags for jdk23u
 
-Release data is in data/releases22.json
-tag data is in tag22.txt
+Release data is in data/releases23.json
+tag data is in tag23.txt
 
 
-<details><summary>Release tag: jdk-22.0.2-ga</summary>
+<details><summary>Release tag: jdk-23-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|             jdk-22.0.2-ga| Tue Jun  4 16:47:50 UTC 2024 | Tue Jul 16 19:50:37 UTC 2024 |               -42 |
-|        jdk-22.0.2+9_adopt| Tue Jul 16 21:58:15 UTC 2024 | Tue Jul 16 21:58:15 UTC 2024 |                 0 |
+|                 jdk-23-ga| Tue Aug 20 15:57:04 UTC 2024 | Tue Sep 17 13:35:03 UTC 2024 |               -27 |
+|           jdk-23+37_adopt| Wed Oct  2 00:00:00 UTC 2024 | Wed Oct  2 00:00:00 UTC 2024 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-17-2024 |               2/0 |        Yes |        jdk-22.0.2+9_adopt|
-|    aarch64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-22.0.2+9_adopt|
-|        x64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-22.0.2+9_adopt|
-|    aarch64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk-22.0.2+9_adopt|
-|    aarch64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
-|      ppc64|          aix |  07-19-2024 |               7/2 |        Yes |        jdk-22.0.2+9_adopt|
-|        x64|      windows |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
-|        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-22.0.2+9_adopt|
-|    riscv64|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-22.0.2+9_adopt|
-|      s390x|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-22.0.2+9_adopt|
-|    ppc64le|        linux |  07-23-2024 |               7/6 |        Yes |        jdk-22.0.2+9_adopt|
+|        x64|        linux |  09-18-2024 |             2/-13 |        Yes |           jdk-23+37_adopt|
+|        x64|      windows |  09-18-2024 |             2/-13 |        Yes |           jdk-23+37_adopt|
+|        x64|          mac |  09-18-2024 |             2/-13 |        Yes |           jdk-23+37_adopt|
+|    aarch64|        linux |  09-18-2024 |             2/-13 |        Yes |           jdk-23+37_adopt|
+|    aarch64|          mac |  09-18-2024 |             2/-13 |        Yes |           jdk-23+37_adopt|
+|    ppc64le|        linux |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
+|    aarch64| alpine-linux |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
+|        x64| alpine-linux |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
+|      ppc64|          aix |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
+|      s390x|        linux |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
+|    riscv64|        linux |  09-18-2024 |             7/-13 |        Yes |           jdk-23+37_adopt|
 
 On-Time 11(100%)  Late: 0(0%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-22.0.1-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|             jdk-22.0.1-ga| Tue Mar 12 10:30:23 UTC 2024 | Wed Apr 17 16:47:21 UTC 2024 |               -36 |
-|        jdk-22.0.1+8_adopt| Wed Apr 17 17:58:20 UTC 2024 | Wed Apr 17 17:58:21 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
-|        x64|        linux |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
-|    aarch64|          mac |  04-19-2024 |               2/1 |        Yes |        jdk-22.0.1+8_adopt|
-|        x64|      windows |  04-20-2024 |               2/2 |        Yes |        jdk-22.0.1+8_adopt|
-|    aarch64| alpine-linux |  04-20-2024 |               7/3 |        Yes |        jdk-22.0.1+8_adopt|
-|        x64| alpine-linux |  04-20-2024 |               7/3 |        Yes |        jdk-22.0.1+8_adopt|
-|        x64|          mac |  04-22-2024 |               2/4 |         No |        jdk-22.0.1+8_adopt|
-|    riscv64|        linux |  04-22-2024 |               7/5 |        Yes |        jdk-22.0.1+8_adopt|
-|    ppc64le|        linux |  04-23-2024 |               7/5 |        Yes |        jdk-22.0.1+8_adopt|
-
-On-Time 8(88%)  Late: 1(11%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-22.0.1.1-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|           jdk-22.0.1.1-ga| Fri Jul 26 00:00:00 UTC 2024 | Fri Jul 26 00:00:00 UTC 2024 |                 0 |
-|      jdk-22.0.1.1+1_adopt| Fri Apr 19 08:46:01 UTC 2024 | Fri Apr 19 08:47:43 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|      s390x|        linux |  04-23-2024 |               7/4 |        Yes |      jdk-22.0.1.1+1_adopt|
-
-On-Time 1(100%)  Late: 0(0%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-22-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|                 jdk-22-ga| Thu Feb 15 22:10:56 UTC 2024 | Tue Mar 19 19:58:28 UTC 2024 |               -32 |
-|           jdk-22+36_adopt| Fri Jul 26 00:00:00 UTC 2024 | Fri Jul 26 00:00:00 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  03-20-2024 |            2/-127 |        Yes |           jdk-22+36_adopt|
-|    aarch64|        linux |  03-20-2024 |            2/-127 |        Yes |           jdk-22+36_adopt|
-|        x64| alpine-linux |  03-20-2024 |            7/-127 |        Yes |           jdk-22+36_adopt|
-|    aarch64| alpine-linux |  03-20-2024 |            7/-127 |        Yes |           jdk-22+36_adopt|
-|        x64|      windows |  03-20-2024 |            2/-127 |        Yes |           jdk-22+36_adopt|
-|        x64|          mac |  03-20-2024 |            2/-127 |        Yes |           jdk-22+36_adopt|
-|    aarch64|          mac |  03-20-2024 |            2/-127 |        Yes |           jdk-22+36_adopt|
-|    ppc64le|        linux |  03-21-2024 |            7/-126 |        Yes |           jdk-22+36_adopt|
-|    riscv64|        linux |  03-28-2024 |            7/-119 |        Yes |           jdk-22+36_adopt|
-
-On-Time 9(100%)  Late: 0(0%)
 
 
 </details>
