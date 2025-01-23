@@ -13,6 +13,26 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u442-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u442-ga| Sat Jan 11 20:43:15 UTC 2025 | Wed Jan 22 01:12:22 UTC 2025 |               -10 |
+|        jdk8u442-b06_adopt| Wed Jan 22 01:16:36 UTC 2025 | Wed Jan 22 01:16:36 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|        linux |  01-23-2025 |               2/1 |        Yes |        jdk8u442-b06_adopt|
+|        x64|      windows |  01-23-2025 |               2/1 |        Yes |        jdk8u442-b06_adopt|
+
+On-Time 2(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u432-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -309,35 +329,6 @@ On-Time 6(54%)  Late: 5(45%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u352-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u352-ga| Tue Oct 11 00:13:13 UTC 2022 | Thu Oct 20 00:51:55 UTC 2022 |                -9 |
-|        jdk8u352-b08_adopt| Thu Oct 20 08:39:59 UTC 2022 | Thu Oct 20 08:39:59 UTC 2022 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  10-25-2022 |               2/5 |         No |        jdk8u352-b08_adopt|
-|    ppc64le|        linux |  10-27-2022 |               7/7 |        Yes |        jdk8u352-b08_adopt|
-|    aarch64|        linux |  10-28-2022 |               2/8 |         No |        jdk8u352-b08_adopt|
-|        x64| alpine-linux |  11-02-2022 |              7/13 |         No |        jdk8u352-b08_adopt|
-|        x64|          mac |  11-03-2022 |              2/14 |         No |        jdk8u352-b08_adopt|
-|        arm|        linux |  11-03-2022 |              7/14 |         No | jdk8u352-b08-aarch32-20221020_adopt|
-|        x64|      solaris |  11-04-2022 |              7/15 |         No |        jdk8u352-b08_adopt|
-|        x64|      windows |  11-04-2022 |              2/15 |         No |        jdk8u352-b08_adopt|
-|        x32|      windows |  11-04-2022 |              7/15 |         No |        jdk8u352-b08_adopt|
-|      ppc64|          aix |  11-10-2022 |              7/21 |         No |        jdk8u352-b08_adopt|
-|    sparcv9|      solaris |  11-15-2022 |              7/26 |         No |        jdk8u352-b08_adopt|
-
-On-Time 1(9%)  Late: 10(90%)
-
-
-</details>
-
 Processing: 11 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -359,10 +350,13 @@ tag data is in tag11.txt
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|          mac |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 |    ppc64le|        linux |  01-23-2025 |               7/1 |        Yes |       jdk-11.0.26+4_adopt|
+|        x64|          mac |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
+|    aarch64|          mac |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
+|    aarch64|        linux |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
+|        x64|      windows |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 </details>
