@@ -29,8 +29,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|          mac |  01-23-2025 |               2/1 |        Yes |        jdk8u442-b06_adopt|
 |    ppc64le|        linux |  01-24-2025 |               7/2 |        Yes |        jdk8u442-b06_adopt|
 |        x64| alpine-linux |  01-27-2025 |               7/5 |        Yes |        jdk8u442-b06_adopt|
+|    sparcv9|      solaris |  01-28-2025 |               7/6 |        Yes |        jdk8u442-b06_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -361,8 +362,9 @@ tag data is in tag11.txt
 |        x64|      windows |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 |        x64|        linux |  01-24-2025 |               2/2 |        Yes |       jdk-11.0.26+4_adopt|
 |        arm|        linux |  01-24-2025 |               7/2 |        Yes |       jdk-11.0.26+4_adopt|
+|        x64| alpine-linux |  01-28-2025 |               7/6 |        Yes |       jdk-11.0.26+4_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
@@ -1029,8 +1031,9 @@ tag data is in tag21.txt
 |        x64| alpine-linux |  01-27-2025 |               7/5 |        Yes |        jdk-21.0.6+7_adopt|
 |    aarch64| alpine-linux |  01-27-2025 |               7/5 |        Yes |        jdk-21.0.6+7_adopt|
 |    riscv64|        linux |  01-27-2025 |               7/5 |        Yes |        jdk-21.0.6+7_adopt|
+|    aarch64|      windows |  01-28-2025 |               7/6 |        Yes |        jdk-21.0.6+7_adopt|
 
-On-Time 11(100%)  Late: 0(0%)
+On-Time 12(100%)  Late: 0(0%)
 
 
 </details>
@@ -1292,8 +1295,9 @@ tag data is in tag23.txt
 |    aarch64|          mac |  01-24-2025 |               2/2 |        Yes |        jdk-23.0.2+7_adopt|
 |        x64|          mac |  01-24-2025 |               2/2 |        Yes |        jdk-23.0.2+7_adopt|
 |    ppc64le|        linux |  01-27-2025 |               7/4 |        Yes |        jdk-23.0.2+7_adopt|
+|    riscv64|        linux |  01-28-2025 |               7/6 |        Yes |        jdk-23.0.2+7_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
