@@ -365,8 +365,9 @@ tag data is in tag11.txt
 |        x64|        linux |  01-24-2025 |               2/2 |        Yes |       jdk-11.0.26+4_adopt|
 |        arm|        linux |  01-24-2025 |               7/2 |        Yes |       jdk-11.0.26+4_adopt|
 |        x64| alpine-linux |  01-28-2025 |               7/6 |        Yes |       jdk-11.0.26+4_adopt|
+|      s390x|        linux |  01-29-2025 |               7/7 |        Yes |       jdk-11.0.26+4_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 9(100%)  Late: 0(0%)
 
 
 </details>
