@@ -34,8 +34,9 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64|      solaris |  01-29-2025 |               7/7 |        Yes |        jdk8u442-b06_adopt|
 |        x32|      windows |  01-30-2025 |               7/8 |         No |        jdk8u442-b06_adopt|
 |        arm|        linux |  01-30-2025 |               7/8 |         No | jdk8u442-b06-aarch32-20250125_adopt|
+|      ppc64|          aix |  01-30-2025 |               7/8 |         No |        jdk8u442-b06_adopt|
 
-On-Time 9(81%)  Late: 2(18%)
+On-Time 9(75%)  Late: 3(25%)
 
 
 </details>
@@ -361,7 +362,6 @@ tag data is in tag11.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    ppc64le|        linux |  01-23-2025 |               7/1 |        Yes |       jdk-11.0.26+4_adopt|
 |        x64|          mac |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
-|    aarch64|          mac |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 |    aarch64|        linux |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 |        x64|      windows |  01-23-2025 |               2/1 |        Yes |       jdk-11.0.26+4_adopt|
 |        x64|        linux |  01-24-2025 |               2/2 |        Yes |       jdk-11.0.26+4_adopt|
@@ -369,8 +369,9 @@ tag data is in tag11.txt
 |        x64| alpine-linux |  01-28-2025 |               7/6 |        Yes |       jdk-11.0.26+4_adopt|
 |      s390x|        linux |  01-29-2025 |               7/7 |        Yes |       jdk-11.0.26+4_adopt|
 |      ppc64|          aix |  01-30-2025 |               7/8 |         No |       jdk-11.0.26+4_adopt|
+|        x32|      windows |  01-30-2025 |               7/8 |         No |       jdk-11.0.26+4_adopt|
 
-On-Time 9(90%)  Late: 1(10%)
+On-Time 8(80%)  Late: 2(20%)
 
 
 </details>
