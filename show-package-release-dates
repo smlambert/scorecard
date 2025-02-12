@@ -1,0 +1,40 @@
+
+PKG="https://packages.adoptium.net/artifactory/api/storage/"
+PKG_APK="$PKG/apk"
+
+function showReleaseTimes () { 
+    local ARTIFACTORY_URL=$1  
+    local DATA=$(mktemp)
+    curl -s -X GET $ARTIFACTORY_URL > $DATA
+    local CHILDREN=$(yq .children $DATA)  
+    local LEN=$(echo "$CHILDREN" | yq length) 
+    local INDEX=0 
+    while [ "$LEN" != "$INDEX" ] 
+    do  
+        local ELEMENT=$(echo "$CHILDREN" | jq ".[$INDEX]")
+        local ISFOLDER=$(echo "$ELEMENT" | jq ".folder") 
+        if [ "$ISFOLDER" == "true" ]; then
+            local URI=$(echo "$ELEMENT" | jq -r ".uri")
+            showReleaseTimes "$ARTIFACTORY_URL/$URI"
+        else  
+            local URI=$(echo "$ELEMENT" | jq -r ".uri") 
+            local CREATED=$(curl -s -X GET $ARTIFACTORY_URL/$URI | jq '.created') 
+            printf "Pkg %s released on %s\n" "$URI" "$CREATED"
+        fi   
+        let INDEX++
+    done 
+        
+
+}
+
+echo 
+echo "Debian"
+showReleaseTimes "$PKG/deb/pool/main/t"
+
+echo 
+echo "Fedora"
+showReleaseTimes "$PKG/rpm/fedora/rawhide/"
+
+echo 
+echo "APK"
+showReleaseTimes "$PKG/apk/alpine"
