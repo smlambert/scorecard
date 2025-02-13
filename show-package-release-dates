@@ -18,7 +18,19 @@ function showReleaseTimes () {
             showReleaseTimes "$ARTIFACTORY_URL/$URI"
         else  
             local URI=$(echo "$ELEMENT" | jq -r ".uri") 
-            local CREATED=$(curl -s -X GET $ARTIFACTORY_URL/$URI | jq '.created') 
+            local CREATED=$(curl -s -X GET $ARTIFACTORY_URL/$URI | jq '.created')
+            case "$URI" in
+            *temurin-8*)
+                echo "$URI on $CREATED" >> linux-installer-releases/jdk8 ;; 
+            *temurin-11*)
+                echo "$URI on $CREATED" >> linux-installer-releases/jdk11 ;;
+            *temurin-17*)
+                echo "$URI on $CREATED" >> linux-installer-releases/jdk17 ;;
+            *temurin-21*)
+                echo "$URI on $CREATED" >> linux-installer-releases/jdk21 ;;
+            *temurin-23*)
+                echo "$URI on $CREATED" >> linux-installer-releases/jdk23 ;;
+            esac
             printf "Pkg %s released on %s\n" "$URI" "$CREATED"
         fi   
         let INDEX++
