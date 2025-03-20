@@ -4,3 +4,4 @@
 ./get-data.sh  17
 ./get-data.sh  21
 ./get-data.sh  23
+./get-data.sh  24
