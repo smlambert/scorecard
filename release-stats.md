@@ -1374,3 +1374,40 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
+Processing: 24 
+In JDK, caching tags and release information
+Fetching / Updating Git Repos
+Repo is  https://github.com/adoptium/jdk
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk/.git/
+Getting Tags for jdk
+Repo is  https://github.com/adoptium/jdk24u
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk24u/.git/
+Getting Tags for jdk24u
+
+Release data is in data/releases24.json
+tag data is in tag24.txt
+
+
+<details><summary>Release tag: jdk-24-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|                 jdk-24-ga| Thu Mar 20 00:00:00 UTC 2025 | Thu Mar 20 00:00:00 UTC 2025 |                 0 |
+|           jdk-24+36_adopt| Thu Mar 20 00:00:00 UTC 2025 | Thu Mar 20 00:00:00 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|        linux |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+|    aarch64| alpine-linux |  03-20-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
+|    ppc64le|        linux |  03-20-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
+|    aarch64|          mac |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+|        x64| alpine-linux |  03-20-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
+|        x64|        linux |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+|        x64|          mac |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+
+On-Time 7(100%)  Late: 0(0%)
+
+
+</details>
+
