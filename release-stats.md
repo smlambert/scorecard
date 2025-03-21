@@ -1352,22 +1352,22 @@ On-Time 11(91%)  Late: 1(8%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-23-ga| Tue Aug 20 15:57:04 UTC 2024 | Tue Sep 17 13:35:03 UTC 2024 |               -27 |
-|           jdk-23+37_adopt| Thu Mar 20 00:00:00 UTC 2025 | Thu Mar 20 00:00:00 UTC 2025 |                 0 |
+|           jdk-23+37_adopt| Fri Mar 21 00:00:00 UTC 2025 | Fri Mar 21 00:00:00 UTC 2025 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  09-18-2024 |            2/-182 |        Yes |           jdk-23+37_adopt|
-|        x64|      windows |  09-18-2024 |            2/-182 |        Yes |           jdk-23+37_adopt|
-|        x64|          mac |  09-18-2024 |            2/-182 |        Yes |           jdk-23+37_adopt|
-|    aarch64|        linux |  09-18-2024 |            2/-182 |        Yes |           jdk-23+37_adopt|
-|    aarch64|          mac |  09-18-2024 |            2/-182 |        Yes |           jdk-23+37_adopt|
-|    ppc64le|        linux |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
-|    aarch64| alpine-linux |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
-|        x64| alpine-linux |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
-|      ppc64|          aix |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
-|      s390x|        linux |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
-|    riscv64|        linux |  09-18-2024 |            7/-182 |        Yes |           jdk-23+37_adopt|
+|        x64|        linux |  09-18-2024 |            2/-183 |        Yes |           jdk-23+37_adopt|
+|        x64|      windows |  09-18-2024 |            2/-183 |        Yes |           jdk-23+37_adopt|
+|        x64|          mac |  09-18-2024 |            2/-183 |        Yes |           jdk-23+37_adopt|
+|    aarch64|        linux |  09-18-2024 |            2/-183 |        Yes |           jdk-23+37_adopt|
+|    aarch64|          mac |  09-18-2024 |            2/-183 |        Yes |           jdk-23+37_adopt|
+|    ppc64le|        linux |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
+|    aarch64| alpine-linux |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
+|        x64| alpine-linux |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
+|      ppc64|          aix |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
+|      s390x|        linux |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
+|    riscv64|        linux |  09-18-2024 |            7/-183 |        Yes |           jdk-23+37_adopt|
 
 On-Time 11(100%)  Late: 0(0%)
 
@@ -1392,8 +1392,8 @@ tag data is in tag24.txt
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|                 jdk-24-ga| Thu Mar 20 00:00:00 UTC 2025 | Thu Mar 20 00:00:00 UTC 2025 |                 0 |
-|           jdk-24+36_adopt| Thu Mar 20 00:00:00 UTC 2025 | Thu Mar 20 00:00:00 UTC 2025 |                 0 |
+|                 jdk-24-ga| Fri Mar 21 00:00:00 UTC 2025 | Fri Mar 21 00:00:00 UTC 2025 |                 0 |
+|           jdk-24+36_adopt| Fri Mar 21 00:00:00 UTC 2025 | Fri Mar 21 00:00:00 UTC 2025 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
@@ -1405,8 +1405,10 @@ tag data is in tag24.txt
 |        x64| alpine-linux |  03-20-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
 |        x64|        linux |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
 |        x64|          mac |  03-20-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+|    riscv64|        linux |  03-21-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
+|      s390x|        linux |  03-21-2025 |               7/0 |        Yes |           jdk-24+36_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 9(100%)  Late: 0(0%)
 
 
 </details>
