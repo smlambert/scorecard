@@ -13,6 +13,27 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u452-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u452-ga| Fri Apr 11 16:25:36 UTC 2025 | Tue Apr 15 23:29:54 UTC 2025 |                -4 |
+|        jdk8u452-b09_adopt| Wed Apr 16 00:14:32 UTC 2025 | Wed Apr 16 00:14:33 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|        linux |  04-17-2025 |               2/1 |        Yes |        jdk8u452-b09_adopt|
+|        x64|          mac |  04-17-2025 |               2/1 |        Yes |        jdk8u452-b09_adopt|
+|        x64|        linux |  04-17-2025 |               2/1 |        Yes |        jdk8u452-b09_adopt|
+
+On-Time 3(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u442-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -309,35 +330,6 @@ On-Time 8(72%)  Late: 3(27%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u362-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u362-ga| Mon Jan 16 19:43:43 UTC 2023 | Wed Jan 18 15:48:10 UTC 2023 |                -1 |
-|        jdk8u362-b09_adopt| Tue Jan 17 23:14:13 UTC 2023 | Tue Jan 17 23:14:13 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  01-20-2023 |               2/2 |        Yes |        jdk8u362-b09_adopt|
-|        x64|          mac |  01-20-2023 |               2/2 |        Yes |        jdk8u362-b09_adopt|
-|        x64|      windows |  01-23-2023 |               2/5 |         No |        jdk8u362-b09_adopt|
-|        x32|      windows |  01-23-2023 |               7/5 |        Yes |        jdk8u362-b09_adopt|
-|    aarch64|        linux |  01-24-2023 |               2/6 |         No |        jdk8u362-b09_adopt|
-|    ppc64le|        linux |  01-24-2023 |               7/6 |        Yes |        jdk8u362-b09_adopt|
-|        x64| alpine-linux |  01-25-2023 |               7/7 |        Yes |        jdk8u362-b09_adopt|
-|        arm|        linux |  01-25-2023 |               7/7 |        Yes | jdk8u362-b09-aarch32-20230119_adopt|
-|        x64|      solaris |  01-26-2023 |               7/8 |         No |        jdk8u362-b09_adopt|
-|      ppc64|          aix |  01-27-2023 |               7/9 |         No |        jdk8u362-b09_adopt|
-|    sparcv9|      solaris |  02-01-2023 |              7/14 |         No |        jdk8u362-b09_adopt|
-
-On-Time 6(54%)  Late: 5(45%)
-
-
-</details>
-
 Processing: 11 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -347,6 +339,27 @@ Getting Tags for jdk11u
 
 Release data is in data/releases11.json
 tag data is in tag11.txt
+
+
+<details><summary>Release tag: jdk-11.0.27-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|            jdk-11.0.27-ga| Wed Apr  9 00:46:46 UTC 2025 | Wed Apr 16 00:20:15 UTC 2025 |                -6 |
+|       jdk-11.0.27+6_adopt| Wed Apr 16 01:07:33 UTC 2025 | Wed Apr 16 01:07:33 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  04-17-2025 |               2/1 |        Yes |       jdk-11.0.27+6_adopt|
+|    aarch64|        linux |  04-17-2025 |               2/1 |        Yes |       jdk-11.0.27+6_adopt|
+|        x64|      windows |  04-17-2025 |               2/1 |        Yes |       jdk-11.0.27+6_adopt|
+
+On-Time 3(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-11.0.26-ga</summary>
@@ -641,35 +654,6 @@ On-Time 10(100%)  Late: 0(0%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk-11.0.19-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|            jdk-11.0.19-ga| Wed Apr 12 20:16:12 UTC 2023 | Wed Apr 12 20:20:19 UTC 2023 |                 0 |
-|       jdk-11.0.19+7_adopt| Tue Apr 18 22:07:10 UTC 2023 | Tue Apr 18 22:07:11 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  04-19-2023 |               2/0 |        Yes |       jdk-11.0.19+7_adopt|
-|    aarch64|        linux |  04-19-2023 |               2/0 |        Yes |       jdk-11.0.19+7_adopt|
-|        x64|      windows |  04-20-2023 |               2/1 |        Yes |       jdk-11.0.19+7_adopt|
-|    aarch64|          mac |  04-20-2023 |               2/1 |        Yes |       jdk-11.0.19+7_adopt|
-|        x64|          mac |  04-20-2023 |               2/1 |        Yes |       jdk-11.0.19+7_adopt|
-|        arm|        linux |  04-21-2023 |               7/2 |        Yes |       jdk-11.0.19+7_adopt|
-|    ppc64le|        linux |  04-21-2023 |               7/2 |        Yes |       jdk-11.0.19+7_adopt|
-|        x64| alpine-linux |  04-25-2023 |               7/6 |        Yes |       jdk-11.0.19+7_adopt|
-|      ppc64|          aix |  04-25-2023 |               7/6 |        Yes |       jdk-11.0.19+7_adopt|
-|      s390x|        linux |  04-25-2023 |               7/6 |        Yes |       jdk-11.0.19+7_adopt|
-|        x32|      windows |  04-25-2023 |               7/6 |        Yes |       jdk-11.0.19+7_adopt|
-
-On-Time 11(100%)  Late: 0(0%)
-
-
-</details>
-
 Processing: 17 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -679,6 +663,30 @@ Getting Tags for jdk17u
 
 Release data is in data/releases17.json
 tag data is in tag17.txt
+
+
+<details><summary>Release tag: jdk-17.0.15-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|            jdk-17.0.15-ga| Wed Apr  9 19:45:33 UTC 2025 | Wed Apr  9 20:38:23 UTC 2025 |                 0 |
+|       jdk-17.0.15+6_adopt| Tue Apr 15 20:42:32 UTC 2025 | Tue Apr 15 20:42:32 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|          mac |  04-16-2025 |               2/0 |        Yes |       jdk-17.0.15+6_adopt|
+|    aarch64|        linux |  04-16-2025 |               2/0 |        Yes |       jdk-17.0.15+6_adopt|
+|        x64|        linux |  04-16-2025 |               2/0 |        Yes |       jdk-17.0.15+6_adopt|
+|        x64|      windows |  04-16-2025 |               2/0 |        Yes |       jdk-17.0.15+6_adopt|
+|        arm|        linux |  04-16-2025 |               7/0 |        Yes |       jdk-17.0.15+6_adopt|
+|        x64|          mac |  04-17-2025 |               2/1 |        Yes |       jdk-17.0.15+6_adopt|
+
+On-Time 6(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-17.0.14-ga</summary>
@@ -978,35 +986,6 @@ On-Time 10(100%)  Late: 0(0%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk-17.0.7-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|             jdk-17.0.7-ga| Wed Apr 12 20:11:58 UTC 2023 | Wed Apr 12 20:21:26 UTC 2023 |                 0 |
-|        jdk-17.0.7+7_adopt| Tue Apr 18 21:42:14 UTC 2023 | Tue Apr 18 21:42:15 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  04-19-2023 |               2/0 |        Yes |        jdk-17.0.7+7_adopt|
-|    aarch64|          mac |  04-19-2023 |               2/0 |        Yes |        jdk-17.0.7+7_adopt|
-|    aarch64|        linux |  04-19-2023 |               2/0 |        Yes |        jdk-17.0.7+7_adopt|
-|        x64|      windows |  04-20-2023 |               2/1 |        Yes |        jdk-17.0.7+7_adopt|
-|        x64|          mac |  04-20-2023 |               2/1 |        Yes |        jdk-17.0.7+7_adopt|
-|    ppc64le|        linux |  04-22-2023 |               7/3 |        Yes |        jdk-17.0.7+7_adopt|
-|        arm|        linux |  04-24-2023 |               7/5 |        Yes |        jdk-17.0.7+7_adopt|
-|      ppc64|          aix |  04-24-2023 |               7/5 |        Yes |        jdk-17.0.7+7_adopt|
-|        x64| alpine-linux |  04-25-2023 |               7/6 |        Yes |        jdk-17.0.7+7_adopt|
-|      s390x|        linux |  04-25-2023 |               7/6 |        Yes |        jdk-17.0.7+7_adopt|
-|        x32|      windows |  04-26-2023 |               7/7 |        Yes |        jdk-17.0.7+7_adopt|
-
-On-Time 11(100%)  Late: 0(0%)
-
-
-</details>
-
 Processing: 21 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -1016,6 +995,30 @@ Getting Tags for jdk21u
 
 Release data is in data/releases21.json
 tag data is in tag21.txt
+
+
+<details><summary>Release tag: jdk-21.0.7-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|             jdk-21.0.7-ga| Wed Apr  9 19:45:47 UTC 2025 | Wed Apr  9 20:05:30 UTC 2025 |                 0 |
+|        jdk-21.0.7+6_adopt| Tue Apr 15 21:10:05 UTC 2025 | Tue Apr 15 21:10:06 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|          mac |  04-16-2025 |               2/0 |        Yes |        jdk-21.0.7+6_adopt|
+|        x64|          mac |  04-16-2025 |               2/0 |        Yes |        jdk-21.0.7+6_adopt|
+|        x64|        linux |  04-16-2025 |               2/0 |        Yes |        jdk-21.0.7+6_adopt|
+|    aarch64|        linux |  04-17-2025 |               2/1 |        Yes |        jdk-21.0.7+6_adopt|
+|      s390x|        linux |  04-18-2025 |               7/2 |        Yes |        jdk-21.0.7+6_adopt|
+|        x64| alpine-linux |  04-18-2025 |               7/2 |        Yes |        jdk-21.0.7+6_adopt|
+
+On-Time 6(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-21.0.6-ga</summary>
@@ -1276,110 +1279,9 @@ On-Time 0(0%)  Late: 7(100%)
 
 </details>
 
-Processing: 23 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk23u
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk23u/.git/
-Getting Tags for jdk23u
-
-Release data is in data/releases23.json
-tag data is in tag23.txt
-
-
-<details><summary>Release tag: jdk-23.0.2-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|             jdk-23.0.2-ga| Fri Nov 29 08:15:42 UTC 2024 | Tue Jan 21 19:01:26 UTC 2025 |               -53 |
-|        jdk-23.0.2+7_adopt| Wed Jan 22 11:42:02 UTC 2025 | Wed Jan 22 11:42:03 UTC 2025 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  01-23-2025 |               2/1 |        Yes |        jdk-23.0.2+7_adopt|
-|        x64|      windows |  01-24-2025 |               2/1 |        Yes |        jdk-23.0.2+7_adopt|
-|    aarch64|        linux |  01-24-2025 |               2/1 |        Yes |        jdk-23.0.2+7_adopt|
-|    aarch64|          mac |  01-24-2025 |               2/2 |        Yes |        jdk-23.0.2+7_adopt|
-|        x64|          mac |  01-24-2025 |               2/2 |        Yes |        jdk-23.0.2+7_adopt|
-|    ppc64le|        linux |  01-27-2025 |               7/4 |        Yes |        jdk-23.0.2+7_adopt|
-|    riscv64|        linux |  01-28-2025 |               7/6 |        Yes |        jdk-23.0.2+7_adopt|
-|        x64| alpine-linux |  01-29-2025 |               7/6 |        Yes |        jdk-23.0.2+7_adopt|
-|    aarch64| alpine-linux |  01-29-2025 |               7/6 |        Yes |        jdk-23.0.2+7_adopt|
-|      s390x|        linux |  01-29-2025 |               7/6 |        Yes |        jdk-23.0.2+7_adopt|
-|    aarch64|      windows |  01-30-2025 |               7/8 |         No |        jdk-23.0.2+7_adopt|
-|      ppc64|          aix |  01-30-2025 |               7/8 |         No |        jdk-23.0.2+7_adopt|
-
-On-Time 10(83%)  Late: 2(16%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-23.0.1-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|             jdk-23.0.1-ga| Mon Sep 30 05:51:47 UTC 2024 | Wed Oct 16 00:01:19 UTC 2024 |               -15 |
-|       jdk-23.0.1+11_adopt| Wed Oct 16 13:03:29 UTC 2024 | Wed Oct 16 13:03:30 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  10-17-2024 |               2/1 |        Yes |       jdk-23.0.1+11_adopt|
-|        x64|          mac |  10-18-2024 |               2/2 |        Yes |       jdk-23.0.1+11_adopt|
-|        x64|        linux |  10-18-2024 |               2/2 |        Yes |       jdk-23.0.1+11_adopt|
-|    aarch64|          mac |  10-18-2024 |               2/2 |        Yes |       jdk-23.0.1+11_adopt|
-|        x64| alpine-linux |  10-21-2024 |               7/4 |        Yes |       jdk-23.0.1+11_adopt|
-|    riscv64|        linux |  10-21-2024 |               7/5 |        Yes |       jdk-23.0.1+11_adopt|
-|        x64|      windows |  10-22-2024 |               2/5 |         No |       jdk-23.0.1+11_adopt|
-|    ppc64le|        linux |  10-22-2024 |               7/6 |        Yes |       jdk-23.0.1+11_adopt|
-|      s390x|        linux |  10-23-2024 |               7/7 |        Yes |       jdk-23.0.1+11_adopt|
-|    aarch64| alpine-linux |  10-23-2024 |               7/7 |        Yes |       jdk-23.0.1+11_adopt|
-|      ppc64|          aix |  10-24-2024 |               7/7 |        Yes |       jdk-23.0.1+11_adopt|
-|    aarch64|      windows |  10-24-2024 |               7/7 |        Yes |       jdk-23.0.1+11_adopt|
-
-On-Time 11(91%)  Late: 1(8%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-23-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|                 jdk-23-ga| Tue Aug 20 15:57:04 UTC 2024 | Tue Sep 17 13:35:03 UTC 2024 |               -27 |
-|           jdk-23+37_adopt| Mon Mar 24 00:00:00 UTC 2025 | Mon Mar 24 00:00:00 UTC 2025 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  09-18-2024 |            2/-186 |        Yes |           jdk-23+37_adopt|
-|        x64|      windows |  09-18-2024 |            2/-186 |        Yes |           jdk-23+37_adopt|
-|        x64|          mac |  09-18-2024 |            2/-186 |        Yes |           jdk-23+37_adopt|
-|    aarch64|        linux |  09-18-2024 |            2/-186 |        Yes |           jdk-23+37_adopt|
-|    aarch64|          mac |  09-18-2024 |            2/-186 |        Yes |           jdk-23+37_adopt|
-|    ppc64le|        linux |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-|    aarch64| alpine-linux |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-|        x64| alpine-linux |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-|      ppc64|          aix |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-|      s390x|        linux |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-|    riscv64|        linux |  09-18-2024 |            7/-186 |        Yes |           jdk-23+37_adopt|
-
-On-Time 11(100%)  Late: 0(0%)
-
-
-</details>
-
 Processing: 24 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk/.git/
-Getting Tags for jdk
 Repo is  https://github.com/adoptium/jdk24u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk24u/.git/
 Getting Tags for jdk24u
@@ -1388,26 +1290,48 @@ Release data is in data/releases24.json
 tag data is in tag24.txt
 
 
-<details><summary>Release tag: jdk-24-ga</summary>
+<details><summary>Release tag: jdk-24.0.1-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|                 jdk-24-ga| Mon Mar 24 00:00:00 UTC 2025 | Mon Mar 24 00:00:00 UTC 2025 |                 0 |
-|           jdk-24+36_adopt| Mon Mar 24 00:00:00 UTC 2025 | Mon Mar 24 00:00:00 UTC 2025 |                 0 |
+|             jdk-24.0.1-ga| Wed Mar  5 07:19:53 UTC 2025 | Tue Apr 15 17:26:17 UTC 2025 |               -41 |
+|        jdk-24.0.1+9_adopt| Tue Apr 15 18:26:38 UTC 2025 | Tue Apr 15 18:26:39 UTC 2025 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  03-20-2025 |              2/-3 |        Yes |           jdk-24+36_adopt|
-|    aarch64| alpine-linux |  03-20-2025 |              7/-3 |        Yes |           jdk-24+36_adopt|
-|    ppc64le|        linux |  03-20-2025 |              7/-3 |        Yes |           jdk-24+36_adopt|
-|    aarch64|          mac |  03-20-2025 |              2/-3 |        Yes |           jdk-24+36_adopt|
-|        x64| alpine-linux |  03-20-2025 |              7/-3 |        Yes |           jdk-24+36_adopt|
-|        x64|        linux |  03-20-2025 |              2/-3 |        Yes |           jdk-24+36_adopt|
-|        x64|          mac |  03-20-2025 |              2/-3 |        Yes |           jdk-24+36_adopt|
-|    riscv64|        linux |  03-21-2025 |              7/-2 |        Yes |           jdk-24+36_adopt|
-|      s390x|        linux |  03-21-2025 |              7/-2 |        Yes |           jdk-24+36_adopt|
-|        x64|      windows |  03-24-2025 |               2/0 |        Yes |           jdk-24+36_adopt|
+|        x64|          mac |  04-16-2025 |               2/0 |        Yes |        jdk-24.0.1+9_adopt|
+|        x64|        linux |  04-16-2025 |               2/1 |        Yes |        jdk-24.0.1+9_adopt|
+|    aarch64|        linux |  04-16-2025 |               2/1 |        Yes |        jdk-24.0.1+9_adopt|
+|    aarch64|          mac |  04-17-2025 |               2/2 |        Yes |        jdk-24.0.1+9_adopt|
+
+On-Time 4(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
+<details><summary>Release tag: jdk-24-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|                 jdk-24-ga| Thu Feb  6 00:16:21 UTC 2025 | Wed Mar 19 12:50:39 UTC 2025 |               -41 |
+|           jdk-24+36_adopt| Wed Apr  9 15:28:49 UTC 2025 | Thu Apr 10 19:10:28 UTC 2025 |                -1 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|        linux |  03-20-2025 |             2/-21 |        Yes |           jdk-24+36_adopt|
+|    aarch64| alpine-linux |  03-20-2025 |             7/-21 |        Yes |           jdk-24+36_adopt|
+|    ppc64le|        linux |  03-20-2025 |             7/-21 |        Yes |           jdk-24+36_adopt|
+|    aarch64|          mac |  03-20-2025 |             2/-21 |        Yes |           jdk-24+36_adopt|
+|        x64| alpine-linux |  03-20-2025 |             7/-21 |        Yes |           jdk-24+36_adopt|
+|        x64|        linux |  03-20-2025 |             2/-21 |        Yes |           jdk-24+36_adopt|
+|        x64|          mac |  03-20-2025 |             2/-21 |        Yes |           jdk-24+36_adopt|
+|    riscv64|        linux |  03-21-2025 |             7/-20 |        Yes |           jdk-24+36_adopt|
+|      s390x|        linux |  03-21-2025 |             7/-20 |        Yes |           jdk-24+36_adopt|
+|        x64|      windows |  03-24-2025 |             2/-17 |        Yes |           jdk-24+36_adopt|
 
 On-Time 10(100%)  Late: 0(0%)
 
