@@ -6,7 +6,7 @@ on: [repository_dispatch, workflow_dispatch]
 jobs:
   update-stats:
     name: Update-Release-Stats 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     environment: production 
     steps: 
     - name: Check out repository
