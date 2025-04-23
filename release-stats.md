@@ -364,8 +364,10 @@ tag data is in tag11.txt
 |    aarch64|          mac |  04-22-2025 |               2/6 |         No |       jdk-11.0.27+6_adopt|
 |      ppc64|          aix |  04-23-2025 |               7/7 |        Yes |       jdk-11.0.27+6_adopt|
 |        x64| alpine-linux |  04-23-2025 |               7/7 |        Yes |       jdk-11.0.27+6_adopt|
+|        arm|        linux |  04-23-2025 |               7/7 |        Yes |       jdk-11.0.27+6_adopt|
+|      s390x|        linux |  04-23-2025 |               7/7 |        Yes |       jdk-11.0.27+6_adopt|
 
-On-Time 7(77%)  Late: 2(22%)
+On-Time 9(81%)  Late: 2(18%)
 
 
 </details>
@@ -1030,8 +1032,10 @@ tag data is in tag21.txt
 |        x64|      windows |  04-20-2025 |               2/4 |         No |        jdk-21.0.7+6_adopt|
 |    aarch64| alpine-linux |  04-20-2025 |               7/4 |        Yes |        jdk-21.0.7+6_adopt|
 |    ppc64le|        linux |  04-22-2025 |               7/6 |        Yes |        jdk-21.0.7+6_adopt|
+|      ppc64|          aix |  04-23-2025 |               7/7 |        Yes |        jdk-21.0.7+6_adopt|
+|    riscv64|        linux |  04-23-2025 |               7/7 |        Yes |        jdk-21.0.7+6_adopt|
 
-On-Time 8(88%)  Late: 1(11%)
+On-Time 10(90%)  Late: 1(9%)
 
 
 </details>
@@ -1325,8 +1329,10 @@ tag data is in tag24.txt
 |      s390x|        linux |  04-20-2025 |               7/4 |        Yes |        jdk-24.0.1+9_adopt|
 |    aarch64| alpine-linux |  04-20-2025 |               7/4 |        Yes |        jdk-24.0.1+9_adopt|
 |    ppc64le|        linux |  04-22-2025 |               7/6 |        Yes |        jdk-24.0.1+9_adopt|
+|        x64| alpine-linux |  04-23-2025 |               7/7 |        Yes |        jdk-24.0.1+9_adopt|
+|    riscv64|        linux |  04-23-2025 |               7/7 |        Yes |        jdk-24.0.1+9_adopt|
 
-On-Time 7(87%)  Late: 1(12%)
+On-Time 9(90%)  Late: 1(10%)
 
 
 </details>
