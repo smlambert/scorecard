@@ -679,6 +679,25 @@ Release data is in data/releases17.json
 tag data is in tag17.txt
 
 
+<details><summary>Release tag: jdk-17.0.16-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|            jdk-17.0.16-ga| Wed Jul  9 05:52:02 UTC 2025 | Wed Jul  9 06:00:27 UTC 2025 |                 0 |
+|       jdk-17.0.16+8_adopt| Tue Jul 15 20:42:39 UTC 2025 | Tue Jul 15 20:42:40 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|          mac |  07-17-2025 |               2/1 |        Yes |       jdk-17.0.16+8_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-17.0.15-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -978,34 +997,6 @@ On-Time 6(54%)  Late: 5(45%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk-17.0.8-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|             jdk-17.0.8-ga| Wed Jul  5 07:11:54 UTC 2023 | Wed Jul  5 07:14:17 UTC 2023 |                 0 |
-|        jdk-17.0.8+7_adopt| Tue Jul 18 20:42:21 UTC 2023 | Tue Jul 18 20:42:21 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
-|        x64|          mac |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
-|        x64|        linux |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
-|    aarch64|          mac |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
-|    ppc64le|        linux |  07-20-2023 |               7/1 |        Yes |        jdk-17.0.8+7_adopt|
-|    aarch64|        linux |  07-20-2023 |               2/1 |        Yes |        jdk-17.0.8+7_adopt|
-|        arm|        linux |  07-21-2023 |               7/2 |        Yes |        jdk-17.0.8+7_adopt|
-|        x64| alpine-linux |  07-21-2023 |               7/2 |        Yes |        jdk-17.0.8+7_adopt|
-|        x32|      windows |  07-25-2023 |               7/6 |        Yes |        jdk-17.0.8+7_adopt|
-|      s390x|        linux |  07-25-2023 |               7/6 |        Yes |        jdk-17.0.8+7_adopt|
-
-On-Time 10(100%)  Late: 0(0%)
-
-
-</details>
-
 Processing: 21 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -1015,6 +1006,26 @@ Getting Tags for jdk21u
 
 Release data is in data/releases21.json
 tag data is in tag21.txt
+
+
+<details><summary>Release tag: jdk-21.0.8-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|             jdk-21.0.8-ga| Wed Jul  9 05:53:39 UTC 2025 | Wed Jul  9 05:58:20 UTC 2025 |                 0 |
+|        jdk-21.0.8+9_adopt| Tue Jul 15 21:09:42 UTC 2025 | Tue Jul 15 21:09:42 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64| alpine-linux |  07-17-2025 |               7/1 |        Yes |        jdk-21.0.8+9_adopt|
+|        x64|          mac |  07-17-2025 |               2/1 |        Yes |        jdk-21.0.8+9_adopt|
+
+On-Time 2(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-21.0.7-ga</summary>
