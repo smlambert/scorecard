@@ -13,6 +13,25 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u462-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u462-ga| Tue Jul  8 00:47:50 UTC 2025 | Tue Jul 15 23:46:06 UTC 2025 |                -7 |
+|        jdk8u462-b08_adopt| Wed Jul 16 00:14:33 UTC 2025 | Wed Jul 16 00:14:33 UTC 2025 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64| alpine-linux |  07-21-2025 |               7/5 |        Yes |        jdk8u462-b08_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u452-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -307,35 +326,6 @@ On-Time 7(63%)  Late: 4(36%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u372-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u372-ga| Tue Apr 18 04:55:08 UTC 2023 | Thu Apr 20 08:43:15 UTC 2023 |                -2 |
-|        jdk8u372-b07_adopt| Tue Apr 18 23:14:10 UTC 2023 | Tue Apr 18 23:14:11 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
-|        x64|      windows |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
-|    aarch64|        linux |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
-|        x64|          mac |  04-20-2023 |               2/1 |        Yes |        jdk8u372-b07_adopt|
-|    ppc64le|        linux |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
-|        x64|      solaris |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
-|        x32|      windows |  04-25-2023 |               7/6 |        Yes |        jdk8u372-b07_adopt|
-|        x64| alpine-linux |  04-26-2023 |               7/7 |        Yes |        jdk8u372-b07_adopt|
-|      ppc64|          aix |  04-27-2023 |               7/8 |         No |        jdk8u372-b07_adopt|
-|        arm|        linux |  04-28-2023 |               7/9 |         No | jdk8u372-b07-aarch32-20230426_adopt|
-|    sparcv9|      solaris |  04-29-2023 |              7/10 |         No |        jdk8u372-b07_adopt|
-
-On-Time 8(72%)  Late: 3(27%)
-
-
-</details>
-
 Processing: 11 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
@@ -359,8 +349,9 @@ tag data is in tag11.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  07-18-2025 |               2/2 |        Yes |       jdk-11.0.28+6_adopt|
 |        x64|          mac |  07-18-2025 |               2/2 |        Yes |       jdk-11.0.28+6_adopt|
+|        x64| alpine-linux |  07-21-2025 |               7/5 |        Yes |       jdk-11.0.28+6_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 3(100%)  Late: 0(0%)
 
 
 </details>
@@ -685,8 +676,9 @@ tag data is in tag17.txt
 |        x64| alpine-linux |  07-18-2025 |               7/2 |        Yes |       jdk-17.0.16+8_adopt|
 |    ppc64le|        linux |  07-18-2025 |               7/2 |        Yes |       jdk-17.0.16+8_adopt|
 |        x64|        linux |  07-18-2025 |               2/2 |        Yes |       jdk-17.0.16+8_adopt|
+|    aarch64|          mac |  07-21-2025 |               2/5 |         No |       jdk-17.0.16+8_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 4(80%)  Late: 1(20%)
 
 
 </details>
