@@ -1366,8 +1366,9 @@ tag data is in tag24.txt
 |        x64|          mac |  07-25-2025 |               2/9 |         No |       jdk-24.0.2+12_adopt|
 |    aarch64|        linux |  07-25-2025 |               2/9 |         No |       jdk-24.0.2+12_adopt|
 |        x64|      windows |  07-28-2025 |              2/13 |         No |       jdk-24.0.2+12_adopt|
+|      s390x|        linux |  07-31-2025 |              7/16 |         No |       jdk-24.0.2+12_adopt|
 
-On-Time 6(66%)  Late: 3(33%)
+On-Time 6(60%)  Late: 4(40%)
 
 
 </details>
