@@ -1365,8 +1365,13 @@ tag data is in tag25.txt
 |    aarch64| alpine-linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
 |      s390x|        linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
 |    riscv64|        linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
+|        x64|      windows |  09-23-2025 |              2/39 |         No |           jdk-25+36_adopt|
+|        x64|          mac |  09-23-2025 |              2/40 |         No |           jdk-25+36_adopt|
+|    aarch64|          mac |  09-24-2025 |              2/40 |         No |           jdk-25+36_adopt|
+|    aarch64|        linux |  09-25-2025 |              2/42 |         No |           jdk-25+36_adopt|
+|      ppc64|          aix |  09-27-2025 |              7/44 |         No |           jdk-25+36_adopt|
 
-On-Time 0(0%)  Late: 6(100%)
+On-Time 0(0%)  Late: 11(100%)
 
 
 </details>
