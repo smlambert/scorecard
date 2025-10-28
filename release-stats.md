@@ -1316,9 +1316,9 @@ On-Time 3(42%)  Late: 4(57%)
 Processing: 25 
 In JDK, caching tags and release information
 Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk/.git/
-Getting Tags for jdk
+Repo is  https://github.com/adoptium/jdk25u
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk25u/.git/
+Getting Tags for jdk25u
 
 Release data is in data/releases25.json
 tag data is in tag25.txt
@@ -1328,20 +1328,20 @@ tag data is in tag25.txt
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|             jdk-25.0.1-ga| Tue Oct 28 00:00:00 UTC 2025 | Tue Oct 28 00:00:00 UTC 2025 |                 0 |
-|        jdk-25.0.1+8_adopt| Tue Oct 28 00:00:00 UTC 2025 | Tue Oct 28 00:00:00 UTC 2025 |                 0 |
+|             jdk-25.0.1-ga| Thu Sep 25 16:16:56 UTC 2025 | Wed Oct 22 09:50:02 UTC 2025 |               -26 |
+|        jdk-25.0.1+8_adopt| Wed Oct 22 10:03:38 UTC 2025 | Wed Oct 22 10:03:38 UTC 2025 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64| alpine-linux |  10-24-2025 |              7/-3 |        Yes |        jdk-25.0.1+8_adopt|
-|      s390x|        linux |  10-24-2025 |              7/-3 |        Yes |        jdk-25.0.1+8_adopt|
-|        x64|        linux |  10-24-2025 |              2/-3 |        Yes |        jdk-25.0.1+8_adopt|
-|    aarch64| alpine-linux |  10-26-2025 |              7/-1 |        Yes |        jdk-25.0.1+8_adopt|
-|    aarch64|        linux |  10-28-2025 |               2/0 |        Yes |        jdk-25.0.1+8_adopt|
-|    riscv64|        linux |  10-28-2025 |               7/0 |        Yes |        jdk-25.0.1+8_adopt|
+|        x64| alpine-linux |  10-24-2025 |               7/1 |        Yes |        jdk-25.0.1+8_adopt|
+|      s390x|        linux |  10-24-2025 |               7/2 |        Yes |        jdk-25.0.1+8_adopt|
+|        x64|        linux |  10-24-2025 |               2/2 |        Yes |        jdk-25.0.1+8_adopt|
+|    aarch64| alpine-linux |  10-26-2025 |               7/4 |        Yes |        jdk-25.0.1+8_adopt|
+|    aarch64|        linux |  10-28-2025 |               2/6 |         No |        jdk-25.0.1+8_adopt|
+|    riscv64|        linux |  10-28-2025 |               7/6 |        Yes |        jdk-25.0.1+8_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 5(83%)  Late: 1(16%)
 
 
 </details>
@@ -1353,24 +1353,24 @@ On-Time 6(100%)  Late: 0(0%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-25-ga| Tue Aug 12 17:15:36 UTC 2025 | Tue Sep 16 13:03:22 UTC 2025 |               -34 |
-|           jdk-25+36_adopt| Thu Aug 14 17:14:47 UTC 2025 | Thu Aug 14 17:14:50 UTC 2025 |                 0 |
+|           jdk-25+36_adopt| Fri Oct 10 09:04:37 UTC 2025 | Wed Oct 15 14:17:27 UTC 2025 |                -5 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64| alpine-linux |  09-19-2025 |              7/35 |         No |           jdk-25+36_adopt|
-|        x64|        linux |  09-22-2025 |              2/38 |         No |           jdk-25+36_adopt|
-|    ppc64le|        linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
-|    aarch64| alpine-linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
-|      s390x|        linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
-|    riscv64|        linux |  09-22-2025 |              7/38 |         No |           jdk-25+36_adopt|
-|        x64|      windows |  09-23-2025 |              2/39 |         No |           jdk-25+36_adopt|
-|        x64|          mac |  09-23-2025 |              2/40 |         No |           jdk-25+36_adopt|
-|    aarch64|          mac |  09-24-2025 |              2/40 |         No |           jdk-25+36_adopt|
-|    aarch64|        linux |  09-25-2025 |              2/42 |         No |           jdk-25+36_adopt|
-|      ppc64|          aix |  09-27-2025 |              7/44 |         No |           jdk-25+36_adopt|
+|        x64| alpine-linux |  09-19-2025 |             7/-26 |        Yes |           jdk-25+36_adopt|
+|        x64|        linux |  09-22-2025 |             2/-22 |        Yes |           jdk-25+36_adopt|
+|    ppc64le|        linux |  09-22-2025 |             7/-22 |        Yes |           jdk-25+36_adopt|
+|    aarch64| alpine-linux |  09-22-2025 |             7/-22 |        Yes |           jdk-25+36_adopt|
+|      s390x|        linux |  09-22-2025 |             7/-22 |        Yes |           jdk-25+36_adopt|
+|    riscv64|        linux |  09-22-2025 |             7/-22 |        Yes |           jdk-25+36_adopt|
+|        x64|      windows |  09-23-2025 |             2/-21 |        Yes |           jdk-25+36_adopt|
+|        x64|          mac |  09-23-2025 |             2/-21 |        Yes |           jdk-25+36_adopt|
+|    aarch64|          mac |  09-24-2025 |             2/-21 |        Yes |           jdk-25+36_adopt|
+|    aarch64|        linux |  09-25-2025 |             2/-19 |        Yes |           jdk-25+36_adopt|
+|      ppc64|          aix |  09-27-2025 |             7/-17 |        Yes |           jdk-25+36_adopt|
 
-On-Time 0(0%)  Late: 11(100%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 </details>
