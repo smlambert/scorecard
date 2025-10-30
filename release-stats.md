@@ -25,8 +25,10 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64| alpine-linux |  10-24-2025 |               7/2 |        Yes |        jdk8u472-b08_adopt|
 |        x64|        linux |  10-28-2025 |               2/6 |         No |        jdk8u472-b08_adopt|
+|    aarch64|        linux |  10-29-2025 |               2/7 |         No |        jdk8u472-b08_adopt|
+|        x64|      windows |  10-30-2025 |               2/7 |         No |        jdk8u472-b08_adopt|
 
-On-Time 1(50%)  Late: 1(50%)
+On-Time 1(25%)  Late: 3(75%)
 
 
 </details>
@@ -350,8 +352,10 @@ tag data is in tag11.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64| alpine-linux |  10-27-2025 |               7/5 |        Yes |       jdk-11.0.29+7_adopt|
 |        x64|        linux |  10-28-2025 |               2/6 |         No |       jdk-11.0.29+7_adopt|
+|    aarch64|        linux |  10-30-2025 |               2/8 |         No |       jdk-11.0.29+7_adopt|
+|    aarch64|          mac |  10-30-2025 |               2/8 |         No |       jdk-11.0.29+7_adopt|
 
-On-Time 1(50%)  Late: 1(50%)
+On-Time 1(25%)  Late: 3(75%)
 
 
 </details>
@@ -678,8 +682,9 @@ tag data is in tag17.txt
 |        x64| alpine-linux |  10-24-2025 |               7/2 |        Yes |      jdk-17.0.17+10_adopt|
 |    aarch64|        linux |  10-26-2025 |               2/4 |         No |      jdk-17.0.17+10_adopt|
 |        arm|        linux |  10-26-2025 |               7/4 |        Yes |      jdk-17.0.17+10_adopt|
+|        x64|      windows |  10-30-2025 |               2/8 |         No |      jdk-17.0.17+10_adopt|
 
-On-Time 4(80%)  Late: 1(20%)
+On-Time 4(66%)  Late: 2(33%)
 
 
 </details>
@@ -1012,8 +1017,10 @@ tag data is in tag21.txt
 |      s390x|        linux |  10-24-2025 |               7/2 |        Yes |       jdk-21.0.9+10_adopt|
 |        x64| alpine-linux |  10-24-2025 |               7/2 |        Yes |       jdk-21.0.9+10_adopt|
 |    aarch64| alpine-linux |  10-24-2025 |               7/2 |        Yes |       jdk-21.0.9+10_adopt|
+|    aarch64|        linux |  10-30-2025 |               2/8 |         No |       jdk-21.0.9+10_adopt|
+|        x64|      windows |  10-30-2025 |               2/9 |         No |       jdk-21.0.9+10_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 5(71%)  Late: 2(28%)
 
 
 </details>
@@ -1340,8 +1347,12 @@ tag data is in tag25.txt
 |    aarch64| alpine-linux |  10-26-2025 |               7/4 |        Yes |        jdk-25.0.1+8_adopt|
 |    aarch64|        linux |  10-28-2025 |               2/6 |         No |        jdk-25.0.1+8_adopt|
 |    riscv64|        linux |  10-28-2025 |               7/6 |        Yes |        jdk-25.0.1+8_adopt|
+|        x64|          mac |  10-29-2025 |               2/6 |         No |        jdk-25.0.1+8_adopt|
+|        x64|      windows |  10-29-2025 |               2/6 |         No |        jdk-25.0.1+8_adopt|
+|    aarch64|          mac |  10-29-2025 |               2/6 |         No |        jdk-25.0.1+8_adopt|
+|    ppc64le|        linux |  10-30-2025 |               7/8 |         No |        jdk-25.0.1+8_adopt|
 
-On-Time 5(83%)  Late: 1(16%)
+On-Time 5(50%)  Late: 5(50%)
 
 
 </details>
