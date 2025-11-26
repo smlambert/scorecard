@@ -32,8 +32,10 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |      ppc64|          aix |  11-06-2025 |              7/15 |         No |        jdk8u472-b08_adopt|
 |        arm|        linux |  11-07-2025 |              7/16 |         No | jdk8u472-b08-aarch32-20251022_adopt|
 |        x32|      windows |  11-08-2025 |              7/17 |         No |        jdk8u472-b08_adopt|
+|        x64|      solaris |  11-25-2025 |              7/34 |         No |        jdk8u472-b08_adopt|
+|    sparcv9|      solaris |  11-25-2025 |              7/34 |         No |        jdk8u472-b08_adopt|
 
-On-Time 1(11%)  Late: 8(88%)
+On-Time 1(9%)  Late: 10(90%)
 
 
 </details>
@@ -700,8 +702,9 @@ tag data is in tag17.txt
 |    ppc64le|        linux |  11-05-2025 |              7/14 |         No |      jdk-17.0.17+10_adopt|
 |        x64|          mac |  11-06-2025 |              2/15 |         No |      jdk-17.0.17+10_adopt|
 |      s390x|        linux |  11-06-2025 |              7/15 |         No |      jdk-17.0.17+10_adopt|
+|        x32|      windows |  11-20-2025 |              7/29 |         No |      jdk-17.0.17+10_adopt|
 
-On-Time 4(36%)  Late: 7(63%)
+On-Time 4(33%)  Late: 8(66%)
 
 
 </details>
