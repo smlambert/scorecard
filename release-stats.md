@@ -693,8 +693,9 @@ tag data is in tag17.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  01-21-2026 |               2/0 |        Yes |       jdk-17.0.18+8_adopt|
 |        x64| alpine-linux |  01-21-2026 |               7/0 |        Yes |       jdk-17.0.18+8_adopt|
+|    riscv64|        linux |  01-22-2026 |               7/1 |        Yes |       jdk-17.0.18+8_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 3(100%)  Late: 0(0%)
 
 
 </details>
@@ -1251,6 +1252,26 @@ Getting Tags for jdk25u
 
 Release data is in data/releases25.json
 tag data is in tag25.txt
+
+
+<details><summary>Release tag: jdk-25.0.2-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|             jdk-25.0.2-ga| Thu Dec 18 08:04:02 UTC 2025 | Tue Jan 20 20:15:18 UTC 2026 |               -33 |
+|       jdk-25.0.2+10_adopt| Wed Jan 21 09:20:26 UTC 2026 | Wed Jan 21 09:22:22 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64| alpine-linux |  01-22-2026 |               7/0 |        Yes |       jdk-25.0.2+10_adopt|
+|        x64|        linux |  01-22-2026 |               2/1 |        Yes |       jdk-25.0.2+10_adopt|
+
+On-Time 2(100%)  Late: 0(0%)
+
+
+</details>
+
 
 
 <details><summary>Release tag: jdk-25.0.1-ga</summary>
