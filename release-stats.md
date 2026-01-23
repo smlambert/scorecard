@@ -694,8 +694,11 @@ tag data is in tag17.txt
 |        x64|        linux |  01-21-2026 |               2/0 |        Yes |       jdk-17.0.18+8_adopt|
 |        x64| alpine-linux |  01-21-2026 |               7/0 |        Yes |       jdk-17.0.18+8_adopt|
 |    riscv64|        linux |  01-22-2026 |               7/1 |        Yes |       jdk-17.0.18+8_adopt|
+|    ppc64le|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-17.0.18+8_adopt|
+|      s390x|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-17.0.18+8_adopt|
+|        arm|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-17.0.18+8_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
@@ -981,8 +984,10 @@ tag data is in tag21.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  01-21-2026 |               2/0 |        Yes |       jdk-21.0.10+7_adopt|
 |        x64| alpine-linux |  01-21-2026 |               7/0 |        Yes |       jdk-21.0.10+7_adopt|
+|    aarch64| alpine-linux |  01-22-2026 |               7/1 |        Yes |       jdk-21.0.10+7_adopt|
+|    ppc64le|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-21.0.10+7_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
@@ -1266,8 +1271,11 @@ tag data is in tag25.txt
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64| alpine-linux |  01-22-2026 |               7/0 |        Yes |       jdk-25.0.2+10_adopt|
 |        x64|        linux |  01-22-2026 |               2/1 |        Yes |       jdk-25.0.2+10_adopt|
+|    riscv64|        linux |  01-23-2026 |               7/1 |        Yes |       jdk-25.0.2+10_adopt|
+|    ppc64le|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-25.0.2+10_adopt|
+|      s390x|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-25.0.2+10_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 </details>
