@@ -347,6 +347,27 @@ Release data is in data/releases11.json
 tag data is in tag11.txt
 
 
+<details><summary>Release tag: jdk-11.0.30-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|            jdk-11.0.30-ga| Wed Jan 14 04:13:54 UTC 2026 | Wed Jan 21 04:41:06 UTC 2026 |                -7 |
+|       jdk-11.0.30+7_adopt| Wed Jan 21 05:07:12 UTC 2026 | Wed Jan 21 05:07:12 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  01-28-2026 |               2/7 |         No |       jdk-11.0.30+7_adopt|
+|    ppc64le|        linux |  01-28-2026 |               7/7 |        Yes |       jdk-11.0.30+7_adopt|
+|        x64| alpine-linux |  01-28-2026 |               7/7 |        Yes |       jdk-11.0.30+7_adopt|
+
+On-Time 2(66%)  Late: 1(33%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-11.0.29-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -638,34 +659,6 @@ On-Time 0(0%)  Late: 1(100%)
 |      s390x|        linux |  01-23-2024 |               7/6 |        Yes |       jdk-11.0.22+7_adopt|
 
 On-Time 9(90%)  Late: 1(10%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk-11.0.21-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|            jdk-11.0.21-ga| Fri Oct  6 05:33:33 UTC 2023 | Fri Oct  6 05:45:12 UTC 2023 |                 0 |
-|       jdk-11.0.21+9_adopt| Tue Oct 17 21:07:15 UTC 2023 | Tue Oct 17 21:07:15 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|          mac |  10-18-2023 |               2/0 |        Yes |       jdk-11.0.21+9_adopt|
-|    aarch64|        linux |  10-18-2023 |               2/0 |        Yes |       jdk-11.0.21+9_adopt|
-|        x64|      windows |  10-18-2023 |               2/0 |        Yes |       jdk-11.0.21+9_adopt|
-|        x64|        linux |  10-18-2023 |               2/0 |        Yes |       jdk-11.0.21+9_adopt|
-|        x64| alpine-linux |  10-19-2023 |               7/1 |        Yes |       jdk-11.0.21+9_adopt|
-|    ppc64le|        linux |  10-23-2023 |               7/5 |        Yes |       jdk-11.0.21+9_adopt|
-|    aarch64|          mac |  10-24-2023 |               2/6 |         No |       jdk-11.0.21+9_adopt|
-|      s390x|        linux |  10-24-2023 |               7/6 |        Yes |       jdk-11.0.21+9_adopt|
-|        arm|        linux |  10-26-2023 |               7/8 |         No |       jdk-11.0.21+9_adopt|
-|        x32|      windows |  10-27-2023 |               7/9 |         No |       jdk-11.0.21+9_adopt|
-
-On-Time 7(70%)  Late: 3(30%)
 
 
 </details>
@@ -986,8 +979,10 @@ tag data is in tag21.txt
 |        x64| alpine-linux |  01-21-2026 |               7/0 |        Yes |       jdk-21.0.10+7_adopt|
 |    aarch64| alpine-linux |  01-22-2026 |               7/1 |        Yes |       jdk-21.0.10+7_adopt|
 |    ppc64le|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-21.0.10+7_adopt|
+|    riscv64|        linux |  01-27-2026 |               7/6 |        Yes |       jdk-21.0.10+7_adopt|
+|    aarch64|        linux |  01-28-2026 |               2/7 |         No |       jdk-21.0.10+7_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 5(83%)  Late: 1(16%)
 
 
 </details>
@@ -1274,8 +1269,9 @@ tag data is in tag25.txt
 |    riscv64|        linux |  01-23-2026 |               7/1 |        Yes |       jdk-25.0.2+10_adopt|
 |    ppc64le|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-25.0.2+10_adopt|
 |      s390x|        linux |  01-23-2026 |               7/2 |        Yes |       jdk-25.0.2+10_adopt|
+|        x64| alpine-linux |  01-26-2026 |               7/5 |        Yes |       jdk-25.0.2+10_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
