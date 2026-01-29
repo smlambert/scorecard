@@ -13,6 +13,25 @@ tag data is in tag8.txt
 JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
+<details><summary>Release tag: jdk8u482-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u482-ga| Wed Jan 14 04:15:56 UTC 2026 | Wed Jan 21 04:37:36 UTC 2026 |                -7 |
+|        jdk8u482-b08_adopt| Wed Jan 21 05:14:12 UTC 2026 | Wed Jan 21 05:14:12 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    ppc64le|        linux |  01-29-2026 |               7/8 |         No |        jdk8u482-b08_adopt|
+
+On-Time 0(0%)  Late: 1(100%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u472-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -303,35 +322,6 @@ On-Time 11(100%)  Late: 0(0%)
 |      ppc64|          aix |  01-24-2024 |               7/7 |        Yes |        jdk8u402-b06_adopt|
 
 On-Time 10(90%)  Late: 1(9%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u392-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u392-ga| Sat Oct  7 21:09:58 UTC 2023 | Tue Oct 17 22:51:19 UTC 2023 |               -10 |
-|        jdk8u392-b08_adopt| Tue Oct 17 23:14:11 UTC 2023 | Tue Oct 17 23:14:12 UTC 2023 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  10-19-2023 |               2/1 |        Yes |        jdk8u392-b08_adopt|
-|        x64|      windows |  10-20-2023 |               2/2 |        Yes |        jdk8u392-b08_adopt|
-|        x32|      windows |  10-20-2023 |               7/2 |        Yes |        jdk8u392-b08_adopt|
-|        x64|        linux |  10-23-2023 |               2/5 |         No |        jdk8u392-b08_adopt|
-|    ppc64le|        linux |  10-24-2023 |               7/6 |        Yes |        jdk8u392-b08_adopt|
-|        x64|          mac |  10-25-2023 |               2/7 |         No |        jdk8u392-b08_adopt|
-|        x64| alpine-linux |  10-26-2023 |               7/8 |         No |        jdk8u392-b08_adopt|
-|        x64|      solaris |  10-27-2023 |               7/9 |         No |        jdk8u392-b08_adopt|
-|    sparcv9|      solaris |  10-27-2023 |               7/9 |         No |        jdk8u392-b08_adopt|
-|        arm|        linux |  10-31-2023 |              7/13 |         No | jdk8u392-b08-aarch32-20231020_adopt|
-|      ppc64|          aix |  11-01-2023 |              7/14 |         No |        jdk8u392-b08_adopt|
-
-On-Time 4(36%)  Late: 7(63%)
 
 
 </details>
