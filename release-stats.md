@@ -974,8 +974,9 @@ tag data is in tag21.txt
 |    aarch64|        linux |  01-28-2026 |               2/7 |         No |       jdk-21.0.10+7_adopt|
 |      ppc64|          aix |  01-29-2026 |               7/8 |         No |       jdk-21.0.10+7_adopt|
 |      s390x|        linux |  01-29-2026 |               7/8 |         No |       jdk-21.0.10+7_adopt|
+|        x64|          mac |  01-30-2026 |               2/9 |         No |       jdk-21.0.10+7_adopt|
 
-On-Time 5(62%)  Late: 3(37%)
+On-Time 5(55%)  Late: 4(44%)
 
 
 </details>
@@ -1265,8 +1266,9 @@ tag data is in tag25.txt
 |        x64| alpine-linux |  01-26-2026 |               7/5 |        Yes |       jdk-25.0.2+10_adopt|
 |    aarch64|        linux |  01-29-2026 |               2/8 |         No |       jdk-25.0.2+10_adopt|
 |      ppc64|          aix |  01-29-2026 |               7/8 |         No |       jdk-25.0.2+10_adopt|
+|    aarch64|          mac |  01-30-2026 |               2/8 |         No |       jdk-25.0.2+10_adopt|
 
-On-Time 6(75%)  Late: 2(25%)
+On-Time 6(66%)  Late: 3(33%)
 
 
 </details>
