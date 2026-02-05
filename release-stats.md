@@ -29,8 +29,10 @@ JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 |        x64| alpine-linux |  02-02-2026 |              7/12 |         No |        jdk8u482-b08_adopt|
 |      ppc64|          aix |  02-03-2026 |              7/13 |         No |        jdk8u482-b08_adopt|
 |        arm|        linux |  02-04-2026 |              7/14 |         No | jdk8u482-b08-aarch32-20260122_adopt|
+|        x64|          mac |  02-04-2026 |              2/14 |         No |        jdk8u482-b08_adopt|
+|        x64|      windows |  02-04-2026 |              2/14 |         No |        jdk8u482-b08_adopt|
 
-On-Time 0(0%)  Late: 6(100%)
+On-Time 0(0%)  Late: 8(100%)
 
 
 </details>
@@ -361,8 +363,9 @@ tag data is in tag11.txt
 |    aarch64|        linux |  02-03-2026 |              2/13 |         No |       jdk-11.0.30+7_adopt|
 |      ppc64|          aix |  02-03-2026 |              7/13 |         No |       jdk-11.0.30+7_adopt|
 |        x64|          mac |  02-03-2026 |              2/13 |         No |       jdk-11.0.30+7_adopt|
+|    aarch64|          mac |  02-04-2026 |              2/14 |         No |       jdk-11.0.30+7_adopt|
 
-On-Time 2(22%)  Late: 7(77%)
+On-Time 2(20%)  Late: 8(80%)
 
 
 </details>
@@ -694,8 +697,10 @@ tag data is in tag17.txt
 |    aarch64|        linux |  01-29-2026 |               2/8 |         No |       jdk-17.0.18+8_adopt|
 |      ppc64|          aix |  02-02-2026 |              7/12 |         No |       jdk-17.0.18+8_adopt|
 |        x64|          mac |  02-03-2026 |              2/13 |         No |       jdk-17.0.18+8_adopt|
+|    aarch64|          mac |  02-04-2026 |              2/14 |         No |       jdk-17.0.18+8_adopt|
+|        x64|      windows |  02-04-2026 |              2/14 |         No |       jdk-17.0.18+8_adopt|
 
-On-Time 6(66%)  Late: 3(33%)
+On-Time 6(54%)  Late: 5(45%)
 
 
 </details>
@@ -990,8 +995,9 @@ tag data is in tag21.txt
 |        x64|          mac |  01-30-2026 |               2/9 |         No |       jdk-21.0.10+7_adopt|
 |    aarch64|          mac |  02-03-2026 |              2/13 |         No |       jdk-21.0.10+7_adopt|
 |        x64|      windows |  02-03-2026 |              2/13 |         No |       jdk-21.0.10+7_adopt|
+|    aarch64|      windows |  02-05-2026 |              7/15 |         No |       jdk-21.0.10+7_adopt|
 
-On-Time 5(45%)  Late: 6(54%)
+On-Time 5(41%)  Late: 7(58%)
 
 
 </details>
