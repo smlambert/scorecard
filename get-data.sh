@@ -48,10 +48,7 @@ then
 fi
 
 REPONAME=jdk${VERSION}u
-if [ $VERSION == 26 ]
-then
-    REPONAME=jdk${VERSION}
-fi
+
 getrepo $REPONAME https://github.com/adoptium/$REPONAME 
 
  
