@@ -358,8 +358,14 @@ tag data is in tag11.txt
 |      ppc64|          aix |  04-28-2026 |               7/5 |        Yes |      jdk-11.0.31+11_adopt|
 |    aarch64|          mac |  04-28-2026 |               2/5 |         No |      jdk-11.0.31+11_adopt|
 |        x64|          mac |  04-28-2026 |               2/5 |         No |      jdk-11.0.31+11_adopt|
+|    ppc64le|        linux |  04-28-2026 |               7/6 |        Yes |      jdk-11.0.31+11_adopt|
+|        x64|      windows |  04-28-2026 |               2/6 |         No |      jdk-11.0.31+11_adopt|
+|      s390x|        linux |  04-28-2026 |               7/6 |        Yes |      jdk-11.0.31+11_adopt|
+|    aarch64|        linux |  04-29-2026 |               2/6 |         No |      jdk-11.0.31+11_adopt|
+|        arm|        linux |  04-29-2026 |               7/6 |        Yes |      jdk-11.0.31+11_adopt|
+|        x64| alpine-linux |  04-29-2026 |               7/6 |        Yes |      jdk-11.0.31+11_adopt|
 
-On-Time 1(25%)  Late: 3(75%)
+On-Time 5(50%)  Late: 5(50%)
 
 
 </details>
@@ -640,8 +646,9 @@ tag data is in tag17.txt
 |        x64| alpine-linux |  04-24-2026 |               7/2 |        Yes |      jdk-17.0.19+10_adopt|
 |        x64|          mac |  04-28-2026 |               2/6 |         No |      jdk-17.0.19+10_adopt|
 |    aarch64|          mac |  04-28-2026 |               2/6 |         No |      jdk-17.0.19+10_adopt|
+|      ppc64|          aix |  04-29-2026 |               7/7 |        Yes |      jdk-17.0.19+10_adopt|
 
-On-Time 3(60%)  Late: 2(40%)
+On-Time 4(66%)  Late: 2(33%)
 
 
 </details>
@@ -940,8 +947,9 @@ tag data is in tag21.txt
 |    aarch64|          mac |  04-27-2026 |               2/5 |         No |      jdk-21.0.11+10_adopt|
 |        x64|          mac |  04-27-2026 |               2/5 |         No |      jdk-21.0.11+10_adopt|
 |      ppc64|          aix |  04-28-2026 |               7/6 |        Yes |      jdk-21.0.11+10_adopt|
+|        x64|      windows |  04-28-2026 |               2/6 |         No |      jdk-21.0.11+10_adopt|
 
-On-Time 4(66%)  Late: 2(33%)
+On-Time 4(57%)  Late: 3(42%)
 
 
 </details>
@@ -1241,8 +1249,10 @@ tag data is in tag25.txt
 |        x64| alpine-linux |  04-24-2026 |               7/2 |        Yes |        jdk-25.0.3+9_adopt|
 |    aarch64|          mac |  04-24-2026 |               2/2 |        Yes |        jdk-25.0.3+9_adopt|
 |        x64|          mac |  04-24-2026 |               2/2 |        Yes |        jdk-25.0.3+9_adopt|
+|    riscv64|        linux |  04-28-2026 |               7/7 |        Yes |        jdk-25.0.3+9_adopt|
+|        x64|      windows |  04-29-2026 |               2/7 |         No |        jdk-25.0.3+9_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 8(88%)  Late: 1(11%)
 
 
 </details>
