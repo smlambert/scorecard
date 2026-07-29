@@ -9,25 +9,25 @@ RELEASE_INFO=data/releases${VERSION}.json
 TAG_INFO=tag${VERSION}.txt
 mkdir -p data
 
-echo "Processing: $VERSION $RELEASE_TAG"
-echo "In JDK, caching tags and release information"
+echo "Processing: $VERSION $RELEASE_TAG" >&2
+echo "In JDK, caching tags and release information" >&2
 curl -s -X 'GET' \
   "https://api.adoptium.net/v3/assets/feature_releases/$VERSION/ga?heap_size=normal&image_type=jdk&jvm_impl=hotspot&page=0&page_size=10&project=jdk&sort_method=DEFAULT&sort_order=DESC&vendor=eclipse" \
   -H 'accept: application/json' > $RELEASE_INFO
 
-echo "Fetching / Updating Git Repos"
+echo "Fetching / Updating Git Repos" >&2
 cd data
 
-function getrepo () { 
+function getrepo () {
     REPONAME=$1
     REPO=$2
     PREFIX=$3
-    DIR=$(pwd) 
-    echo "Repo is  $REPO"  
+    DIR=$(pwd)
+    echo "Repo is  $REPO" >&2
     rm -rf $REPONAME
     git init $REPONAME
     cd  $REPONAME
-    echo "Getting Tags for $REPONAME"
+    echo "Getting Tags for $REPONAME" >&2
     git config extensions.partialClone true
     git remote add origin https://github.com/adoptium/$REPONAME
     git fetch --filter=blob:none --tags --depth=1 origin   2>&1 | cat > /dev/null  
@@ -52,10 +52,10 @@ REPONAME=jdk${VERSION}u
 getrepo $REPONAME https://github.com/adoptium/$REPONAME 
 
  
-echo 
-echo "Release data is in $RELEASE_INFO"
-echo "tag data is in $TAG_INFO"
+echo >&2
+echo "Release data is in $RELEASE_INFO" >&2
+echo "tag data is in $TAG_INFO" >&2
 if [ $VERSION == 8 ]
 then
-     echo "JDK 8 special extra is ../aarch32-jdk8u-$TAG_INFO"
-fi 
+     echo "JDK 8 special extra is ../aarch32-jdk8u-$TAG_INFO" >&2
+fi

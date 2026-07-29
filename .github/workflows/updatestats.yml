@@ -1,16 +1,18 @@
-# This workflow updates release stats 
+# This workflow updates release stats
 name: Update-Release-Stats
-env:   
-  DEFAULT_UPDATE_VIA_PUSH: "true" 
-on: [repository_dispatch, workflow_dispatch] 
+env:
+  DEFAULT_UPDATE_VIA_PUSH: "true"
+on: [repository_dispatch, workflow_dispatch]
 jobs:
   update-stats:
-    name: Update-Release-Stats 
+    name: Update-Release-Stats
     runs-on: ubuntu-latest
-    environment: production 
-    steps: 
+    environment: production
+    permissions:
+      contents: write
+    steps:
     - name: Check out repository
-      uses: actions/checkout@v3     
+      uses: actions/checkout@v3
     - name: Compute stats
       run: |
         ./run-all.sh | tee release-stats.md
@@ -19,13 +21,32 @@ jobs:
       uses: peter-evans/create-pull-request@v3
       with:
         title: 'New release.stats generated'
-        commit-message: 'New release.stats generated'  
+        commit-message: 'New release.stats generated'
     - name: Direct Push Update
       if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
-      run: | 
+      run: |
           echo "Direct Push:"
           git config --global user.name "Auto-Push[bot]"
-          git config --global user.email "auto-push@users.noreply.github.com" 
+          git config --global user.email "auto-push@users.noreply.github.com"
           git add -A
           git commit -m "Updated stats"
+          git push
+    - name: Update scorecard wiki
+      if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
+      run: |
+          # Clone the wiki repo
+          git clone https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.wiki.git wiki-repo
+
+          # Generate the new wiki page, preserving existing narratives
+          chmod +x generate-wiki.sh
+          ./generate-wiki.sh release-stats.md \
+              wiki-repo/Adoptium-Release-Scorecards.md \
+              wiki-repo/Adoptium-Release-Scorecards.md
+
+          # Commit and push only if content changed
+          cd wiki-repo
+          git config user.name  "Auto-Push[bot]"
+          git config user.email "auto-push@users.noreply.github.com"
+          git add Adoptium-Release-Scorecards.md
+          git diff --cached --quiet || git commit -m "Auto-update release scorecards [bot]"
           git push
