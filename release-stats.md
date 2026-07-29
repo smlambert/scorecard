@@ -1,16 +1,5 @@
-Processing: 8 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/aarch32-jdk8u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/aarch32-jdk8u/.git/
-Getting Tags for aarch32-jdk8u
-Repo is  https://github.com/adoptium/jdk8u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk8u/.git/
-Getting Tags for jdk8u
-
-Release data is in data/releases8.json
-tag data is in tag8.txt
-JDK 8 special extra is ../aarch32-jdk8u-tag8.txt
 
 
 <details><summary>Release tag: jdk8u492-ga</summary>
@@ -330,15 +319,7 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
-Processing: 11 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk11u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk11u/.git/
-Getting Tags for jdk11u
-
-Release data is in data/releases11.json
-tag data is in tag11.txt
 
 
 <details><summary>Release tag: jdk-11.0.32-ga</summary>
@@ -624,15 +605,7 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
-Processing: 17 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk17u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk17u/.git/
-Getting Tags for jdk17u
-
-Release data is in data/releases17.json
-tag data is in tag17.txt
 
 
 <details><summary>Release tag: jdk-17.0.20-ga</summary>
@@ -928,15 +901,7 @@ On-Time 11(91%)  Late: 1(8%)
 
 </details>
 
-Processing: 21 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk21u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk21u/.git/
-Getting Tags for jdk21u
-
-Release data is in data/releases21.json
-tag data is in tag21.txt
 
 
 <details><summary>Release tag: jdk-21.0.12-ga</summary>
@@ -1232,15 +1197,7 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
-Processing: 25 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk25u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk25u/.git/
-Getting Tags for jdk25u
-
-Release data is in data/releases25.json
-tag data is in tag25.txt
 
 
 <details><summary>Release tag: jdk-25.0.4-ga</summary>
@@ -1384,15 +1341,7 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
-Processing: 26 
-In JDK, caching tags and release information
-Fetching / Updating Git Repos
-Repo is  https://github.com/adoptium/jdk26u
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk26u/.git/
-Getting Tags for jdk26u
-
-Release data is in data/releases26.json
-tag data is in tag26.txt
 
 
 <details><summary>Release tag: jdk-26.0.2-ga</summary>
@@ -1408,8 +1357,9 @@ tag data is in tag26.txt
 |        x64|          mac |  07-28-2026 |               2/6 |         No |       jdk-26.0.2+10_adopt|
 |    aarch64|          mac |  07-28-2026 |               2/6 |         No |       jdk-26.0.2+10_adopt|
 |        x64|        linux |  07-29-2026 |               2/7 |         No |       jdk-26.0.2+10_adopt|
+|    aarch64|        linux |  07-29-2026 |               2/7 |         No |       jdk-26.0.2+10_adopt|
 
-On-Time 0(0%)  Late: 3(100%)
+On-Time 0(0%)  Late: 4(100%)
 
 
 </details>
