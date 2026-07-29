@@ -33,9 +33,13 @@ jobs:
           git push
     - name: Update scorecard wiki
       if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+        WIKI_REPO: ${{ github.repository }}
       run: |
-          # Clone the wiki repo
-          git clone https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.wiki.git wiki-repo
+          # Clone the wiki repo using explicit token auth
+          WIKI_URL="https://x-access-token:${GH_TOKEN}@github.com/${WIKI_REPO}.wiki.git"
+          git clone "$WIKI_URL" wiki-repo
 
           # Generate the new wiki page, preserving existing narratives
           chmod +x generate-wiki.sh
@@ -47,6 +51,8 @@ jobs:
           cd wiki-repo
           git config user.name  "Auto-Push[bot]"
           git config user.email "auto-push@users.noreply.github.com"
+          # Ensure push uses the authenticated remote
+          git remote set-url origin "$WIKI_URL"
           git add Adoptium-Release-Scorecards.md
           git diff --cached --quiet || git commit -m "Auto-update release scorecards [bot]"
           git push
