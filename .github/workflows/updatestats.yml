@@ -39,7 +39,16 @@ jobs:
       run: |
           # Clone the wiki repo using explicit token auth
           WIKI_URL="https://x-access-token:${GH_TOKEN}@github.com/${WIKI_REPO}.wiki.git"
-          git clone "$WIKI_URL" wiki-repo
+          WIKI_IS_NEW=false
+          if ! git clone "$WIKI_URL" wiki-repo 2>&1; then
+              echo "Wiki clone failed - wiki may not have any pages yet. Initializing new wiki repo."
+              mkdir -p wiki-repo
+              cd wiki-repo
+              git init -b master
+              git remote add origin "$WIKI_URL"
+              WIKI_IS_NEW=true
+              cd ..
+          fi
 
           # Generate the new wiki page, preserving existing narratives
           chmod +x generate-wiki.sh
@@ -55,4 +64,9 @@ jobs:
           git remote set-url origin "$WIKI_URL"
           git add Adoptium-Release-Scorecards.md
           git diff --cached --quiet || git commit -m "Auto-update release scorecards [bot]"
-          git push
+          # For a new wiki repo, set the upstream on first push
+          if [ "$WIKI_IS_NEW" = "true" ]; then
+              git push --set-upstream origin master
+          else
+              git push
+          fi
