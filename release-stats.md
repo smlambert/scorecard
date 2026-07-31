@@ -2,6 +2,30 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/a
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk8u/.git/
 
 
+<details><summary>Release tag: jdk8u502-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u502-ga| Thu Jul 16 13:42:58 UTC 2026 | Tue Jul 21 20:30:53 UTC 2026 |                -5 |
+|        jdk8u502-b07_adopt| Tue Jul 21 21:14:15 UTC 2026 | Tue Jul 21 21:14:15 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  07-31-2026 |               2/9 |         No |        jdk8u502-b07_adopt|
+|        x64| alpine-linux |  07-31-2026 |               7/9 |         No |        jdk8u502-b07_adopt|
+|    ppc64le|        linux |  07-31-2026 |               7/9 |         No |        jdk8u502-b07_adopt|
+|      ppc64|          aix |  07-31-2026 |               7/9 |         No |        jdk8u502-b07_adopt|
+|    aarch64|        linux |  07-31-2026 |               2/9 |         No |        jdk8u502-b07_adopt|
+|        x64|      windows |  07-31-2026 |               2/9 |         No |        jdk8u502-b07_adopt|
+
+On-Time 0(0%)  Late: 6(100%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u492-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -290,35 +314,6 @@ On-Time 10(90%)  Late: 1(9%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk8u412-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u412-ga| Sun Apr  7 02:50:07 UTC 2024 | Wed Apr 17 00:29:09 UTC 2024 |                -9 |
-|        jdk8u412-b08_adopt| Wed Apr 17 01:14:23 UTC 2024 | Wed Apr 17 01:14:23 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
-|        x64|      windows |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
-|    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk8u412-b08_adopt|
-|        x64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk8u412-b08_adopt|
-|    ppc64le|        linux |  04-20-2024 |               7/3 |        Yes |        jdk8u412-b08_adopt|
-|        x64|      solaris |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
-|        x64| alpine-linux |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
-|    sparcv9|      solaris |  04-22-2024 |               7/5 |        Yes |        jdk8u412-b08_adopt|
-|      ppc64|          aix |  04-23-2024 |               7/6 |        Yes |        jdk8u412-b08_adopt|
-|        arm|        linux |  04-23-2024 |               7/6 |        Yes | jdk8u412-b08-aarch32-20240419_adopt|
-|        x32|      windows |  04-24-2024 |               7/6 |        Yes |        jdk8u412-b08_adopt|
-
-On-Time 11(100%)  Late: 0(0%)
-
-
-</details>
-
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk11u/.git/
 
 
@@ -341,8 +336,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        arm|        linux |  07-29-2026 |               7/7 |        Yes |       jdk-11.0.32+9_adopt|
 |        x64|      windows |  07-29-2026 |               2/7 |         No |       jdk-11.0.32+9_adopt|
 |        x64|          mac |  07-30-2026 |               2/8 |         No |       jdk-11.0.32+9_adopt|
+|    aarch64|          mac |  07-30-2026 |               2/8 |         No |       jdk-11.0.32+9_adopt|
 
-On-Time 7(77%)  Late: 2(22%)
+On-Time 7(70%)  Late: 3(30%)
 
 
 </details>
@@ -1362,8 +1358,11 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    aarch64|          mac |  07-28-2026 |               2/6 |         No |       jdk-26.0.2+10_adopt|
 |        x64|        linux |  07-29-2026 |               2/7 |         No |       jdk-26.0.2+10_adopt|
 |    aarch64|        linux |  07-29-2026 |               2/7 |         No |       jdk-26.0.2+10_adopt|
+|      ppc64|          aix |  07-31-2026 |               7/9 |         No |       jdk-26.0.2+10_adopt|
+|    riscv64|        linux |  07-31-2026 |               7/9 |         No |       jdk-26.0.2+10_adopt|
+|        x64| alpine-linux |  07-31-2026 |               7/9 |         No |       jdk-26.0.2+10_adopt|
 
-On-Time 0(0%)  Late: 4(100%)
+On-Time 0(0%)  Late: 7(100%)
 
 
 </details>
@@ -1404,22 +1403,22 @@ On-Time 0(0%)  Late: 11(100%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-26-ga| Thu Feb 12 15:13:35 UTC 2026 | Tue Mar 17 16:02:34 UTC 2026 |               -33 |
-|           jdk-26+35_adopt| Thu Jul 30 00:00:00 UTC 2026 | Thu Jul 30 00:00:00 UTC 2026 |                 0 |
+|           jdk-26+35_adopt| Fri Jul 31 00:00:00 UTC 2026 | Fri Jul 31 00:00:00 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  03-31-2026 |            2/-120 |        Yes |           jdk-26+35_adopt|
-|        x64|        linux |  03-31-2026 |            2/-120 |        Yes |           jdk-26+35_adopt|
-|      ppc64|          aix |  03-31-2026 |            7/-120 |        Yes |           jdk-26+35_adopt|
-|    aarch64| alpine-linux |  03-31-2026 |            7/-120 |        Yes |           jdk-26+35_adopt|
-|    ppc64le|        linux |  03-31-2026 |            7/-120 |        Yes |           jdk-26+35_adopt|
-|        x64| alpine-linux |  03-31-2026 |            7/-120 |        Yes |           jdk-26+35_adopt|
-|        x64|          mac |  04-01-2026 |            2/-119 |        Yes |           jdk-26+35_adopt|
-|      s390x|        linux |  04-07-2026 |            7/-113 |        Yes |           jdk-26+35_adopt|
-|    aarch64|          mac |  04-07-2026 |            2/-113 |        Yes |           jdk-26+35_adopt|
-|    riscv64|        linux |  04-07-2026 |            7/-113 |        Yes |           jdk-26+35_adopt|
-|        x64|      windows |  04-07-2026 |            2/-113 |        Yes |           jdk-26+35_adopt|
+|    aarch64|        linux |  03-31-2026 |            2/-121 |        Yes |           jdk-26+35_adopt|
+|        x64|        linux |  03-31-2026 |            2/-121 |        Yes |           jdk-26+35_adopt|
+|      ppc64|          aix |  03-31-2026 |            7/-121 |        Yes |           jdk-26+35_adopt|
+|    aarch64| alpine-linux |  03-31-2026 |            7/-121 |        Yes |           jdk-26+35_adopt|
+|    ppc64le|        linux |  03-31-2026 |            7/-121 |        Yes |           jdk-26+35_adopt|
+|        x64| alpine-linux |  03-31-2026 |            7/-121 |        Yes |           jdk-26+35_adopt|
+|        x64|          mac |  04-01-2026 |            2/-120 |        Yes |           jdk-26+35_adopt|
+|      s390x|        linux |  04-07-2026 |            7/-114 |        Yes |           jdk-26+35_adopt|
+|    aarch64|          mac |  04-07-2026 |            2/-114 |        Yes |           jdk-26+35_adopt|
+|    riscv64|        linux |  04-07-2026 |            7/-114 |        Yes |           jdk-26+35_adopt|
+|        x64|      windows |  04-07-2026 |            2/-114 |        Yes |           jdk-26+35_adopt|
 
 On-Time 11(100%)  Late: 0(0%)
 
