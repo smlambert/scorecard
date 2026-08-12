@@ -16,57 +16,25 @@ jobs:
     - name: Compute stats
       run: |
         ./run-all.sh | tee release-stats.md
+    - name: Generate wiki markdown
+      run: |
+        chmod +x generate-wiki.sh
+        ./generate-wiki.sh release-stats.md wiki.md wiki.md
     - name: Pull Request Update
       if: env.DEFAULT_UPDATE_VIA_PUSH == 'false'
       uses: peter-evans/create-pull-request@v3
       with:
         title: 'New release.stats generated'
         commit-message: 'New release.stats generated'
+        add-paths: |
+          release-stats.md
+          wiki.md
     - name: Direct Push Update
       if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
       run: |
           echo "Direct Push:"
           git config --global user.name "Auto-Push[bot]"
           git config --global user.email "auto-push@users.noreply.github.com"
-          git add -A
+          git add release-stats.md wiki.md
           git commit -m "Updated stats"
           git push
-    - name: Update scorecard wiki
-      if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
-      env:
-        GH_TOKEN: ${{ github.token }}
-        WIKI_REPO: ${{ github.repository }}
-      run: |
-          # Clone the wiki repo using explicit token auth
-          WIKI_URL="https://x-access-token:${GH_TOKEN}@github.com/${WIKI_REPO}.wiki.git"
-          WIKI_IS_NEW=false
-          if ! git clone "$WIKI_URL" wiki-repo 2>&1; then
-              echo "Wiki clone failed - wiki may not have any pages yet. Initializing new wiki repo."
-              mkdir -p wiki-repo
-              cd wiki-repo
-              git init -b master
-              git remote add origin "$WIKI_URL"
-              WIKI_IS_NEW=true
-              cd ..
-          fi
-
-          # Generate the new wiki page, preserving existing narratives
-          chmod +x generate-wiki.sh
-          ./generate-wiki.sh release-stats.md \
-              wiki-repo/Adoptium-Release-Scorecards.md \
-              wiki-repo/Adoptium-Release-Scorecards.md
-
-          # Commit and push only if content changed
-          cd wiki-repo
-          git config user.name  "Auto-Push[bot]"
-          git config user.email "auto-push@users.noreply.github.com"
-          # Ensure push uses the authenticated remote
-          git remote set-url origin "$WIKI_URL"
-          git add Adoptium-Release-Scorecards.md
-          git diff --cached --quiet || git commit -m "Auto-update release scorecards [bot]"
-          # For a new wiki repo, set the upstream on first push
-          if [ "$WIKI_IS_NEW" = "true" ]; then
-              git push --set-upstream origin master
-          else
-              git push
-          fi
