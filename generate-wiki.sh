@@ -116,7 +116,7 @@ while IFS= read -r line; do
         BLOCK_OVER[$block_idx]=$current_over
         BLOCK_UNDER[$block_idx]=$current_under
         BLOCK_PRODUCTS[$block_idx]=$current_products
-        (( block_idx++ ))
+        (( block_idx += 1 ))
         in_block=0
         continue
     fi
@@ -128,10 +128,10 @@ while IFS= read -r line; do
         # Parse platform data rows to compute Golf Score components.
         # A platform row looks like:
         #   |        x64|        linux |  05-04-2026 |              2/11 |         No |  ...
-        # The Target/Actual field is column 4 (1-based).
+        # The Target/Actual field is column 5 (1-based with leading/trailing pipes).
         if [[ "$line" =~ ^\|[[:space:]]+[a-z0-9_]+\|[[:space:]]+ && "$line" =~ [0-9]+/[0-9]+ ]]; then
             # Extract the target/actual field — format is "TARGET/ACTUAL"
-            ta=$(echo "$line" | awk -F'|' '{gsub(/ /,"",$4); print $4}')
+            ta=$(echo "$line" | awk -F'|' '{gsub(/ /,"",$5); print $5}')
             if [[ "$ta" =~ ^([0-9]+)/([0-9]+)$ ]]; then
                 target="${BASH_REMATCH[1]}"
                 actual="${BASH_REMATCH[2]}"
@@ -141,11 +141,11 @@ while IFS= read -r line; do
                 elif (( delta < 0 )); then
                     (( current_under += -delta ))
                 fi
-                (( current_products++ ))
+                (( current_products += 1 ))
 
-                # Derive the quarter from the release date (column 3: MM-DD-YYYY)
+                # Derive the quarter from the release date (column 4: MM-DD-YYYY)
                 if [[ -z "$current_quarter" ]]; then
-                    rel_date=$(echo "$line" | awk -F'|' '{gsub(/ /,"",$3); print $3}')
+                    rel_date=$(echo "$line" | awk -F'|' '{gsub(/ /,"",$4); print $4}')
                     if [[ "$rel_date" =~ ^([0-9]{2})-[0-9]{2}-([0-9]{4})$ ]]; then
                         mm="${BASH_REMATCH[1]}"
                         yyyy="${BASH_REMATCH[2]}"
@@ -185,13 +185,13 @@ declare -A Q_UNDER=()
 declare -A Q_PRODUCTS=()
 
 for q in "${QUARTERS_ORDERED[@]}"; do
-    Q_OVER[$q]=0
-    Q_UNDER[$q]=0
-    Q_PRODUCTS[$q]=0
+    Q_OVER["$q"]=0
+    Q_UNDER["$q"]=0
+    Q_PRODUCTS["$q"]=0
     for i in ${QUARTER_BLOCKS[$q]}; do
-        (( Q_OVER[$q]  += BLOCK_OVER[$i] ))
-        (( Q_UNDER[$q] += BLOCK_UNDER[$i] ))
-        (( Q_PRODUCTS[$q] += BLOCK_PRODUCTS[$i] ))
+        Q_OVER["$q"]=$(( Q_OVER["$q"] + BLOCK_OVER[$i] ))
+        Q_UNDER["$q"]=$(( Q_UNDER["$q"] + BLOCK_UNDER[$i] ))
+        Q_PRODUCTS["$q"]=$(( Q_PRODUCTS["$q"] + BLOCK_PRODUCTS[$i] ))
     done
 done
 
