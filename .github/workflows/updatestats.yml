@@ -26,6 +26,9 @@ jobs:
       with:
         title: 'New release.stats generated'
         commit-message: 'New release.stats generated'
+        add-paths: |
+          release-stats.md
+          wiki.md
     - name: Direct Push Update
       if: env.DEFAULT_UPDATE_VIA_PUSH == 'true'
       run: |
