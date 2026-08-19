@@ -606,6 +606,25 @@ On-Time 11(100%)  Late: 0(0%)
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk17u/.git/
 
 
+<details><summary>Release tag: jdk-17.0.20.1-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|          jdk-17.0.20.1-ga| Fri Aug  7 11:31:50 UTC 2026 | Fri Aug  7 11:41:34 UTC 2026 |                 0 |
+|     jdk-17.0.20.1+1_adopt| Tue Aug 18 17:58:39 UTC 2026 | Tue Aug 18 17:59:29 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-17.0.20.1+1_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-17.0.20-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -871,37 +890,29 @@ On-Time 12(100%)  Late: 0(0%)
 
 </details>
 
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk21u/.git/
 
 
-<details><summary>Release tag: jdk-17.0.11-ga</summary>
+<details><summary>Release tag: jdk-21.0.12.1-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|            jdk-17.0.11-ga| Mon Apr  8 06:17:50 UTC 2024 | Mon Apr  8 06:19:18 UTC 2024 |                 0 |
-|       jdk-17.0.11+9_adopt| Wed Apr 17 05:43:04 UTC 2024 | Wed Apr 17 05:43:04 UTC 2024 |                 0 |
+|          jdk-21.0.12.1-ga| Fri Aug  7 11:31:48 UTC 2026 | Fri Aug  7 11:41:34 UTC 2026 |                 0 |
+|     jdk-21.0.12.1+1_adopt| Tue Aug 18 17:23:33 UTC 2026 | Tue Aug 18 17:24:24 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
-|    aarch64|          mac |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
-|        x64|          mac |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
-|        x64|        linux |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
-|        x64|      windows |  04-18-2024 |               2/1 |        Yes |       jdk-17.0.11+9_adopt|
-|    ppc64le|        linux |  04-19-2024 |               7/2 |        Yes |       jdk-17.0.11+9_adopt|
-|        x64| alpine-linux |  04-19-2024 |               7/2 |        Yes |       jdk-17.0.11+9_adopt|
-|      s390x|        linux |  04-20-2024 |               7/3 |        Yes |       jdk-17.0.11+9_adopt|
-|        x32|      windows |  04-21-2024 |               7/4 |        Yes |       jdk-17.0.11+9_adopt|
-|        arm|        linux |  04-22-2024 |               7/5 |        Yes |       jdk-17.0.11+9_adopt|
-|      ppc64|          aix |  04-22-2024 |               7/5 |        Yes |       jdk-17.0.11+9_adopt|
-|    riscv64|        linux |  05-14-2024 |              7/27 |         No |       jdk-17.0.11+9_adopt|
+|    aarch64|          mac |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
+|        x64|          mac |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
+|        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
+|        x64|        linux |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 
-On-Time 11(91%)  Late: 1(8%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
 
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk21u/.git/
 
 
 <details><summary>Release tag: jdk-21.0.12-ga</summary>
@@ -1171,36 +1182,26 @@ On-Time 11(100%)  Late: 0(0%)
 
 </details>
 
+Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk25u/.git/
 
 
-<details><summary>Release tag: jdk-21.0.3-ga</summary>
+<details><summary>Release tag: jdk-25.0.4.1-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|             jdk-21.0.3-ga| Mon Apr  8 06:22:11 UTC 2024 | Mon Apr  8 06:23:22 UTC 2024 |                 0 |
-|        jdk-21.0.3+9_adopt| Wed Apr 17 06:10:32 UTC 2024 | Wed Apr 17 06:10:32 UTC 2024 |                 0 |
+|           jdk-25.0.4.1-ga| Fri Aug  7 11:31:46 UTC 2026 | Fri Aug  7 11:41:34 UTC 2026 |                 0 |
+|      jdk-25.0.4.1+1_adopt| Tue Aug 18 17:52:40 UTC 2026 | Tue Aug 18 17:53:16 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  04-18-2024 |               2/1 |        Yes |        jdk-21.0.3+9_adopt|
-|        x64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk-21.0.3+9_adopt|
-|    aarch64|        linux |  04-18-2024 |               2/1 |        Yes |        jdk-21.0.3+9_adopt|
-|    aarch64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk-21.0.3+9_adopt|
-|        x64|          mac |  04-19-2024 |               2/2 |        Yes |        jdk-21.0.3+9_adopt|
-|      s390x|        linux |  04-20-2024 |               7/3 |        Yes |        jdk-21.0.3+9_adopt|
-|        x64| alpine-linux |  04-20-2024 |               7/3 |        Yes |        jdk-21.0.3+9_adopt|
-|    aarch64| alpine-linux |  04-20-2024 |               7/3 |        Yes |        jdk-21.0.3+9_adopt|
-|    ppc64le|        linux |  04-20-2024 |               7/3 |        Yes |        jdk-21.0.3+9_adopt|
-|    riscv64|        linux |  04-22-2024 |               7/5 |        Yes |        jdk-21.0.3+9_adopt|
-|      ppc64|          aix |  04-23-2024 |               7/6 |        Yes |        jdk-21.0.3+9_adopt|
+|        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |      jdk-25.0.4.1+1_adopt|
 
-On-Time 11(100%)  Late: 0(0%)
+On-Time 1(100%)  Late: 0(0%)
 
 
 </details>
 
-Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk25u/.git/
 
 
 <details><summary>Release tag: jdk-25.0.4-ga</summary>
@@ -1412,22 +1413,22 @@ On-Time 0(0%)  Late: 11(100%)
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
 |                 jdk-26-ga| Thu Feb 12 15:13:35 UTC 2026 | Tue Mar 17 16:02:34 UTC 2026 |               -33 |
-|           jdk-26+35_adopt| Wed Aug 12 00:00:00 UTC 2026 | Wed Aug 12 00:00:00 UTC 2026 |                 0 |
+|           jdk-26+35_adopt| Wed Aug 19 00:00:00 UTC 2026 | Wed Aug 19 00:00:00 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|    aarch64|        linux |  03-31-2026 |            2/-133 |        Yes |           jdk-26+35_adopt|
-|        x64|        linux |  03-31-2026 |            2/-133 |        Yes |           jdk-26+35_adopt|
-|      ppc64|          aix |  03-31-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
-|    aarch64| alpine-linux |  03-31-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
-|    ppc64le|        linux |  03-31-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
-|        x64| alpine-linux |  03-31-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
-|        x64|          mac |  04-01-2026 |            2/-132 |        Yes |           jdk-26+35_adopt|
-|      s390x|        linux |  04-07-2026 |            7/-126 |        Yes |           jdk-26+35_adopt|
-|    aarch64|          mac |  04-07-2026 |            2/-126 |        Yes |           jdk-26+35_adopt|
-|    riscv64|        linux |  04-07-2026 |            7/-126 |        Yes |           jdk-26+35_adopt|
-|        x64|      windows |  04-07-2026 |            2/-126 |        Yes |           jdk-26+35_adopt|
+|    aarch64|        linux |  03-31-2026 |            2/-140 |        Yes |           jdk-26+35_adopt|
+|        x64|        linux |  03-31-2026 |            2/-140 |        Yes |           jdk-26+35_adopt|
+|      ppc64|          aix |  03-31-2026 |            7/-140 |        Yes |           jdk-26+35_adopt|
+|    aarch64| alpine-linux |  03-31-2026 |            7/-140 |        Yes |           jdk-26+35_adopt|
+|    ppc64le|        linux |  03-31-2026 |            7/-140 |        Yes |           jdk-26+35_adopt|
+|        x64| alpine-linux |  03-31-2026 |            7/-140 |        Yes |           jdk-26+35_adopt|
+|        x64|          mac |  04-01-2026 |            2/-139 |        Yes |           jdk-26+35_adopt|
+|      s390x|        linux |  04-07-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
+|    aarch64|          mac |  04-07-2026 |            2/-133 |        Yes |           jdk-26+35_adopt|
+|    riscv64|        linux |  04-07-2026 |            7/-133 |        Yes |           jdk-26+35_adopt|
+|        x64|      windows |  04-07-2026 |            2/-133 |        Yes |           jdk-26+35_adopt|
 
 On-Time 11(100%)  Late: 0(0%)
 
