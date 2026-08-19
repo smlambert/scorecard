@@ -907,8 +907,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64|          mac |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 |        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 |        x64|        linux |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
+|    aarch64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 </details>
@@ -1196,8 +1197,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |      jdk-25.0.4.1+1_adopt|
+|        x64|          mac |  08-19-2026 |               2/1 |        Yes |      jdk-25.0.4.1+1_adopt|
 
-On-Time 1(100%)  Late: 0(0%)
+On-Time 2(100%)  Late: 0(0%)
 
 
 </details>

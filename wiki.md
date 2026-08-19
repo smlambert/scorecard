@@ -25,7 +25,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 | Oct 2024 | 45 | 28 | 59 | -31 | -0.689 |
 | Jul 2024 | 58 | 16 | 85 | -69 | -1.190 |
 | Apr 2024 | 11 | 0 | 19 | -19 | -1.727 |
-| Sep 2026 | 6 | 0 | 27 | -27 | -4.500 |
+| Sep 2026 | 8 | 0 | 35 | -35 | -4.375 |
 
 _Days Over minus Days Under_ measure, is a generalized measure of how a release went, consider it our 'golf score', the smaller the better.  Large positive numbers indicate that the release did not go smoothly.  Negative numbers indicate a smoother release period.  If the overall number becomes sufficiently small (an impressively negative number) consistently for several release periods, it may indicate that it is time to adjust the targets to be harder to achieve (instead of 2 days, move to 1 day, instead of 7 move to 5, and so forth).
 
@@ -1348,8 +1348,9 @@ On-Time 1(100%)  Late: 0(0%)
 |        x64|          mac |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 |        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 |        x64|        linux |  08-19-2026 |               2/0 |        Yes |     jdk-21.0.12.1+1_adopt|
+|    aarch64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 
@@ -1365,8 +1366,9 @@ On-Time 4(100%)  Late: 0(0%)
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64| alpine-linux |  08-19-2026 |               7/0 |        Yes |      jdk-25.0.4.1+1_adopt|
+|        x64|          mac |  08-19-2026 |               2/1 |        Yes |      jdk-25.0.4.1+1_adopt|
 
-On-Time 1(100%)  Late: 0(0%)
+On-Time 2(100%)  Late: 0(0%)
 
 
 
