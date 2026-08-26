@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Sep 2026 | 27 | 23 | 44 | -21 | -0.778 |
+| WIP Sep 2026 | 40 | 44 | 51 | -7 | -0.175 |
 | Jul 2026 | 62 | 154 | 29 | 125 | 2.016 |
 | Apr 2026 | 63 | 290 | 56 | 234 | 3.714 |
 | Jan 2026 | 52 | 251 | 77 | 174 | 3.346 |
@@ -47,8 +47,11 @@ _Days Over minus Days Under_ measure, is a generalized measure of how a release 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  08-25-2026 |               2/5 |         No |        jdk8u504-b01_adopt|
+|    aarch64|        linux |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
+|        x64|      windows |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
+|        x64|          mac |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
 
-On-Time 0(0%)  Late: 1(100%)
+On-Time 0(0%)  Late: 4(100%)
 
 
 
@@ -66,8 +69,10 @@ On-Time 0(0%)  Late: 1(100%)
 |        x64|        linux |  08-24-2026 |               2/5 |         No |     jdk-11.0.32.1+1_adopt|
 |    aarch64|        linux |  08-24-2026 |               2/5 |         No |     jdk-11.0.32.1+1_adopt|
 |    aarch64|          mac |  08-25-2026 |               2/6 |         No |     jdk-11.0.32.1+1_adopt|
+|        x64|          mac |  08-25-2026 |               2/6 |         No |     jdk-11.0.32.1+1_adopt|
+|        x64|      windows |  08-26-2026 |               2/7 |         No |     jdk-11.0.32.1+1_adopt|
 
-On-Time 0(0%)  Late: 3(100%)
+On-Time 0(0%)  Late: 5(100%)
 
 
 
@@ -88,8 +93,9 @@ On-Time 0(0%)  Late: 3(100%)
 |    aarch64|          mac |  08-21-2026 |               2/2 |        Yes |     jdk-17.0.20.1+1_adopt|
 |    aarch64|        linux |  08-24-2026 |               2/5 |         No |     jdk-17.0.20.1+1_adopt|
 |        x64|      windows |  08-24-2026 |               2/5 |         No |     jdk-17.0.20.1+1_adopt|
+|        arm|        linux |  08-26-2026 |               7/7 |        Yes |     jdk-17.0.20.1+1_adopt|
 
-On-Time 4(66%)  Late: 2(33%)
+On-Time 5(71%)  Late: 2(28%)
 
 
 
@@ -111,8 +117,13 @@ On-Time 4(66%)  Late: 2(33%)
 |    aarch64| alpine-linux |  08-19-2026 |               7/0 |        Yes |     jdk-21.0.12.1+1_adopt|
 |        x64|      windows |  08-21-2026 |               2/2 |        Yes |     jdk-21.0.12.1+1_adopt|
 |    aarch64|        linux |  08-21-2026 |               2/2 |        Yes |     jdk-21.0.12.1+1_adopt|
+|    ppc64le|        linux |  08-25-2026 |               7/6 |        Yes |     jdk-21.0.12.1+1_adopt|
+|      ppc64|          aix |  08-25-2026 |               7/6 |        Yes |     jdk-21.0.12.1+1_adopt|
+|      s390x|        linux |  08-25-2026 |               7/6 |        Yes |     jdk-21.0.12.1+1_adopt|
+|    aarch64|      windows |  08-25-2026 |               7/6 |        Yes |     jdk-21.0.12.1+1_adopt|
+|    riscv64|        linux |  08-25-2026 |               7/6 |        Yes |     jdk-21.0.12.1+1_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 12(100%)  Late: 0(0%)
 
 
 
@@ -136,8 +147,10 @@ On-Time 7(100%)  Late: 0(0%)
 |    aarch64|          mac |  08-21-2026 |               2/2 |        Yes |      jdk-25.0.4.1+1_adopt|
 |      s390x|        linux |  08-25-2026 |               7/6 |        Yes |      jdk-25.0.4.1+1_adopt|
 |      ppc64|          aix |  08-25-2026 |               7/6 |        Yes |      jdk-25.0.4.1+1_adopt|
+|    riscv64|        linux |  08-25-2026 |               7/6 |        Yes |      jdk-25.0.4.1+1_adopt|
+|    ppc64le|        linux |  08-25-2026 |               7/6 |        Yes |      jdk-25.0.4.1+1_adopt|
 
-On-Time 9(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 
