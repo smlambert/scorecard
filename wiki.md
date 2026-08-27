@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Sep 2026 | 43 | 44 | 51 | -7 | -0.163 |
+| WIP Sep 2026 | 49 | 64 | 51 | 13 | 0.265 |
 | Jul 2026 | 62 | 154 | 29 | 125 | 2.016 |
 | Apr 2026 | 63 | 290 | 56 | 234 | 3.714 |
 | Jan 2026 | 52 | 251 | 77 | 174 | 3.346 |
@@ -50,8 +50,9 @@ _Days Over minus Days Under_ measure, is a generalized measure of how a release 
 |    aarch64|        linux |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
 |        x64|      windows |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
 |        x64|          mac |  08-26-2026 |               2/6 |         No |        jdk8u504-b01_adopt|
+|      ppc64|          aix |  08-27-2026 |               7/7 |        Yes |        jdk8u504-b01_adopt|
 
-On-Time 0(0%)  Late: 4(100%)
+On-Time 1(20%)  Late: 4(80%)
 
 
 
@@ -71,8 +72,10 @@ On-Time 0(0%)  Late: 4(100%)
 |    aarch64|          mac |  08-25-2026 |               2/6 |         No |     jdk-11.0.32.1+1_adopt|
 |        x64|          mac |  08-25-2026 |               2/6 |         No |     jdk-11.0.32.1+1_adopt|
 |        x64|      windows |  08-26-2026 |               2/7 |         No |     jdk-11.0.32.1+1_adopt|
+|        arm|        linux |  08-27-2026 |               7/8 |         No |     jdk-11.0.32.1+1_adopt|
+|        x64| alpine-linux |  08-27-2026 |               7/8 |         No |     jdk-11.0.32.1+1_adopt|
 
-On-Time 0(0%)  Late: 5(100%)
+On-Time 0(0%)  Late: 7(100%)
 
 
 
@@ -169,8 +172,11 @@ On-Time 11(100%)  Late: 0(0%)
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  08-25-2026 |               2/6 |         No |      jdk-26.0.2.1+1_adopt|
+|        x64|          mac |  08-27-2026 |               2/8 |         No |      jdk-26.0.2.1+1_adopt|
+|    aarch64|        linux |  08-27-2026 |               2/8 |         No |      jdk-26.0.2.1+1_adopt|
+|    aarch64|          mac |  08-27-2026 |               2/8 |         No |      jdk-26.0.2.1+1_adopt|
 
-On-Time 0(0%)  Late: 1(100%)
+On-Time 0(0%)  Late: 4(100%)
 
 
 
