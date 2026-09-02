@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Sep 2026 | 59 | 110 | 51 | 59 | 1.000 |
+| WIP Sep 2026 | 62 | 136 | 51 | 85 | 1.371 |
 | Jul 2026 | 62 | 154 | 29 | 125 | 2.016 |
 | Apr 2026 | 63 | 290 | 56 | 234 | 3.714 |
 | Jan 2026 | 52 | 251 | 77 | 174 | 3.346 |
@@ -78,8 +78,9 @@ On-Time 1(14%)  Late: 6(85%)
 |        x64| alpine-linux |  08-27-2026 |               7/8 |         No |     jdk-11.0.32.1+1_adopt|
 |      ppc64|          aix |  08-27-2026 |               7/8 |         No |     jdk-11.0.32.1+1_adopt|
 |    ppc64le|        linux |  08-31-2026 |              7/12 |         No |     jdk-11.0.32.1+1_adopt|
+|      s390x|        linux |  09-01-2026 |              7/13 |         No |     jdk-11.0.32.1+1_adopt|
 
-On-Time 0(0%)  Late: 9(100%)
+On-Time 0(0%)  Late: 10(100%)
 
 
 
@@ -98,14 +99,15 @@ On-Time 0(0%)  Late: 9(100%)
 |        x64|          mac |  08-19-2026 |               2/1 |        Yes |     jdk-17.0.20.1+1_adopt|
 |        x64|        linux |  08-21-2026 |               2/2 |        Yes |     jdk-17.0.20.1+1_adopt|
 |    aarch64|          mac |  08-21-2026 |               2/2 |        Yes |     jdk-17.0.20.1+1_adopt|
-|    aarch64|        linux |  08-24-2026 |               2/5 |         No |     jdk-17.0.20.1+1_adopt|
 |        x64|      windows |  08-24-2026 |               2/5 |         No |     jdk-17.0.20.1+1_adopt|
 |        arm|        linux |  08-26-2026 |               7/7 |        Yes |     jdk-17.0.20.1+1_adopt|
 |      s390x|        linux |  08-26-2026 |               7/7 |        Yes |     jdk-17.0.20.1+1_adopt|
 |      ppc64|          aix |  08-26-2026 |               7/7 |        Yes |     jdk-17.0.20.1+1_adopt|
 |    ppc64le|        linux |  08-26-2026 |               7/7 |        Yes |     jdk-17.0.20.1+1_adopt|
+|    aarch64|        linux |  09-01-2026 |              2/13 |         No |     jdk-17.0.20.1+1_adopt|
+|    riscv64|        linux |  09-01-2026 |              7/13 |         No |     jdk-17.0.20.1+1_adopt|
 
-On-Time 8(80%)  Late: 2(20%)
+On-Time 8(72%)  Late: 3(27%)
 
 
 
@@ -185,8 +187,9 @@ On-Time 11(100%)  Late: 0(0%)
 |      ppc64|          aix |  08-31-2026 |              7/12 |         No |      jdk-26.0.2.1+1_adopt|
 |    riscv64|        linux |  08-31-2026 |              7/12 |         No |      jdk-26.0.2.1+1_adopt|
 |    ppc64le|        linux |  08-31-2026 |              7/12 |         No |      jdk-26.0.2.1+1_adopt|
+|    aarch64| alpine-linux |  09-01-2026 |              7/13 |         No |      jdk-26.0.2.1+1_adopt|
 
-On-Time 0(0%)  Late: 10(100%)
+On-Time 0(0%)  Late: 11(100%)
 
 
 
