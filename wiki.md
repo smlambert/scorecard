@@ -24,7 +24,8 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 | Apr 2025 | 44 | 20 | 53 | -33 | -0.750 |
 | Jan 2025 | 46 | 5 | 80 | -75 | -1.630 |
 | Oct 2024 | 45 | 28 | 59 | -31 | -0.689 |
-| Jul 2024 | 35 | 6 | 75 | -69 | -1.971 |
+| Jul 2024 | 12 | 6 | 21 | -15 | -1.250 |
+| Oct 2026 | 10 | 0 | 30 | -30 | -3.000 |
 
 _Days Over minus Days Under_ measure, is a generalized measure of how a release went, consider it our 'golf score', the smaller the better.  Large positive numbers indicate that the release did not go smoothly.  Negative numbers indicate a smoother release period.  If the overall number becomes sufficiently small (an impressively negative number) consistently for several release periods, it may indicate that it is time to adjust the targets to be harder to achieve (instead of 2 days, move to 1 day, instead of 7 move to 5, and so forth).
 
@@ -1260,31 +1261,48 @@ On-Time 11(100%)  Late: 0(0%)
 
 
 
+</details>
+
+<details><summary>Oct 2026</summary>
+
+<!-- Retrospective: add a summary paragraph describing how this release period went. -->
+
+<!-- SCORECARD-DATA-START -->
+
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|            jdk-17.0.21-ga| Tue Oct 20 05:15:06 UTC 2026 | Tue Oct 20 13:17:45 UTC 2026 |                 0 |
+|       jdk-17.0.21+9_adopt| Tue Oct 20 22:42:49 UTC 2026 | Tue Oct 20 22:42:50 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|        x64|        linux |  10-22-2026 |               2/1 |        Yes |       jdk-17.0.21+9_adopt|
+|    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |       jdk-17.0.21+9_adopt|
+
+On-Time 2(100%)  Late: 0(0%)
+
+
+
 ---
 
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|            jdk-17.0.12-ga| Tue Jul  9 08:19:46 UTC 2024 | Mon Jul 15 20:58:35 UTC 2024 |                -6 |
-|       jdk-17.0.12+7_adopt| Tue Jul 16 21:42:21 UTC 2024 | Tue Jul 16 21:42:21 UTC 2024 |                 0 |
+|            jdk-21.0.13-ga| Mon Oct 19 12:10:20 UTC 2026 | Tue Oct 20 13:17:45 UTC 2026 |                -1 |
+|       jdk-21.0.13+9_adopt| Tue Oct 20 22:09:55 UTC 2026 | Tue Oct 20 22:09:55 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-17-2024 |               2/0 |        Yes |       jdk-17.0.12+7_adopt|
-|        x64|          mac |  07-17-2024 |               2/0 |        Yes |       jdk-17.0.12+7_adopt|
-|    aarch64|          mac |  07-17-2024 |               2/0 |        Yes |       jdk-17.0.12+7_adopt|
-|    aarch64|        linux |  07-18-2024 |               2/1 |        Yes |       jdk-17.0.12+7_adopt|
-|        x64|      windows |  07-18-2024 |               2/1 |        Yes |       jdk-17.0.12+7_adopt|
-|    ppc64le|        linux |  07-19-2024 |               7/2 |        Yes |       jdk-17.0.12+7_adopt|
-|        x64| alpine-linux |  07-19-2024 |               7/2 |        Yes |       jdk-17.0.12+7_adopt|
-|    riscv64|        linux |  07-19-2024 |               7/2 |        Yes |       jdk-17.0.12+7_adopt|
-|      s390x|        linux |  07-22-2024 |               7/5 |        Yes |       jdk-17.0.12+7_adopt|
-|        arm|        linux |  07-22-2024 |               7/5 |        Yes |       jdk-17.0.12+7_adopt|
-|        x32|      windows |  07-22-2024 |               7/5 |        Yes |       jdk-17.0.12+7_adopt|
-|      ppc64|          aix |  07-23-2024 |               7/6 |        Yes |       jdk-17.0.12+7_adopt|
+|    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |       jdk-21.0.13+9_adopt|
+|        x64| alpine-linux |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
+|      ppc64|          aix |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
+|    ppc64le|        linux |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
+|        x64|        linux |  10-22-2026 |               2/1 |        Yes |       jdk-21.0.13+9_adopt|
 
-On-Time 12(100%)  Late: 0(0%)
+On-Time 5(100%)  Late: 0(0%)
 
 
 
@@ -1293,25 +1311,17 @@ On-Time 12(100%)  Late: 0(0%)
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
 |                       ---|                       --- |               --- |               --- |
-|             jdk-21.0.4-ga| Tue Jul  9 08:07:16 UTC 2024 | Tue Jul 16 08:39:31 UTC 2024 |                -7 |
-|        jdk-21.0.4+7_adopt| Tue Jul 16 22:10:05 UTC 2024 | Tue Jul 16 22:10:05 UTC 2024 |                 0 |
+|             jdk-25.0.5-ga| Mon Oct 19 12:10:20 UTC 2026 | Tue Oct 20 13:17:46 UTC 2026 |                -1 |
+|        jdk-25.0.5+8_adopt| Tue Oct 20 20:45:53 UTC 2026 | Tue Oct 20 20:45:53 UTC 2026 |                 0 |
 
 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  07-17-2024 |               2/0 |        Yes |        jdk-21.0.4+7_adopt|
-|    aarch64|        linux |  07-18-2024 |               2/1 |        Yes |        jdk-21.0.4+7_adopt|
-|    aarch64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-21.0.4+7_adopt|
-|        x64| alpine-linux |  07-18-2024 |               7/1 |        Yes |        jdk-21.0.4+7_adopt|
-|        x64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
-|    riscv64|        linux |  07-19-2024 |               7/2 |        Yes |        jdk-21.0.4+7_adopt|
-|        x64|      windows |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
-|    aarch64|          mac |  07-19-2024 |               2/2 |        Yes |        jdk-21.0.4+7_adopt|
-|    ppc64le|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-21.0.4+7_adopt|
-|      s390x|        linux |  07-22-2024 |               7/5 |        Yes |        jdk-21.0.4+7_adopt|
-|      ppc64|          aix |  07-24-2024 |               7/7 |        Yes |        jdk-21.0.4+7_adopt|
+|    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |        jdk-25.0.5+8_adopt|
+|        x64|        linux |  10-22-2026 |               2/1 |        Yes |        jdk-25.0.5+8_adopt|
+|        x64| alpine-linux |  10-22-2026 |               7/1 |        Yes |        jdk-25.0.5+8_adopt|
 
-On-Time 11(100%)  Late: 0(0%)
+On-Time 3(100%)  Late: 0(0%)
 
 
 
