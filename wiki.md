@@ -25,7 +25,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 | Jan 2025 | 46 | 5 | 80 | -75 | -1.630 |
 | Oct 2024 | 45 | 28 | 59 | -31 | -0.689 |
 | Jul 2024 | 12 | 6 | 21 | -15 | -1.250 |
-| Oct 2026 | 10 | 0 | 30 | -30 | -3.000 |
+| Oct 2026 | 30 | 6 | 76 | -70 | -2.333 |
 
 _Days Over minus Days Under_ measure, is a generalized measure of how a release went, consider it our 'golf score', the smaller the better.  Large positive numbers indicate that the release did not go smoothly.  Negative numbers indicate a smoother release period.  If the overall number becomes sufficiently small (an impressively negative number) consistently for several release periods, it may indicate that it is time to adjust the targets to be harder to achieve (instead of 2 days, move to 1 day, instead of 7 move to 5, and so forth).
 
@@ -1280,8 +1280,13 @@ On-Time 11(100%)  Late: 0(0%)
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  10-22-2026 |               2/1 |        Yes |       jdk-17.0.21+9_adopt|
 |    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |       jdk-17.0.21+9_adopt|
+|        x64| alpine-linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
+|    aarch64|        linux |  10-26-2026 |               2/5 |         No |       jdk-17.0.21+9_adopt|
+|        arm|        linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
+|    ppc64le|        linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
+|      s390x|        linux |  10-27-2026 |               7/6 |        Yes |       jdk-17.0.21+9_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 6(85%)  Late: 1(14%)
 
 
 
@@ -1298,11 +1303,14 @@ On-Time 2(100%)  Late: 0(0%)
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |       jdk-21.0.13+9_adopt|
 |        x64| alpine-linux |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
-|      ppc64|          aix |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
 |    ppc64le|        linux |  10-22-2026 |               7/1 |        Yes |       jdk-21.0.13+9_adopt|
 |        x64|        linux |  10-22-2026 |               2/1 |        Yes |       jdk-21.0.13+9_adopt|
+|    aarch64|        linux |  10-23-2026 |               2/2 |        Yes |       jdk-21.0.13+9_adopt|
+|        x64|          mac |  10-23-2026 |               2/2 |        Yes |       jdk-21.0.13+9_adopt|
+|    aarch64| alpine-linux |  10-23-2026 |               7/2 |        Yes |       jdk-21.0.13+9_adopt|
+|      s390x|        linux |  10-23-2026 |               7/2 |        Yes |       jdk-21.0.13+9_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 
@@ -1320,8 +1328,36 @@ On-Time 5(100%)  Late: 0(0%)
 |    aarch64|          mac |  10-22-2026 |               2/1 |        Yes |        jdk-25.0.5+8_adopt|
 |        x64|        linux |  10-22-2026 |               2/1 |        Yes |        jdk-25.0.5+8_adopt|
 |        x64| alpine-linux |  10-22-2026 |               7/1 |        Yes |        jdk-25.0.5+8_adopt|
+|    aarch64|        linux |  10-23-2026 |               2/2 |        Yes |        jdk-25.0.5+8_adopt|
+|      s390x|        linux |  10-23-2026 |               7/2 |        Yes |        jdk-25.0.5+8_adopt|
+|        x64|          mac |  10-23-2026 |               2/2 |        Yes |        jdk-25.0.5+8_adopt|
+|    ppc64le|        linux |  10-24-2026 |               7/3 |        Yes |        jdk-25.0.5+8_adopt|
+|        x64|      windows |  10-26-2026 |               2/5 |         No |        jdk-25.0.5+8_adopt|
+|    aarch64| alpine-linux |  10-26-2026 |               7/5 |        Yes |        jdk-25.0.5+8_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 8(88%)  Late: 1(11%)
+
+
+
+---
+
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|         jdk-27.0.1.0.2-ga| Wed Oct 21 20:16:31 UTC 2026 | Thu Oct 22 19:29:14 UTC 2026 |                 0 |
+|    jdk-27.0.1.0.2+1_adopt| Fri Oct 23 18:03:37 UTC 2026 | Fri Oct 23 18:03:37 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    aarch64|          mac |  10-24-2026 |               2/0 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|        x64|        linux |  10-24-2026 |               2/0 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|        x64| alpine-linux |  10-24-2026 |               7/0 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|    aarch64| alpine-linux |  10-26-2026 |               7/2 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|    ppc64le|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|      s390x|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+
+On-Time 6(100%)  Late: 0(0%)
 
 
 
