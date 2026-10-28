@@ -1361,8 +1361,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    aarch64| alpine-linux |  10-26-2026 |               7/2 |        Yes |    jdk-27.0.1.0.2+1_adopt|
 |    ppc64le|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
 |      s390x|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
+|    aarch64|        linux |  10-28-2026 |               2/4 |         No |    jdk-27.0.1.0.2+1_adopt|
 
-On-Time 6(100%)  Late: 0(0%)
+On-Time 6(85%)  Late: 1(14%)
 
 
 </details>
