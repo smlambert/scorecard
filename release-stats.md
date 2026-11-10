@@ -15,8 +15,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    ppc64le|        linux |  11-04-2026 |               7/3 |        Yes |        jdk8u512-b09_adopt|
 |        x64|      windows |  11-05-2026 |               2/4 |         No |        jdk8u512-b09_adopt|
 |        x64|        linux |  11-05-2026 |               2/4 |         No |        jdk8u512-b09_adopt|
+|    aarch64|        linux |  11-06-2026 |               2/5 |         No |        jdk8u512-b09_adopt|
+|        x64| alpine-linux |  11-06-2026 |               7/5 |        Yes |        jdk8u512-b09_adopt|
 
-On-Time 1(33%)  Late: 2(66%)
+On-Time 2(40%)  Late: 3(60%)
 
 
 </details>
@@ -284,8 +286,12 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        arm|        linux |  11-04-2026 |               7/3 |        Yes |      jdk-11.0.33+10_adopt|
 |        x64|        linux |  11-05-2026 |               2/4 |         No |      jdk-11.0.33+10_adopt|
 |        x64|          mac |  11-05-2026 |               2/4 |         No |      jdk-11.0.33+10_adopt|
+|    aarch64|          mac |  11-05-2026 |               2/4 |         No |      jdk-11.0.33+10_adopt|
+|        x64| alpine-linux |  11-06-2026 |               7/5 |        Yes |      jdk-11.0.33+10_adopt|
+|    aarch64|        linux |  11-06-2026 |               2/5 |         No |      jdk-11.0.33+10_adopt|
+|        x64|      windows |  11-09-2026 |               2/8 |         No |      jdk-11.0.33+10_adopt|
 
-On-Time 3(60%)  Late: 2(40%)
+On-Time 4(44%)  Late: 5(55%)
 
 
 </details>
@@ -565,11 +571,13 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64| alpine-linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
 |    aarch64|        linux |  10-26-2026 |               2/5 |         No |       jdk-17.0.21+9_adopt|
 |        arm|        linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
+|    ppc64le|        linux |  10-26-2026 |               7/5 |        Yes |       jdk-17.0.21+9_adopt|
 |      s390x|        linux |  10-27-2026 |               7/6 |        Yes |       jdk-17.0.21+9_adopt|
 |        x64|          mac |  10-28-2026 |               2/7 |         No |       jdk-17.0.21+9_adopt|
 |    riscv64|        linux |  11-02-2026 |              7/12 |         No |       jdk-17.0.21+9_adopt|
+|        x64|      windows |  11-03-2026 |              2/13 |         No |       jdk-17.0.21+9_adopt|
 
-On-Time 5(62%)  Late: 3(37%)
+On-Time 6(60%)  Late: 4(40%)
 
 
 </details>
@@ -1381,8 +1389,9 @@ On-Time 1(100%)  Late: 0(0%)
 |      s390x|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
 |    aarch64|        linux |  10-28-2026 |               2/4 |         No |    jdk-27.0.1.0.2+1_adopt|
 |    riscv64|        linux |  11-02-2026 |               7/9 |         No |    jdk-27.0.1.0.2+1_adopt|
+|        x64|      windows |  11-09-2026 |              2/16 |         No |    jdk-27.0.1.0.2+1_adopt|
 
-On-Time 5(71%)  Late: 2(28%)
+On-Time 5(62%)  Late: 3(37%)
 
 
 </details>
@@ -1425,8 +1434,9 @@ On-Time 1(100%)  Late: 0(0%)
 |      s390x|        linux |  10-27-2026 |               7/3 |        Yes |    jdk-27.0.1.0.2+1_adopt|
 |    aarch64|        linux |  10-28-2026 |               2/4 |         No |    jdk-27.0.1.0.2+1_adopt|
 |    riscv64|        linux |  11-02-2026 |               7/9 |         No |    jdk-27.0.1.0.2+1_adopt|
+|        x64|      windows |  11-09-2026 |              2/16 |         No |    jdk-27.0.1.0.2+1_adopt|
 
-On-Time 5(71%)  Late: 2(28%)
+On-Time 5(62%)  Late: 3(37%)
 
 
 </details>
