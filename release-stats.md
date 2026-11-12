@@ -18,8 +18,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    aarch64|        linux |  11-06-2026 |               2/5 |         No |        jdk8u512-b09_adopt|
 |        x64| alpine-linux |  11-06-2026 |               7/5 |        Yes |        jdk8u512-b09_adopt|
 |        arm|        linux |  11-10-2026 |              7/10 |         No | jdk8u512-b09-aarch32-20261106_adopt|
+|        x64|          mac |  11-12-2026 |              2/11 |         No |        jdk8u512-b09_adopt|
 
-On-Time 2(33%)  Late: 4(66%)
+On-Time 2(28%)  Late: 5(71%)
 
 
 </details>

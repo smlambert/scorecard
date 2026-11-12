@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Oct 2026 | 63 | 96 | 120 | -24 | -0.381 |
+| WIP Oct 2026 | 64 | 105 | 120 | -15 | -0.234 |
 | Sep 2026 | 55 | 83 | 67 | 16 | 0.291 |
 | Jul 2026 | 51 | 111 | 29 | 82 | 1.608 |
 | Apr 2026 | 52 | 172 | 56 | 116 | 2.231 |
@@ -52,8 +52,9 @@ _Days Over minus Days Under_ measure, is a generalized measure of how a release 
 |    aarch64|        linux |  11-06-2026 |               2/5 |         No |        jdk8u512-b09_adopt|
 |        x64| alpine-linux |  11-06-2026 |               7/5 |        Yes |        jdk8u512-b09_adopt|
 |        arm|        linux |  11-10-2026 |              7/10 |         No | jdk8u512-b09-aarch32-20261106_adopt|
+|        x64|          mac |  11-12-2026 |              2/11 |         No |        jdk8u512-b09_adopt|
 
-On-Time 2(33%)  Late: 4(66%)
+On-Time 2(28%)  Late: 5(71%)
 
 
 
