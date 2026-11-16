@@ -873,8 +873,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |      s390x|        linux |  10-23-2026 |               7/2 |        Yes |       jdk-21.0.13+9_adopt|
 |    riscv64|        linux |  10-29-2026 |               7/8 |         No |       jdk-21.0.13+9_adopt|
 |        x64|      windows |  10-29-2026 |               2/8 |         No |       jdk-21.0.13+9_adopt|
+|      ppc64|          aix |  11-13-2026 |              7/23 |         No |       jdk-21.0.13+9_adopt|
 
-On-Time 8(80%)  Late: 2(20%)
+On-Time 8(72%)  Late: 3(27%)
 
 
 </details>
