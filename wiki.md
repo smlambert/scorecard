@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Oct 2026 | 76 | 141 | 157 | -16 | -0.211 |
+| WIP Oct 2026 | 89 | 141 | 224 | -83 | -0.933 |
 | Sep 2026 | 55 | 83 | 67 | 16 | 0.291 |
 | Jul 2026 | 51 | 111 | 29 | 82 | 1.608 |
 | Apr 2026 | 52 | 172 | 56 | 116 | 2.231 |
@@ -24,7 +24,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 | Jul 2025 | 46 | 123 | 42 | 81 | 1.761 |
 | Apr 2025 | 44 | 20 | 53 | -33 | -0.750 |
 | Jan 2025 | 46 | 5 | 80 | -75 | -1.630 |
-| Oct 2024 | 21 | 18 | 12 | 6 | 0.286 |
+| Oct 2024 | 11 | 6 | 7 | -1 | -0.091 |
 
 _Days Over minus Days Under_ measure, is a generalized measure of how a release went, consider it our 'golf score', the smaller the better.  Large positive numbers indicate that the release did not go smoothly.  Negative numbers indicate a smoother release period.  If the overall number becomes sufficiently small (an impressively negative number) consistently for several release periods, it may indicate that it is time to adjust the targets to be harder to achieve (instead of 2 days, move to 1 day, instead of 7 move to 5, and so forth).
 
@@ -36,6 +36,23 @@ _Days Over minus Days Under_ measure, is a generalized measure of how a release 
 <!-- Retrospective: add a summary paragraph describing how this release period went. -->
 
 <!-- SCORECARD-DATA-START -->
+
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u514-ga| Wed Nov 11 22:53:17 UTC 2026 | Tue Nov 17 20:04:50 UTC 2026 |                -5 |
+|        jdk8u514-b01_adopt| Tue Nov 17 21:14:27 UTC 2026 | Tue Nov 17 21:14:27 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |        jdk8u514-b01_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+
+---
 
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -95,8 +112,11 @@ On-Time 4(44%)  Late: 5(55%)
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |     jdk-17.0.21.1+2_adopt|
+|        x64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-17.0.21.1+2_adopt|
+|    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |     jdk-17.0.21.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-17.0.21.1+2_adopt|
 
-On-Time 1(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 
@@ -142,8 +162,10 @@ On-Time 6(60%)  Late: 4(40%)
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |     jdk-21.0.13.1+2_adopt|
 |      ppc64|          aix |  11-18-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 
@@ -187,8 +209,13 @@ On-Time 8(72%)  Late: 3(27%)
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64|          mac |  11-18-2026 |               2/0 |        Yes |      jdk-25.0.5.1+2_adopt|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |      jdk-25.0.5.1+2_adopt|
+|        x64| alpine-linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|      ppc64|          aix |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 
@@ -232,8 +259,10 @@ On-Time 8(72%)  Late: 3(27%)
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |      jdk-27.0.1.1+4_adopt|
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |      jdk-27.0.1.1+4_adopt|
+|    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |      jdk-27.0.1.1+4_adopt|
+|    ppc64le|        linux |  11-19-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 
@@ -1392,32 +1421,6 @@ On-Time 12(100%)  Late: 0(0%)
 <!-- Retrospective: add a summary paragraph describing how this release period went. -->
 
 <!-- SCORECARD-DATA-START -->
-
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u432-ga| Sat Oct  5 01:14:08 UTC 2024 | Wed Oct 16 15:13:28 UTC 2024 |               -11 |
-|        jdk8u432-b06_adopt| Wed Oct 16 15:16:02 UTC 2024 | Wed Oct 16 15:16:02 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  10-18-2024 |               2/1 |        Yes |        jdk8u432-b06_adopt|
-|    aarch64|        linux |  10-18-2024 |               2/2 |        Yes |        jdk8u432-b06_adopt|
-|        x64|          mac |  10-21-2024 |               2/4 |         No |        jdk8u432-b06_adopt|
-|        x64|      windows |  10-21-2024 |               2/5 |         No |        jdk8u432-b06_adopt|
-|    ppc64le|        linux |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        x32|      windows |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        x64| alpine-linux |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        arm|        linux |  10-23-2024 |               7/6 |        Yes | jdk8u432-b06-aarch32-20241016_adopt|
-|    sparcv9|      solaris |  10-25-2024 |               7/8 |         No |        jdk8u432-b06_adopt|
-|        x64|      solaris |  10-30-2024 |              7/13 |         No |        jdk8u432-b06_adopt|
-
-On-Time 6(60%)  Late: 4(40%)
-
-
-
----
 
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |

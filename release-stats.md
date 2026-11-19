@@ -2,6 +2,25 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/a
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk8u/.git/
 
 
+<details><summary>Release tag: jdk8u514-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|               jdk8u514-ga| Wed Nov 11 22:53:17 UTC 2026 | Tue Nov 17 20:04:50 UTC 2026 |                -5 |
+|        jdk8u514-b01_adopt| Tue Nov 17 21:14:27 UTC 2026 | Tue Nov 17 21:14:27 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |        jdk8u514-b01_adopt|
+
+On-Time 1(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk8u512-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -238,34 +257,6 @@ On-Time 5(55%)  Late: 4(44%)
 |      ppc64|          aix |  01-30-2025 |               7/8 |         No |        jdk8u442-b06_adopt|
 
 On-Time 8(72%)  Late: 3(27%)
-
-
-</details>
-
-
-
-<details><summary>Release tag: jdk8u432-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|               jdk8u432-ga| Sat Oct  5 01:14:08 UTC 2024 | Wed Oct 16 15:13:28 UTC 2024 |               -11 |
-|        jdk8u432-b06_adopt| Wed Oct 16 15:16:02 UTC 2024 | Wed Oct 16 15:16:02 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|        linux |  10-18-2024 |               2/1 |        Yes |        jdk8u432-b06_adopt|
-|    aarch64|        linux |  10-18-2024 |               2/2 |        Yes |        jdk8u432-b06_adopt|
-|        x64|          mac |  10-21-2024 |               2/4 |         No |        jdk8u432-b06_adopt|
-|        x64|      windows |  10-21-2024 |               2/5 |         No |        jdk8u432-b06_adopt|
-|    ppc64le|        linux |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        x32|      windows |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        x64| alpine-linux |  10-23-2024 |               7/6 |        Yes |        jdk8u432-b06_adopt|
-|        arm|        linux |  10-23-2024 |               7/6 |        Yes | jdk8u432-b06-aarch32-20241016_adopt|
-|    sparcv9|      solaris |  10-25-2024 |               7/8 |         No |        jdk8u432-b06_adopt|
-|        x64|      solaris |  10-30-2024 |              7/13 |         No |        jdk8u432-b06_adopt|
-
-On-Time 6(60%)  Late: 4(40%)
 
 
 </details>
@@ -569,8 +560,11 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |     jdk-17.0.21.1+2_adopt|
+|        x64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-17.0.21.1+2_adopt|
+|    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |     jdk-17.0.21.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-17.0.21.1+2_adopt|
 
-On-Time 1(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
@@ -857,8 +851,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |     jdk-21.0.13.1+2_adopt|
 |      ppc64|          aix |  11-18-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -1147,8 +1143,13 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    aarch64|          mac |  11-18-2026 |               2/0 |        Yes |      jdk-25.0.5.1+2_adopt|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |      jdk-25.0.5.1+2_adopt|
+|        x64| alpine-linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|      s390x|        linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|      ppc64|          aix |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -1371,8 +1372,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |        x64|        linux |  11-18-2026 |               2/0 |        Yes |      jdk-27.0.1.1+4_adopt|
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |      jdk-27.0.1.1+4_adopt|
+|    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |      jdk-27.0.1.1+4_adopt|
+|    ppc64le|        linux |  11-19-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
 
-On-Time 2(100%)  Late: 0(0%)
+On-Time 4(100%)  Late: 0(0%)
 
 
 </details>
