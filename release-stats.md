@@ -265,6 +265,27 @@ On-Time 8(72%)  Late: 3(27%)
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk11u/.git/
 
 
+<details><summary>Release tag: jdk-11.0.33.1-ga</summary>
+
+|                       Tag|               Tagged Date |       Commit Date |              Days |
+|                       ---|                       --- |               --- |               --- |
+|          jdk-11.0.33.1-ga| Wed Nov 11 22:38:15 UTC 2026 | Tue Nov 17 20:18:01 UTC 2026 |                -5 |
+|     jdk-11.0.33.1+1_adopt| Tue Nov 17 21:07:29 UTC 2026 | Tue Nov 17 21:07:29 UTC 2026 |                 0 |
+
+
+|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
+|        ---|          --- |         --- |               --- |        --- |                       ---|
+|      s390x|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|        x64|        linux |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|        x64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+
+On-Time 3(100%)  Late: 0(0%)
+
+
+</details>
+
+
+
 <details><summary>Release tag: jdk-11.0.33-ga</summary>
 
 |                       Tag|               Tagged Date |       Commit Date |              Days |
@@ -518,35 +539,6 @@ On-Time 9(81%)  Late: 2(18%)
 
 </details>
 
-
-
-<details><summary>Release tag: jdk-11.0.25-ga</summary>
-
-|                       Tag|               Tagged Date |       Commit Date |              Days |
-|                       ---|                       --- |               --- |               --- |
-|            jdk-11.0.25-ga| Thu Oct 10 14:24:35 UTC 2024 | Thu Oct 10 14:30:30 UTC 2024 |                 0 |
-|       jdk-11.0.25+9_adopt| Tue Oct 15 21:08:56 UTC 2024 | Tue Oct 15 21:08:57 UTC 2024 |                 0 |
-
-
-|   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
-|        ---|          --- |         --- |               --- |        --- |                       ---|
-|        x64|      windows |  10-17-2024 |               2/1 |        Yes |       jdk-11.0.25+9_adopt|
-|        x64|        linux |  10-17-2024 |               2/1 |        Yes |       jdk-11.0.25+9_adopt|
-|    aarch64|        linux |  10-17-2024 |               2/1 |        Yes |       jdk-11.0.25+9_adopt|
-|        x64|          mac |  10-18-2024 |               2/2 |        Yes |       jdk-11.0.25+9_adopt|
-|    ppc64le|        linux |  10-21-2024 |               7/5 |        Yes |       jdk-11.0.25+9_adopt|
-|      ppc64|          aix |  10-22-2024 |               7/6 |        Yes |       jdk-11.0.25+9_adopt|
-|      s390x|        linux |  10-22-2024 |               7/6 |        Yes |       jdk-11.0.25+9_adopt|
-|        arm|        linux |  10-23-2024 |               7/7 |        Yes |       jdk-11.0.25+9_adopt|
-|        x64| alpine-linux |  10-23-2024 |               7/7 |        Yes |       jdk-11.0.25+9_adopt|
-|    aarch64|          mac |  10-23-2024 |               2/7 |         No |       jdk-11.0.25+9_adopt|
-|        x32|      windows |  10-24-2024 |               7/8 |         No |       jdk-11.0.25+9_adopt|
-
-On-Time 9(81%)  Late: 2(18%)
-
-
-</details>
-
 Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/jdk17u/.git/
 
 
@@ -565,8 +557,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |     jdk-17.0.21.1+2_adopt|
 |      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-17.0.21.1+2_adopt|
 |        x64|          mac |  11-19-2026 |               2/2 |        Yes |     jdk-17.0.21.1+2_adopt|
+|    ppc64le|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
+|        arm|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
 
-On-Time 5(100%)  Late: 0(0%)
+On-Time 7(100%)  Late: 0(0%)
 
 
 </details>
@@ -855,8 +849,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
+|        x64|      windows |  11-20-2026 |               2/2 |        Yes |     jdk-21.0.13.1+2_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
@@ -1150,8 +1145,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |      ppc64|          aix |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
 |    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
 |    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |      jdk-25.0.5.1+2_adopt|
+|        x64|      windows |  11-20-2026 |               2/2 |        Yes |      jdk-25.0.5.1+2_adopt|
 
-On-Time 7(100%)  Late: 0(0%)
+On-Time 8(100%)  Late: 0(0%)
 
 
 </details>
@@ -1376,8 +1372,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64| alpine-linux |  11-18-2026 |               7/1 |        Yes |      jdk-27.0.1.1+4_adopt|
 |    aarch64|          mac |  11-19-2026 |               2/1 |        Yes |      jdk-27.0.1.1+4_adopt|
 |    ppc64le|        linux |  11-19-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
+|    aarch64| alpine-linux |  11-20-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
+|      s390x|        linux |  11-20-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
