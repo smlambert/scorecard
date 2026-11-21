@@ -279,8 +279,10 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |        x64|        linux |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
 |        x64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
 |        x64| alpine-linux |  11-20-2026 |               7/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|    aarch64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|      ppc64|          aix |  11-21-2026 |               7/3 |        Yes |     jdk-11.0.33.1+1_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 </details>
@@ -561,8 +563,9 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |    ppc64le|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
 |        arm|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
 |        x64|      windows |  11-20-2026 |               2/2 |        Yes |     jdk-17.0.21.1+2_adopt|
+|    aarch64|        linux |  11-20-2026 |               2/3 |         No |     jdk-17.0.21.1+2_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 8(88%)  Late: 1(11%)
 
 
 </details>
@@ -852,8 +855,11 @@ Initialized empty Git repository in /home/runner/work/scorecard/scorecard/data/j
 |      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |        x64|      windows |  11-20-2026 |               2/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    riscv64|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|        x64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    aarch64|        linux |  11-21-2026 |               2/3 |         No |     jdk-21.0.13.1+2_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 10(90%)  Late: 1(9%)
 
 
 </details>

@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Oct 2026 | 104 | 141 | 254 | -113 | -1.087 |
+| WIP Oct 2026 | 110 | 143 | 263 | -120 | -1.091 |
 | Sep 2026 | 55 | 83 | 67 | 16 | 0.291 |
 | Jul 2026 | 51 | 111 | 29 | 82 | 1.608 |
 | Apr 2026 | 52 | 172 | 56 | 116 | 2.231 |
@@ -90,8 +90,10 @@ On-Time 2(28%)  Late: 5(71%)
 |        x64|        linux |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
 |        x64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
 |        x64| alpine-linux |  11-20-2026 |               7/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|    aarch64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-11.0.33.1+1_adopt|
+|      ppc64|          aix |  11-21-2026 |               7/3 |        Yes |     jdk-11.0.33.1+1_adopt|
 
-On-Time 4(100%)  Late: 0(0%)
+On-Time 6(100%)  Late: 0(0%)
 
 
 
@@ -139,8 +141,9 @@ On-Time 4(44%)  Late: 5(55%)
 |    ppc64le|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
 |        arm|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-17.0.21.1+2_adopt|
 |        x64|      windows |  11-20-2026 |               2/2 |        Yes |     jdk-17.0.21.1+2_adopt|
+|    aarch64|        linux |  11-20-2026 |               2/3 |         No |     jdk-17.0.21.1+2_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 8(88%)  Late: 1(11%)
 
 
 
@@ -189,8 +192,11 @@ On-Time 6(60%)  Late: 4(40%)
 |      s390x|        linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |    aarch64| alpine-linux |  11-19-2026 |               7/1 |        Yes |     jdk-21.0.13.1+2_adopt|
 |        x64|      windows |  11-20-2026 |               2/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    riscv64|        linux |  11-20-2026 |               7/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|        x64|          mac |  11-20-2026 |               2/2 |        Yes |     jdk-21.0.13.1+2_adopt|
+|    aarch64|        linux |  11-21-2026 |               2/3 |         No |     jdk-21.0.13.1+2_adopt|
 
-On-Time 8(100%)  Late: 0(0%)
+On-Time 10(90%)  Late: 1(9%)
 
 
 
