@@ -15,7 +15,7 @@ What does 'par' mean?  One definition is the amount taken as an average or norm,
 
 | Release | Total Products released | Total Days Over Par | Total Days Under Par | Golf Score (Days Over minus Days Under) | Avg Golf Score Per Product |
 | --- | ---- | --- | --- | --- | --- |
-| WIP Oct 2026 | 116 | 167 | 273 | -106 | -0.914 |
+| WIP Oct 2026 | 121 | 175 | 277 | -102 | -0.843 |
 | Sep 2026 | 55 | 83 | 67 | 16 | 0.291 |
 | Jul 2026 | 51 | 111 | 29 | 82 | 1.608 |
 | Apr 2026 | 52 | 172 | 56 | 116 | 2.231 |
@@ -46,10 +46,12 @@ _Days Over minus Days Under_ measure, is a generalized measure of how a release 
 |   Platform|           OS |    Released | Target/Actual(days) |    On-time |                      RTAG|
 |        ---|          --- |         --- |               --- |        --- |                       ---|
 |    ppc64le|        linux |  11-19-2026 |               7/1 |        Yes |        jdk8u514-b01_adopt|
-|        x64|        linux |  11-19-2026 |               2/2 |        Yes |        jdk8u514-b01_adopt|
 |      ppc64|          aix |  11-23-2026 |               7/5 |        Yes |        jdk8u514-b01_adopt|
+|        x64|        linux |  11-24-2026 |               2/6 |         No |        jdk8u514-b01_adopt|
+|        arm|        linux |  11-24-2026 |               7/6 |        Yes | jdk8u514-b01-aarch32-20261119_adopt|
+|    aarch64|        linux |  11-24-2026 |               2/6 |         No |        jdk8u514-b01_adopt|
 
-On-Time 3(100%)  Late: 0(0%)
+On-Time 3(60%)  Late: 2(40%)
 
 
 
@@ -95,8 +97,9 @@ On-Time 2(28%)  Late: 5(71%)
 |      ppc64|          aix |  11-21-2026 |               7/3 |        Yes |     jdk-11.0.33.1+1_adopt|
 |    ppc64le|        linux |  11-23-2026 |               7/5 |        Yes |     jdk-11.0.33.1+1_adopt|
 |    aarch64|        linux |  11-23-2026 |               2/5 |         No |     jdk-11.0.33.1+1_adopt|
+|        arm|        linux |  11-24-2026 |               7/6 |        Yes |     jdk-11.0.33.1+1_adopt|
 
-On-Time 7(87%)  Late: 1(12%)
+On-Time 8(88%)  Late: 1(11%)
 
 
 
@@ -252,8 +255,9 @@ On-Time 8(72%)  Late: 3(27%)
 |        x64|      windows |  11-20-2026 |               2/2 |        Yes |      jdk-25.0.5.1+2_adopt|
 |    aarch64|        linux |  11-20-2026 |               2/2 |        Yes |      jdk-25.0.5.1+2_adopt|
 |        x64|          mac |  11-20-2026 |               2/2 |        Yes |      jdk-25.0.5.1+2_adopt|
+|    riscv64|        linux |  11-24-2026 |               7/6 |        Yes |      jdk-25.0.5.1+2_adopt|
 
-On-Time 10(100%)  Late: 0(0%)
+On-Time 11(100%)  Late: 0(0%)
 
 
 
@@ -303,8 +307,9 @@ On-Time 8(72%)  Late: 3(27%)
 |      s390x|        linux |  11-20-2026 |               7/2 |        Yes |      jdk-27.0.1.1+4_adopt|
 |    riscv64|        linux |  11-23-2026 |               7/5 |        Yes |      jdk-27.0.1.1+4_adopt|
 |    aarch64|        linux |  11-23-2026 |               2/5 |         No |      jdk-27.0.1.1+4_adopt|
+|      ppc64|          aix |  11-24-2026 |               7/6 |        Yes |      jdk-27.0.1.1+4_adopt|
 
-On-Time 7(87%)  Late: 1(12%)
+On-Time 8(88%)  Late: 1(11%)
 
 
 
